@@ -1,0 +1,6 @@
+# Configuración de publicación en Netlify
+# Esta web es estática (HTML/CSS/JS): no necesita compilación.
+
+[build]
+  publish = "web"
+  command = ""

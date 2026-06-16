@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flujo: Programa de Educación para la Salud · IA para Sanidad</title>
+  <meta name="description" content="Crea un programa de Educación para la Salud completo con ayuda de la IA, paso a paso y con prompts copiables.">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+  <!-- CABECERA -->
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a href="../index.html" class="logo">🩺 IA para Sanidad</a>
+      <nav class="nav">
+        <a href="../index.html">Inicio</a>
+        <a href="../index.html#modulos">Módulos</a>
+        <a href="../index.html#flujos">Flujos de trabajo</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CABECERA DEL FLUJO -->
+  <section class="flujo-cabecera">
+    <div class="contenedor">
+      <p class="miga"><a href="../index.html">Inicio</a> › <a href="../index.html#flujos">Flujos</a> › Educación para la Salud</p>
+      <h1>📚 Crear un programa de Educación para la Salud con IA</h1>
+      <p>Aprenderás a diseñar un programa de EpS completo —de la necesidad detectada a los materiales y la evaluación— usando la IA como copiloto. Tiempo estimado: 45–60 min.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor" style="max-width: 820px;">
+
+      <!-- Antes de empezar -->
+      <div class="aviso">
+        <strong>Antes de empezar — regla de oro:</strong> no introduzcas datos reales de pacientes.
+        Trabaja con poblaciones genéricas (“adultos con diabetes tipo 2 de un centro de salud urbano”) y verifica
+        siempre clínicamente el contenido que genere la IA.
+      </div>
+
+      <h2 style="text-align:left; margin-bottom: 8px;">Qué vas a conseguir</h2>
+      <p style="color:var(--texto-suave); margin-bottom: 32px;">
+        Un documento de programa de EpS con: justificación, población diana, objetivos SMART,
+        estructura de sesiones, materiales y plan de evaluación. Lo entregarás en Moodle al terminar.
+      </p>
+
+      <h2 style="text-align:left; margin-bottom: 28px;">Paso a paso</h2>
+
+      <!-- PASO 1 -->
+      <div class="paso">
+        <div class="paso-num">1</div>
+        <div class="paso-cuerpo">
+          <h3>Define la necesidad y la población</h3>
+          <p>Empieza identificando el problema de salud y a quién va dirigido. Pídele a la IA que te ayude a justificarlo con datos generales.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini</span>
+            <div class="prompt-texto">Actúa como enfermero/a experto/a en educación para la salud. Quiero diseñar un programa de Educación para la Salud sobre [TEMA, p. ej. manejo de la diabetes tipo 2] dirigido a [POBLACIÓN, p. ej. adultos de 50-70 años en atención primaria].
+
+Ayúdame a redactar la JUSTIFICACIÓN del programa (relevancia del problema, magnitud aproximada y por qué la educación es clave). Usa un tono profesional y prudente. No inventes cifras concretas: si das datos, indícame que debo verificarlos en fuentes oficiales.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="paso">
+        <div class="paso-num">2</div>
+        <div class="paso-cuerpo">
+          <h3>Formula objetivos SMART</h3>
+          <p>Convierte la idea en objetivos medibles (Específicos, Medibles, Alcanzables, Relevantes, Temporales).</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini</span>
+            <div class="prompt-texto">A partir del programa anterior, redacta 1 objetivo general y 3-4 objetivos específicos siguiendo el formato SMART. Preséntalos en una tabla con columnas: Objetivo | Indicador de logro | Cómo se medirá.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 3 -->
+      <div class="paso">
+        <div class="paso-num">3</div>
+        <div class="paso-cuerpo">
+          <h3>Diseña la estructura de sesiones</h3>
+          <p>Pide un cronograma de sesiones con contenidos, metodología y duración.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini</span>
+            <div class="prompt-texto">Diseña un cronograma de 4 sesiones para este programa. Para cada sesión indica: título, objetivos, contenidos clave, metodología (taller, charla, demostración), recursos necesarios y duración. Preséntalo en formato tabla.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 4 -->
+      <div class="paso">
+        <div class="paso-num">4</div>
+        <div class="paso-cuerpo">
+          <h3>Genera los materiales para el paciente</h3>
+          <p>Crea folletos o guiones con lenguaje claro y adaptado al nivel de salud de la población.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini</span>
+            <div class="prompt-texto">Redacta el texto de un folleto informativo para los pacientes sobre [TEMA]. Requisitos: lenguaje sencillo (nivel de lectura básico), frases cortas, tono cercano y motivador, organizado en apartados con títulos. Evita tecnicismos; si usas alguno, explícalo entre paréntesis.</div>
+          </div>
+          <div class="aviso">
+            <strong>Verifica:</strong> revisa que toda recomendación clínica del folleto sea correcta y esté alineada con tus protocolos antes de usarla.
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 5 -->
+      <div class="paso">
+        <div class="paso-num">5</div>
+        <div class="paso-cuerpo">
+          <h3>Planifica la evaluación del programa</h3>
+          <p>Define cómo sabrás si el programa ha funcionado (cuestionarios pre/post, indicadores).</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini</span>
+            <div class="prompt-texto">Propón un plan de evaluación para el programa con: indicadores de proceso y de resultado, un cuestionario de conocimientos pre/post de 5 preguntas, y una breve encuesta de satisfacción de 4 ítems. Indica cómo se interpretaría cada resultado.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 6 -->
+      <div class="paso">
+        <div class="paso-num">6</div>
+        <div class="paso-cuerpo">
+          <h3>Refina, verifica y entrega</h3>
+          <p>Revisa todo el documento, comprueba la evidencia (Módulo 3) y dale formato final. Súbelo a Moodle como Entregable 4.</p>
+        </div>
+      </div>
+
+      <!-- Cierre -->
+      <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+        <strong>Tu entregable:</strong> programa de EpS de tu servicio con los 5 apartados generados,
+        más una línea final indicando qué partes verificaste y qué cambiaste de lo que propuso la IA.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PIE -->
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Curso de IA aplicada a la Enfermería y la Sanidad · Material docente</p>
+      <p class="pie-nota">Hecho con fines educativos. Versión 1.0</p>
+    </div>
+  </footer>
+
+  <script src="../js/copiar.js"></script>
+</body>
+</html>
