@@ -7,6 +7,9 @@ desktop.ini
 .vscode/
 .idea/
 
+# Configuración interna de Claude Code (no es parte del curso)
+.claude/
+
 # Temporales
 *.tmp
 *~

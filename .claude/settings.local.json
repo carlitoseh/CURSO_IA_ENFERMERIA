@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell($git = \\(Get-Command git -ErrorAction SilentlyContinue\\); if \\($git\\) { \"git: \" + \\(git --version\\) } else { \"git: NO instalado\" }; $gh = \\(Get-Command gh -ErrorAction SilentlyContinue\\); if \\($gh\\) { \"gh: instalado\" } else { \"gh: NO instalado\" })"
-    ]
-  }
-}
