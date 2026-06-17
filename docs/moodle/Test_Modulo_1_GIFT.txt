@@ -1,0 +1,74 @@
+// =========================================================
+// TEST MÓDULO 1 — Ética, RGPD y seguridad del dato
+// Formato GIFT para importar en Moodle.
+// =========================================================
+
+::M1-P1:: Según el RGPD, los datos de salud se consideran... {
+=Una "categoría especial" de datos, con protección reforzada # Correcto (art. 9 RGPD).
+~Datos públicos de libre uso # No, son de los más protegidos.
+~Datos sin importancia legal # Falso.
+~Datos que solo protege el hospital, no la ley # Falso, los protege la ley.
+}
+
+::M1-P2:: ¿Puedes escribir el nombre y la historia clínica de un paciente en ChatGPT gratuito? {
+=No, nunca; hay que anonimizar y no usar datos identificables # Correcto.
+~Sí, si la conversación es privada # Falso: puede almacenarse y usarse.
+~Sí, si borras el chat después # Falso: el dato ya pudo registrarse.
+~Sí, si el paciente no se entera # Falso y contrario a la deontología.
+}
+
+::M1-P3:: ¿Qué significa "anonimizar" un caso antes de usar la IA? {
+=Quitar o sustituir todo lo que permita identificar a la persona # Correcto.
+~Traducirlo a otro idioma # No.
+~Escribirlo en mayúsculas # No.
+~Resumirlo en una frase # No necesariamente; lo clave es eliminar identificadores.
+}
+
+::M1-P4:: El principio de "minimización de datos" significa que debes... {
+=Usar solo los datos mínimos necesarios para la tarea # Correcto.
+~Usar todos los datos posibles para mejorar la respuesta # Lo contrario.
+~Minimizar el tiempo que tardas # No, se refiere a los datos.
+~Reducir el tamaño de letra # No.
+}
+
+::M1-P5:: ¿Cuál de estos textos está correctamente anonimizado? {
+=Mujer de unos 80 años ingresada por una úlcera por presión en sacro # Correcto: sin identificadores.
+~María García, 82 años, Hospital X, planta 4ª # Incorrecto: tiene datos identificables.
+~Paciente nº historia 558123 con úlcera # Incorrecto: el nº de historia identifica.
+~Don Juan, mi vecino del 3ºB, con diabetes # Incorrecto: claramente identificable.
+}
+
+::M1-P6:: El AI Act europeo clasifica los usos de la IA según... {
+=Su nivel de riesgo (inaceptable, alto, limitado, mínimo) # Correcto.
+~El precio de la herramienta # No.
+~El país donde se use # No.
+~El número de usuarios # No.
+}
+
+::M1-P7:: En usos sanitarios sensibles, el AI Act exige especialmente... {
+=Supervisión humana y transparencia # Correcto.
+~Que no intervenga ningún humano # Lo contrario.
+~Que se oculte el uso de IA # Lo contrario: exige transparencia.
+~Nada en particular # Falso.
+}
+
+::M1-P8:: Si usas un texto generado por IA en tu trabajo y contiene un error, ¿de quién es la responsabilidad? {
+=Del profesional que lo usa y lo firma # Correcto: la responsabilidad es tuya.
+~De la empresa que creó la IA # No, tú validas lo que usas.
+~De nadie, porque lo hizo una máquina # Falso.
+~Del paciente # Falso.
+}
+
+::M1-P9:: ¿Por qué hay que vigilar los "sesgos" de la IA? {
+=Porque aprende de datos humanos y puede dar respuestas desiguales o discriminatorias # Correcto.
+~Porque consume mucha batería # No.
+~Porque escribe demasiado rápido # No.
+~Porque solo funciona en inglés # No.
+}
+
+::M1-P10:: ¿Cuál es una buena práctica antes de pegar un caso clínico en una IA? {
+=Comprobar con una checklist que no quedan datos identificables # Correcto.
+~Añadir el máximo de detalles reales para que sea preciso # Peligroso e incorrecto.
+~Incluir el nombre por si acaso # Incorrecto.
+~Hacerlo rápido sin revisar # Incorrecto.
+}

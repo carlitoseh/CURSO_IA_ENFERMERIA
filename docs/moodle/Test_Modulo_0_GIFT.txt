@@ -1,0 +1,41 @@
+// =========================================================
+// TEST MÓDULO 0 — Bienvenida y fundamentos
+// Formato GIFT para importar en Moodle.
+// La respuesta correcta lleva el signo = ; las incorrectas ~
+// El texto tras # es la retroalimentación que ve el alumno.
+// =========================================================
+
+::M0-P1:: ¿Qué describe mejor a una IA generativa como ChatGPT o Gemini? {
+=Una herramienta que genera texto a partir de instrucciones escritas, pero que debe ser supervisada # Correcto: es un apoyo, no un sustituto del criterio profesional.
+~Un sistema médico certificado que da diagnósticos fiables # No: no es un dispositivo de diagnóstico y puede equivocarse.
+~Un buscador de internet que siempre muestra fuentes oficiales # No: no es un buscador y no siempre cita fuentes fiables.
+~Un programa que solo sirve para programadores # No: está diseñado para usarse con lenguaje normal.
+}
+
+::M0-P2:: En el contexto de la IA, ¿qué es una "alucinación"? {
+=Cuando la IA se inventa un dato o una referencia que suena creíble pero es falso # Exacto, por eso hay que verificar siempre.
+~Un error de conexión a internet # No, no tiene que ver con la conexión.
+~Cuando la IA se apaga sola # No.
+~Una imagen generada por la IA # No, eso es otra función distinta.
+}
+
+::M0-P3:: ¿Cuál es la "regla de oro" sobre los datos al usar IA pública? {
+=No introducir nunca datos que no pondrías en una postal sin sobre (datos de pacientes, etc.) # Correcto: protege siempre la información sensible.
+~Introducir todos los datos para que la respuesta sea mejor # Falso y peligroso: nunca datos identificables de pacientes.
+~Da igual lo que escribas porque es privado # Falso: las herramientas públicas pueden usar lo que escribes.
+~Solo evitar escribir tu propio nombre # Insuficiente: hay que proteger sobre todo los datos de terceros.
+}
+
+::M0-P4:: ¿Qué herramienta destaca por buscar información mostrando las fuentes citadas? {
+=Perplexity # Correcto.
+~Una calculadora # No.
+~El bloc de notas # No.
+~PowerPoint # No.
+}
+
+::M0-P5:: ¿Cuál es la idea central que resume el uso correcto de la IA en sanidad? {
+=La IA propone; el profesional verifica y decide # Esa es la base de todo el curso.
+~La IA decide y el profesional obedece # No: la responsabilidad es siempre del profesional.
+~Hay que creer todo lo que dice la IA # No: hay que verificar.
+~La IA sustituye al profesional sanitario # No: es una herramienta de apoyo.
+}
