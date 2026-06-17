@@ -1,0 +1,60 @@
+// =========================================================
+// TEST MÓDULO 2 — El arte del prompt
+// Formato GIFT para importar en Moodle.
+// =========================================================
+
+::M2-P1:: ¿Qué es un "prompt"? {
+=La instrucción o pregunta que le escribes a la IA # Correcto.
+~El nombre de una herramienta de IA # No.
+~Un error de la IA # No, eso es una alucinación.
+~Un tipo de gráfico # No.
+}
+
+::M2-P2:: ¿Por qué una misma IA da a veces respuestas mediocres y otras excelentes? {
+=Porque la calidad depende en gran medida de cómo esté formulado el prompt # Correcto.
+~Porque la IA cambia de humor # No.
+~Porque solo funciona bien por la mañana # No.
+~Porque las respuestas son siempre aleatorias e incontrolables # No: puedes guiarlas con buenos prompts.
+}
+
+::M2-P3:: En el marco CRAFT, ¿qué representan sus letras? {
+=Contexto, Rol, Acción, Formato y Tono # Correcto.
+~Crear, Revisar, Archivar, Firmar, Terminar # No.
+~Cuidados, Registro, Alta, Farmacia, Tratamiento # No.
+~Contexto, Rapidez, Análisis, Fórmula, Test # No.
+}
+
+::M2-P4:: En el marco RECETA, la "C" corresponde a... {
+=Contexto # Correcto (Rol, Encargo, Contexto, Ejemplos, Tono, Acotaciones).
+~Calidad # No.
+~Conclusión # No.
+~Corrección # No.
+}
+
+::M2-P5:: ¿Cuál de estas es la técnica MÁS potente para que la IA imite un estilo concreto? {
+=Darle un ejemplo de cómo quieres el resultado # Correcto: la IA imita patrones.
+~Escribir en mayúsculas # No.
+~Pedirlo muchas veces seguidas # No.
+~Usar palabras difíciles # No.
+}
+
+::M2-P6:: ¿Qué truco ayuda a que la IA no se invente lo que le falta? {
+=Pedirle que te haga preguntas antes de responder # Correcto.
+~Decirle que responda rapidísimo # No.
+~No darle ningún contexto # Lo contrario.
+~Prohibirle usar ejemplos # No.
+}
+
+::M2-P7:: Si la primera respuesta de la IA no te convence, lo correcto es... {
+=Iterar: pedirle ajustes (más corto, otro tono, añade ejemplos...) # Correcto: es una conversación.
+~Rendirse y hacerlo a mano siempre # No.
+~Repetir exactamente el mismo prompt sin cambiar nada # Poco útil.
+~Aceptarla aunque no sirva # No.
+}
+
+::M2-P8:: ¿Cuál de estos prompts es el MEJOR construido? {
+=Actúa como enfermero/a docente. Redacta un folleto sobre la sal en la dieta para personas mayores con hipertensión, en lenguaje sencillo y en apartados con títulos. # Correcto: rol, contexto, tarea, formato y tono.
+~Háblame de la hipertensión. # Demasiado vago.
+~Dime cosas de la dieta. # Vago y sin formato.
+~Hazme algo útil para mi trabajo. # No especifica nada.
+}
