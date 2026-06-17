@@ -72,3 +72,17 @@
 ~Incluir el nombre por si acaso # Incorrecto.
 ~Hacerlo rápido sin revisar # Incorrecto.
 }
+
+::M1-P11:: ¿Qué organismo supervisa en España el cumplimiento del Reglamento Europeo de IA (AI Act)? {
+=La AESIA (Agencia Española de Supervisión de la Inteligencia Artificial) # Correcto.
+~La FDA # No, esa es de Estados Unidos.
+~La OMS # No.
+~El Ministerio de Hacienda # No.
+}
+
+::M1-P12:: ¿Cuál es la principal diferencia entre el enfoque de la UE y el de EE. UU. sobre la IA? {
+=La UE tiene una ley integral basada en el riesgo; EE. UU. es sectorial y fragmentado, más centrado en la innovación # Correcto.
+~Los dos tienen exactamente la misma ley # Falso.
+~EE. UU. prohíbe toda la IA y la UE no # Falso.
+~Ninguno de los dos regula la IA # Falso.
+}
