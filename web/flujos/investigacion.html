@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flujo: Investigación rigurosa con IA · IA para Sanidad</title>
+  <meta name="description" content="Haz investigación rigurosa con IA: pregunta PICO, estrategia de búsqueda validada, verificación de fuentes y gestión bibliográfica con Zotero.">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a href="../index.html" class="logo">🩺 IA para Sanidad</a>
+      <nav class="nav">
+        <a href="../index.html">Inicio</a>
+        <a href="../index.html#modulos">Módulos</a>
+        <a href="../index.html#flujos">Flujos de trabajo</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="flujo-cabecera">
+    <div class="contenedor">
+      <p class="miga"><a href="../index.html">Inicio</a> › <a href="../index.html#flujos">Flujos</a> › Investigación rigurosa</p>
+      <h1>🔬 Investigación rigurosa con IA</h1>
+      <p>De la duda clínica a una mini-revisión con fuentes verificadas. La IA acelera; tú garantizas el rigor. Tiempo estimado: 60–90 min.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor" style="max-width: 820px;">
+
+      <div class="aviso">
+        <strong>Doble regla del flujo:</strong> (1) la IA <strong>nunca</strong> sustituye tu lectura crítica;
+        (2) <strong>toda cita o dato se verifica en la fuente original</strong>. La IA puede inventarse referencias creíbles pero falsas.
+      </div>
+
+      <h2 style="text-align:left; margin-bottom: 28px;">Paso a paso</h2>
+
+      <!-- PASO 1 -->
+      <div class="paso">
+        <div class="paso-num">1</div>
+        <div class="paso-cuerpo">
+          <h3>Formula tu pregunta PICO</h3>
+          <p>Convierte tu duda en una pregunta estructurada: Paciente, Intervención, Comparación, Outcome.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini / Claude</span>
+            <div class="prompt-texto">Actúa como enfermero/a investigador/a. Ayúdame a transformar esta duda clínica en una pregunta PICO bien estructurada y señálame cada componente (P, I, C, O). Mi duda es: [escribe tu duda].</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="paso">
+        <div class="paso-num">2</div>
+        <div class="paso-cuerpo">
+          <h3>Construye una estrategia de búsqueda validada</h3>
+          <p>Pide términos MeSH/DeCS, sinónimos y operadores booleanos. Luego la ejecutas TÚ en PubMed.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini / Claude</span>
+            <div class="prompt-texto">Actúa como documentalista biomédico. A partir de esta pregunta PICO [pega tu PICO], propón una estrategia de búsqueda para PubMed: identifica los términos MeSH de cada concepto, sus sinónimos en texto libre y combínalos con operadores booleanos (AND/OR). Devuélvemela como una cadena de búsqueda lista para pegar y explica cada parte. Recuérdame que debo ejecutarla y verificar los resultados yo mismo/a.</div>
+          </div>
+          <div class="aviso">
+            <strong>Rigor:</strong> ejecuta la cadena en PubMed/CINAHL real y guarda la cadena exacta, la base de datos y la fecha. Eso hace tu búsqueda reproducible.
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 3 -->
+      <div class="paso">
+        <div class="paso-num">3</div>
+        <div class="paso-cuerpo">
+          <h3>Descubre evidencia con herramientas que citan fuentes</h3>
+          <p>Usa Consensus o Perplexity (modo académico) para encontrar estudios reales, y confírmalos en PubMed.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · Consensus / Perplexity</span>
+            <div class="prompt-texto">¿Qué dice la evidencia científica sobre [tu pregunta]? Resume los hallazgos y dame los estudios concretos con sus enlaces. Indica el tipo de estudio (revisión, ensayo clínico, observacional) de cada uno.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 4 -->
+      <div class="paso">
+        <div class="paso-num">4</div>
+        <div class="paso-cuerpo">
+          <h3>Verifica cada fuente (anti-alucinación)</h3>
+          <p>Comprueba que cada referencia existe de verdad antes de usarla.</p>
+          <ul style="color:var(--texto-suave); margin:6px 0 0 18px;">
+            <li>Busca el DOI o el título exacto en PubMed o Google Scholar.</li>
+            <li>Comprueba autores, año y revista.</li>
+            <li>Abre el artículo y confirma que dice lo que la IA afirma.</li>
+            <li>Si no aparece en 2 intentos → trátala como falsa y descártala.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PASO 5 -->
+      <div class="paso">
+        <div class="paso-num">5</div>
+        <div class="paso-cuerpo">
+          <h3>Interroga tus documentos con NotebookLM</h3>
+          <p>Descarga los PDFs verificados y súbelos a NotebookLM: responderá solo con lo que hay en ellos (menos alucinaciones).</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · NotebookLM (con tus PDFs cargados)</span>
+            <div class="prompt-texto">Basándote ÚNICAMENTE en los documentos que he subido, resume qué dice cada estudio sobre [tu outcome]. Para cada afirmación, cita el documento y la página. Si algo no aparece en los documentos, dilo explícitamente.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 6 -->
+      <div class="paso">
+        <div class="paso-num">6</div>
+        <div class="paso-cuerpo">
+          <h3>Sintetiza en una tabla de evidencia</h3>
+          <p>Organiza lo verificado y jerarquiza por nivel de evidencia.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Gemini / Claude</span>
+            <div class="prompt-texto">A partir de estos 5 resúmenes de estudios que YA he verificado [pégalos], crea una tabla de evidencia con columnas: Autor y año | Diseño del estudio | Población | Resultado principal | Limitaciones. No añadas estudios que no te haya dado yo.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 7 -->
+      <div class="paso">
+        <div class="paso-num">7</div>
+        <div class="paso-cuerpo">
+          <h3>Gestiona la bibliografía con Zotero</h3>
+          <p>Guarda cada referencia verificada en Zotero (gratis) y genera las citas y la bibliografía automáticamente en Word/Docs (APA, Vancouver…).</p>
+          <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+            <strong>Ruta avanzada (opcional):</strong> puedes conectar Claude con tu biblioteca de Zotero o con PubMed mediante un <strong>servidor MCP</strong>, para que la IA trabaje sobre tus propias referencias. Es técnico y cambiante: consulta la guía del Módulo 6 y la documentación oficial. Aunque lo conectes, <strong>sigue verificando</strong> y nunca uses datos de pacientes.
+          </div>
+        </div>
+      </div>
+
+      <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+        <strong>Tu entregable (Módulo 6):</strong> pregunta PICO + cadena de búsqueda (con base de datos y fecha) +
+        5 fuentes verificadas con DOI/enlace + tabla de evidencia + reflexión sobre verificación y uso transparente de IA.
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Curso de IA aplicada a la Enfermería y la Sanidad · Material docente</p>
+      <p class="pie-nota">Hecho con fines educativos. Versión 1.0</p>
+    </div>
+  </footer>
+
+  <script src="../js/copiar.js"></script>
+</body>
+</html>

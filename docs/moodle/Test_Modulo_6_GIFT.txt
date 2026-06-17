@@ -1,0 +1,74 @@
+// =========================================================
+// TEST MÓDULO 6 — Investigación rigurosa asistida por IA
+// Formato GIFT para importar en Moodle.
+// =========================================================
+
+::M6-P1:: ¿Qué tres elementos definen una investigación "rigurosa" con IA? {
+=Reproducibilidad, verificación y transparencia # Correcto.
+~Rapidez, cantidad y confianza ciega # No.
+~Que lo diga la IA, que sea largo y que tenga muchas citas # No.
+~Usar muchas herramientas a la vez # No.
+}
+
+::M6-P2:: En el formato PICO, ¿qué representa la "I"? {
+=La intervención que se estudia # Correcto.
+~La introducción del artículo # No.
+~El índice de impacto # No.
+~La investigación previa # No.
+}
+
+::M6-P3:: ¿Quién debe EJECUTAR finalmente la estrategia de búsqueda en la base de datos? {
+=El profesional, en PubMed/CINAHL real, para que sea reproducible # Correcto.
+~La IA, y nos fiamos del resultado # No: la IA propone, tú ejecutas y verificas.
+~Nadie, basta con la respuesta del chat # No.
+~El paciente # No.
+}
+
+::M6-P4:: ¿Qué son los términos MeSH/DeCS? {
+=Lenguaje controlado (descriptores) que normaliza los conceptos de búsqueda # Correcto.
+~Marcas comerciales de medicamentos # No.
+~Operadores matemáticos # No.
+~Nombres de revistas # No.
+}
+
+::M6-P5:: El operador booleano AND en una búsqueda sirve para... {
+=Restringir: exige que aparezcan ambos términos # Correcto.
+~Ampliar con sinónimos # Eso es OR.
+~Excluir un término # Eso es NOT.
+~Ordenar alfabéticamente # No.
+}
+
+::M6-P6:: ¿Qué herramienta destaca por responder SOLO con el contenido de tus propios documentos? {
+=NotebookLM # Correcto, lo que reduce las alucinaciones.
+~Una hoja de cálculo # No.
+~Un corrector ortográfico # No.
+~Un reproductor de vídeo # No.
+}
+
+::M6-P7:: La IA te da una referencia con autores y revista. ¿Qué haces? {
+=La verifico en PubMed/Scholar; si no existe en 2 intentos, la descarto # Correcto.
+~La cito directamente porque suena fiable # Peligroso: puede ser inventada.
+~La cambio de orden y la uso # No.
+~Le pido a la IA que jure que es real # No: hay que comprobarla en la fuente.
+}
+
+::M6-P8:: ¿Para qué sirve Zotero? {
+=Gestionar referencias y generar citas/bibliografía automáticamente # Correcto.
+~Diagnosticar pacientes # No.
+~Editar vídeos # No.
+~Hacer la nómina # No.
+}
+
+::M6-P9:: En la ruta avanzada, ¿qué permite el MCP (Model Context Protocol)? {
+=Conectar la IA (p. ej. Claude) con herramientas/fuentes externas como Zotero o PubMed # Correcto.
+~Acelerar el wifi # No.
+~Sustituir la verificación humana # No: hay que seguir verificando.
+~Encriptar el ordenador # No.
+}
+
+::M6-P10:: ¿Qué exige la integridad al redactar con ayuda de IA? {
+=No plagiar, no inventar citas y declarar el uso de IA # Correcto.
+~Ocultar siempre que se usó IA # Lo contrario de lo correcto.
+~Copiar literalmente lo que diga la IA # No.
+~Añadir citas aunque no se hayan leído # No.
+}
