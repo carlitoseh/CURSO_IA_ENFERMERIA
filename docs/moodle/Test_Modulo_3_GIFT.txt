@@ -1,0 +1,74 @@
+// =========================================================
+// TEST MÓDULO 3 — Buscar y verificar evidencia
+// Formato GIFT para importar en Moodle.
+// =========================================================
+
+::M3-P1:: ¿Por qué un ChatGPT generalista no basta para buscar evidencia clínica? {
+=Porque no suele citar sus fuentes y puede inventarse datos y referencias # Correcto.
+~Porque es demasiado lento # No.
+~Porque solo funciona en inglés # No.
+~Porque cuesta dinero siempre # No.
+}
+
+::M3-P2:: ¿Qué herramienta destaca por dar respuestas con fuentes citadas y enlaces? {
+=Perplexity # Correcto.
+~La calculadora # No.
+~El bloc de notas # No.
+~Un reproductor de música # No.
+}
+
+::M3-P3:: ¿Para qué destaca Consensus? {
+=Resumir qué dice la evidencia científica sobre una pregunta, enlazando estudios # Correcto.
+~Editar fotos # No.
+~Traducir canciones # No.
+~Crear hojas de cálculo # No.
+}
+
+::M3-P4:: ¿Qué tiene de especial NotebookLM? {
+=Responde basándose únicamente en los documentos que tú subes, citándolos # Correcto, reduce alucinaciones.
+~Inventa información para completar # No, justo lo contrario.
+~Solo sirve para imágenes # No.
+~Borra tus documentos # No.
+}
+
+::M3-P5:: ¿Qué puedes subir con seguridad a estas herramientas? {
+=Guías clínicas y protocolos (sin datos de pacientes) # Correcto.
+~Historias clínicas con nombres y DNI # No, nunca datos identificables.
+~Fotos de pacientes identificables # No.
+~La base de datos del hospital # No.
+}
+
+::M3-P6:: En PICO, la "O" corresponde a... {
+=Outcome: el resultado que se mide # Correcto.
+~La opinión del autor # No.
+~El objetivo del hospital # No.
+~La organización # No.
+}
+
+::M3-P7:: El operador booleano OR sirve para... {
+=Ampliar la búsqueda incluyendo sinónimos # Correcto.
+~Restringir exigiendo ambos términos # Eso es AND.
+~Excluir un término # Eso es NOT.
+~Ordenar por fecha # No.
+}
+
+::M3-P8:: ¿Cuál es la base de datos de referencia (gratuita) en salud? {
+=PubMed # Correcto.
+~Wikipedia # No es una base de datos científica indexada.
+~Un grupo de WhatsApp # No.
+~Una red social # No.
+}
+
+::M3-P9:: La IA te da una referencia perfecta para tu tema pero no la encuentras en ninguna base de datos. ¿Qué haces? {
+=La trato como inventada y la descarto # Correcto.
+~La cito igualmente porque suena bien # Peligroso.
+~Le pido a la IA que confirme que es real # No basta; hay que comprobarla en la fuente.
+~La uso cambiándole el año # No.
+}
+
+::M3-P10:: ¿Qué fuentes debes priorizar al verificar? {
+=Sociedades científicas, organismos oficiales y revistas indexadas # Correcto.
+~Cualquier blog que aparezca primero # No.
+~Webs comerciales que venden el producto # No.
+~Comentarios de redes sociales # No.
+}
