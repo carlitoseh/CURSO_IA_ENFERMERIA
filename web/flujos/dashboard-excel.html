@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flujo: Dashboard de indicadores con IA · IA para Sanidad</title>
+  <meta name="description" content="Crea un dashboard de indicadores sanitarios con IA (Excel/Sheets, Copilot, ChatGPT, Gemini) usando datos anónimos conforme al RGPD.">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a href="../index.html" class="logo">🩺 IA para Sanidad</a>
+      <nav class="nav">
+        <a href="../index.html">Inicio</a>
+        <a href="../index.html#modulos">Módulos</a>
+        <a href="../index.html#flujos">Flujos de trabajo</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="flujo-cabecera">
+    <div class="contenedor">
+      <p class="miga"><a href="../index.html">Inicio</a> › <a href="../index.html#flujos">Flujos</a> › Dashboard de indicadores</p>
+      <h1>📊 Dashboard de indicadores con IA</h1>
+      <p>Convierte datos (anónimos) en un panel visual de indicadores con ayuda de ChatGPT, Claude, Copilot o Gemini. Tiempo estimado: 60–75 min.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor" style="max-width: 820px;">
+
+      <div class="aviso">
+        <strong>Regla de oro (RGPD):</strong> trabaja <strong>solo con datos ficticios, anonimizados o agregados</strong>.
+        Nunca subas a una IA pública nombres, nº de historia, DNI, teléfonos o fechas exactas de pacientes. Los datos de salud son de categoría especial (Módulo 1).
+      </div>
+
+      <h2 style="text-align:left; margin-bottom: 28px;">Paso a paso</h2>
+
+      <!-- PASO 1 -->
+      <div class="paso">
+        <div class="paso-num">1</div>
+        <div class="paso-cuerpo">
+          <h3>Define qué vas a medir (indicadores)</h3>
+          <p>Decide tus indicadores de estructura, proceso y resultado antes de tocar los datos.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Claude / Gemini</span>
+            <div class="prompt-texto">Actúa como enfermero/a de gestión. Propón 5 indicadores (estructura, proceso y resultado) para evaluar [tu programa/unidad]. Para cada uno: nombre, qué mide, fórmula de cálculo y fuente del dato. No inventes datos: indícame de dónde sacar cada uno.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="paso">
+        <div class="paso-num">2</div>
+        <div class="paso-cuerpo">
+          <h3>Prepara los datos en ANÓNIMO</h3>
+          <p>Sustituye identificadores por códigos (P001…), la edad por franjas (70-79) y las fechas por mes/semana. Elimina nombre, HC, DNI, teléfono y dirección. Vigila los cuasi-identificadores.</p>
+          <div class="aviso">
+            <strong>Test rápido:</strong> si alguien pudiera adivinar de qué paciente se trata, todavía no está bien anonimizado. Ante la duda, agrega o usa datos ficticios.
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 3 -->
+      <div class="paso">
+        <div class="paso-num">3</div>
+        <div class="paso-cuerpo">
+          <h3>Pide las fórmulas a la IA (y ejecútalas tú en Excel)</h3>
+          <p>Describe tus columnas —sin datos reales— y pide la fórmula. Más fiable que dejar que la IA "calcule" el número.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Claude / Gemini</span>
+            <div class="prompt-texto">En Excel tengo estas columnas: A=código, B=franja de edad, C=TA sistólica, D=Controlada (Si/No). Los datos están en las filas 2 a 50. Dame las fórmulas para: (1) % de pacientes con Controlada="Si"; (2) TA sistólica media; (3) nº de pacientes por franja de edad. Explícame en qué celda escribir cada una.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 4 -->
+      <div class="paso">
+        <div class="paso-num">4</div>
+        <div class="paso-cuerpo">
+          <h3>Crea tablas dinámicas y gráficos</h3>
+          <p>Pide a la IA los pasos para una tabla dinámica y qué gráfico usar en cada caso.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Claude / Gemini</span>
+            <div class="prompt-texto">Explícame paso a paso, en Excel, cómo crear una tabla dinámica que muestre el nº de pacientes controlados por franja de edad, y qué tipo de gráfico es el mejor para mostrarlo. ¿Y para comparar Sí/No? ¿Y para ver proporciones de adherencia?</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 5 -->
+      <div class="paso">
+        <div class="paso-num">5</div>
+        <div class="paso-cuerpo">
+          <h3>Monta el panel (dashboard)</h3>
+          <p>Coloca los KPIs principales arriba (cifras grandes) y los gráficos debajo. Título + fecha. Pide ideas de organización a la IA.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Claude / Gemini</span>
+            <div class="prompt-texto">Tengo estos indicadores [pégalos, anónimos]. Sugiéreme cómo organizar un dashboard de una sola página en Excel: qué KPIs poner arriba, qué gráficos debajo y qué colores usar para que sea claro y profesional.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 6 -->
+      <div class="paso">
+        <div class="paso-num">6</div>
+        <div class="paso-cuerpo">
+          <h3>Interpreta, verifica y narra</h3>
+          <p>Comprueba que los totales cuadran y pide un párrafo de conclusiones que validarás tú.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · ChatGPT / Claude / Gemini</span>
+            <div class="prompt-texto">A partir de estos resultados [pega los indicadores], redacta un párrafo de conclusiones para un informe de gestión: qué destaca, qué ha mejorado y qué requiere acción. Tono profesional y prudente; no afirmes causas que los datos no demuestren.</div>
+          </div>
+          <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+            <strong>Tu entregable (Módulo 5):</strong> 3 filas anonimizadas + dashboard con ≥3 indicadores y ≥2 gráficos +
+            conclusiones validadas + un cálculo que tuviste que corregir.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Curso de IA aplicada a la Enfermería y la Sanidad · Material docente</p>
+      <p class="pie-nota">Hecho con fines educativos. Versión 1.0</p>
+    </div>
+  </footer>
+
+  <script src="../js/copiar.js"></script>
+</body>
+</html>
