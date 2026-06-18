@@ -1,0 +1,60 @@
+// =========================================================
+// TEST MÓDULO 4 — Programa de Educación para la Salud con IA
+// Formato GIFT para importar en Moodle.
+// =========================================================
+
+::M4-P1:: ¿Cuál es el PUNTO DE PARTIDA de un programa de Educación para la Salud? {
+=La identificación de necesidades de la población # Correcto: todo parte de detectar la necesidad.
+~Diseñar el folleto # No, eso viene mucho después.
+~Hacer el examen final # No.
+~Elegir el color de la presentación # No.
+}
+
+::M4-P2:: ¿Cuáles son los tres NIVELES de la Educación para la Salud? {
+=Individual, grupal y comunitario/colectivo # Correcto.
+~Fácil, medio y difícil # No.
+~Básico, intermedio y avanzado # No.
+~Público, privado y mixto # No.
+}
+
+::M4-P3:: En la detección de necesidades, ¿qué NO debe hacer la IA? {
+=Inventar las cifras o los datos reales de tu población # Correcto: esos los aportas y verificas tú.
+~Ayudar a redactar la justificación # Eso sí puede hacerlo.
+~Proponer qué indicadores mirar # Eso sí puede hacerlo.
+~Sugerir preguntas para una encuesta # Eso sí puede hacerlo.
+}
+
+::M4-P4:: Los objetivos en EpS suelen ser de tres tipos. ¿Cuáles? {
+=Cognitivos (saber), actitudinales (querer) y de habilidades (saber hacer) # Correcto.
+~Cortos, medios y largos # No.
+~Fáciles, normales y difíciles # No.
+~Escritos, orales y visuales # No.
+}
+
+::M4-P5:: Un taller de 4 sesiones para 12 personas con hipertensión es un ejemplo de nivel... {
+=Grupal # Correcto.
+~Individual # No.
+~Comunitario # No.
+~Hospitalario # No.
+}
+
+::M4-P6:: ¿Para qué sirve la función de OCR en Canva? {
+=Extraer el texto de una imagen o PDF y convertirlo en texto editable # Correcto.
+~Borrar imágenes # No.
+~Traducir vídeos # No.
+~Imprimir folletos # No.
+}
+
+::M4-P7:: En el flujo NotebookLM → Canva, ¿qué papel tiene NotebookLM? {
+=Generar el guion de la presentación fundamentado en tus fuentes verificadas # Correcto.
+~Diseñar las diapositivas con animaciones # Eso lo hace Canva.
+~Inventar datos para rellenar # No.
+~Hacer la nómina # No.
+}
+
+::M4-P8:: Tras generar una presentación con IA, ¿qué es imprescindible? {
+=Verificar clínicamente el contenido y adaptarlo a la audiencia # Correcto.
+~Publicarla sin revisar para ahorrar tiempo # No.
+~Borrar las fuentes # No.
+~Añadir datos de pacientes para que sea más real # Nunca.
+}

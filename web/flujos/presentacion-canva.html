@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flujo: Presentaciones con IA (Canva + NotebookLM) · IA para Sanidad</title>
+  <meta name="description" content="Crea presentaciones sanitarias con IA: guion fundamentado en NotebookLM, diseño con Canva y edición de materiales con OCR.">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a href="../index.html" class="logo">🩺 IA para Sanidad</a>
+      <nav class="nav">
+        <a href="../index.html">Inicio</a>
+        <a href="../index.html#modulos">Módulos</a>
+        <a href="../index.html#flujos">Flujos de trabajo</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="flujo-cabecera">
+    <div class="contenedor">
+      <p class="miga"><a href="../index.html">Inicio</a> › <a href="../index.html#flujos">Flujos</a> › Presentaciones con IA</p>
+      <h1>🎨 Presentaciones con IA (Canva + NotebookLM)</h1>
+      <p>Del contenido verificado a una presentación con buen diseño: NotebookLM te da el guion fundamentado, Canva lo convierte en diapositivas, y con OCR reutilizas materiales antiguos. Tiempo estimado: 45–60 min.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor" style="max-width: 820px;">
+
+      <div class="aviso">
+        <strong>Antes de empezar:</strong> reúne fuentes <strong>verificadas</strong> (ver el flujo de Investigación) y trabaja con poblaciones genéricas.
+        La IA diseña y redacta; <strong>tú verificas el contenido clínico</strong> y nunca usas datos de pacientes.
+      </div>
+
+      <h2 style="text-align:left; margin-bottom: 28px;">Paso a paso</h2>
+
+      <!-- PASO 1 -->
+      <div class="paso">
+        <div class="paso-num">1</div>
+        <div class="paso-cuerpo">
+          <h3>Genera el guion en NotebookLM (fundamentado en tus fuentes)</h3>
+          <p>Sube tus PDFs/guías verificados a NotebookLM y pídele el guion. Responderá solo con lo que hay en tus documentos y citará la fuente.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · NotebookLM (con tus fuentes cargadas)</span>
+            <div class="prompt-texto">Basándote ÚNICAMENTE en los documentos subidos, crea el guion de una presentación de 10 diapositivas sobre [TEMA] para [POBLACIÓN, p. ej. grupo de pacientes con hipertensión]. Para cada diapositiva indica: título, 3-4 ideas clave en frases cortas y la fuente. Usa un lenguaje claro y cercano. Si algo no aparece en los documentos, dímelo en lugar de inventarlo.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="paso">
+        <div class="paso-num">2</div>
+        <div class="paso-cuerpo">
+          <h3>Convierte el guion en diapositivas con Canva</h3>
+          <p>En Canva, usa <em>"Crear una presentación"</em> con IA / Magic Design y pega tu guion para que genere el diseño automáticamente.</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Indicación · Canva (Magic Design / crear presentación)</span>
+            <div class="prompt-texto">Crea una presentación sanitaria, tono cercano y profesional, para [POBLACIÓN]. Usa este guion (una diapositiva por bloque):
+
+[pega aquí el guion que te dio NotebookLM]</div>
+          </div>
+          <div class="aviso">
+            <strong>Ojo:</strong> las funciones y los límites del plan gratuito de Canva cambian. Comprueba qué tienes disponible en tu cuenta.
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 3 -->
+      <div class="paso">
+        <div class="paso-num">3</div>
+        <div class="paso-cuerpo">
+          <h3>Personaliza el diseño</h3>
+          <p>Ajusta colores, añade el logo de tu centro, elige imágenes adecuadas y unifica el estilo. Mantén las diapositivas limpias (poca letra, ideas clave).</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · Canva Magic Write (para pulir textos)</span>
+            <div class="prompt-texto">Reescribe estas viñetas para que sean más breves y claras, en frases de máximo 8 palabras, manteniendo el significado: [pega el texto de la diapositiva].</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 4 -->
+      <div class="paso">
+        <div class="paso-num">4</div>
+        <div class="paso-cuerpo">
+          <h3>(Opcional) Reutiliza material antiguo con OCR</h3>
+          <p>¿Tienes una infografía o cartel en imagen/PDF? Súbelo a Canva y usa el <strong>OCR (reconocimiento de texto)</strong> para extraer su texto y convertirlo en texto editable, en vez de reescribirlo.</p>
+          <div class="aviso">
+            <strong>Verifica el texto extraído:</strong> el OCR se equivoca, sobre todo en cifras, dosis y nombres. Y comprueba que tienes permiso para reutilizar ese material.
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 5 -->
+      <div class="paso">
+        <div class="paso-num">5</div>
+        <div class="paso-cuerpo">
+          <h3>Verifica clínicamente y adapta a tu audiencia</h3>
+          <p>Repasa toda la presentación: ¿el contenido es correcto y está basado en evidencia?, ¿el nivel de lenguaje encaja con tu público (individual, grupo o comunidad)?</p>
+          <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+            <strong>Tu entregable (Módulo 4):</strong> el programa de EpS + esta presentación (enlace o PDF) y una línea indicando qué verificaste y qué cambiaste de lo que propuso la IA.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Curso de IA aplicada a la Enfermería y la Sanidad · Material docente</p>
+      <p class="pie-nota">Hecho con fines educativos. Versión 1.0</p>
+    </div>
+  </footer>
+
+  <script src="../js/copiar.js"></script>
+</body>
+</html>
