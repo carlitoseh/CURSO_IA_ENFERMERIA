@@ -1,0 +1,80 @@
+<!-- Fragmento HTML para pegar en Moodle: crea una 'Pagina', pulsa el boton <> (codigo HTML) y pega esto. -->
+<h1>MÓDULO 5 — Datos, indicadores y dashboards con IA</h1>
+<h3>Lección para el alumnado (lista para pegar en Moodle)</h3>
+<blockquote>⏱️ Tiempo estimado: 70–90 min · 🎯 Objetivo: convertir datos en información visual útil (indicadores y dashboards) usando la IA como copiloto, <strong>con datos siempre anónimos y conforme a la ley</strong>.</blockquote>
+<blockquote>⚠️ <strong>Regla de oro del módulo (legal):</strong> trabaja <strong>solo con datos ficticios o anonimizados</strong>. <strong>Nunca</strong> subas a una IA pública una tabla con datos identificables de pacientes (nombres, nº de historia, fechas concretas, DNI…). Repasa el Módulo 1: los datos de salud son de <strong>categoría especial</strong> (RGPD).</blockquote>
+<hr>
+<h2>5.0. De los datos a la información</h2>
+<p>Tener datos no es tener información. Un Excel con 500 registros no dice nada hasta que lo conviertes en <strong>indicadores</strong> (cifras que miden algo) y los muestras en un <strong>dashboard</strong> (panel visual). La IA te ayuda a hacerlo <strong>rápido y sin saber fórmulas de memoria</strong>, pero tú decides qué medir y compruebas que los números cuadran.</p>
+<hr>
+<h2>5.1. ¿Qué medir? Indicadores en sanidad</h2>
+<p>Un <strong>indicador</strong> es una medida que informa sobre algo. En gestión sanitaria se clasifican en tres tipos (modelo de Donabedian):</p>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Tipo</th><th>Mide…</th><th>Ejemplo de enfermería</th></tr></thead><tbody><tr><td><strong>Estructura</strong></td><td>Recursos disponibles</td><td>Nº de enfermeras por turno; camas disponibles</td></tr><tr><td><strong>Proceso</strong></td><td>Cómo se hacen las cosas</td><td>% de pacientes con valoración del dolor registrada</td></tr><tr><td><strong>Resultado</strong></td><td>Qué se consigue</td><td>% de pacientes con HTA controlada; tasa de flebitis</td></tr></tbody></table>
+<p>Un buen indicador es <strong>SMART</strong>: específico, medible, alcanzable, relevante y temporal. Ejemplo: <em>"% de pacientes diabéticos del cupo con HbA1c &lt; 7% en el último año"</em>.</p>
+<blockquote><strong>Prompt:</strong> <em>"Actúa como enfermero/a de gestión. Propón 5 indicadores (de estructura, proceso y resultado) para evaluar [tu programa/unidad]. Para cada uno: nombre, qué mide, fórmula de cálculo y fuente del dato."</em> → ✅ Verifica que encajan con tu realidad.</blockquote>
+<hr>
+<h2>5.2. Preparar datos anónimos (la parte legal, en serio)</h2>
+<p>Antes de tocar la IA, prepara los datos <strong>sin información identificable</strong>. Tres opciones válidas:</p>
+<ol><li><strong>Datos ficticios:</strong> inventados para practicar (lo que usaremos en los ejercicios). ✔️ Siempre seguro.</li><li><strong>Datos anonimizados:</strong> datos reales a los que <strong>se les ha quitado de forma irreversible</strong> todo identificador (directo e indirecto). Ya no permiten reidentificar a nadie.</li><li><strong>Datos agregados:</strong> trabajas con totales/porcentajes, no con registros individuales (p. ej. "32 pacientes" en vez de la lista).</li></ol>
+<p><strong>Cómo anonimizar una tabla (checklist):</strong></p>
+<ul><li>❌ Quita: nombre, apellidos, DNI, nº de historia, teléfono, dirección, fechas exactas.</li><li>🔁 Sustituye: identificadores por un <strong>código</strong> (Paciente 001, 002…); edad exacta por <strong>franjas</strong> (60-69, 70-79); fecha por <strong>mes</strong> o "semana 1, 2…".</li><li>👀 Cuidado con los <strong>cuasi-identificadores</strong>: una combinación rara (única mujer de 99 años de un pueblo) puede reidentificar aunque no haya nombre.</li></ul>
+<blockquote>🔑 <strong>Idea clave (RGPD):</strong> si tras tu trabajo alguien <strong>podría</strong> averiguar de qué paciente se trata, <strong>no está bien anonimizado</strong>. Ante la duda, agrega o usa datos ficticios.</blockquote>
+<hr>
+<h2>5.3. Usar la IA con Excel y Google Sheets</h2>
+<p>Tienes varias vías, de la más sencilla (gratis) a la más integrada:</p>
+<h3>Opción A — La IA como copiloto en el navegador <em>(gratis, recomendada para empezar)</em></h3>
+<p>No necesitas instalar nada. En <strong>ChatGPT, Claude o Gemini</strong>:</p>
+<ul><li><strong>Describe tus columnas</strong> (sin datos reales) y pide la <strong>fórmula</strong>:</li></ul>
+<blockquote><em>"En Excel tengo estas columnas: A=código paciente, B=edad, C=tensión sistólica, D=¿controlada? (Sí/No). Dame la fórmula para calcular el % de pacientes con la tensión controlada. Explícame dónde escribirla."</em></blockquote>
+<ul><li>Pide <strong>tablas dinámicas, gráficos o pasos</strong>:</li></ul>
+<blockquote><em>"Explícame, paso a paso, cómo crear una tabla dinámica que muestre el nº de pacientes controlados por franja de edad."</em></blockquote>
+<ul><li>Si pegas datos, que sean <strong>ficticios o anonimizados</strong>.</li></ul>
+<h3>Opción B — Copilot en Excel <em>(si tu institución tiene Microsoft 365)</em></h3>
+<p><strong>Copilot</strong> está integrado en Excel: le pides en lenguaje natural <em>"crea una columna que clasifique la tensión en normal/alta"</em> o <em>"resume estos datos y sugiéreme un gráfico"</em> y lo hace sobre tu hoja. Muy potente; recuerda igualmente la <strong>regla de datos anónimos</strong>.</p>
+<h3>Opción C — Gemini en Google Sheets / ChatGPT con análisis de archivos</h3>
+<ul><li><strong>Gemini</strong> está integrado en Google Workspace (Sheets) y ayuda con fórmulas y análisis.</li><li><strong>ChatGPT o Claude</strong> permiten <strong>subir un archivo CSV</strong> (¡anónimo!) y analizarlo, generar gráficos y resúmenes.</li></ul>
+<h3>Opción D — Complementos (add-ins) de IA en Excel <em>(opcional / a veces de pago)</em></h3>
+<p>Existen complementos que añaden funciones de IA dentro de Excel (p. ej. fórmulas tipo <code>=IA(...)</code>). Suelen requerir una clave de API y/o pago. <strong>Opcional</strong>; márcalo como avanzado.</p>
+<blockquote>⚠️ <strong>Verificación imprescindible:</strong> los modelos de IA <strong>pueden equivocarse haciendo cálculos</strong>. Por eso, <strong>pide la fórmula y ejecútala en Excel</strong> (fiable) en lugar de fiarte de un número que "calcula" el chat. Comprueba siempre los totales.</blockquote>
+<hr>
+<h2>5.4. Construir el dashboard paso a paso</h2>
+<p>Un dashboard es un panel con los indicadores clave y sus gráficos. Receta:</p>
+<ol><li><strong>Limpia y ordena</strong> los datos (anónimos) en una hoja.</li><li><strong>Calcula los indicadores</strong> con fórmulas (pídeselas a la IA): <code>CONTAR.SI</code>, <code>SUMAR.SI</code>, <code>PROMEDIO.SI</code>, tablas dinámicas…</li><li><strong>Crea los gráficos</strong> adecuados: barras (comparar), líneas (evolución), circular (proporción), tarjetas de KPI (cifra grande).</li><li><strong>Monta el panel:</strong> coloca KPIs arriba y gráficos debajo; añade un título y la fecha.</li><li><strong>Interpreta y narra</strong> (5.5).</li></ol>
+<blockquote><strong>Prompt para el diseño:</strong> <em>"Tengo indicadores de [tema]. Sugiéreme qué gráfico usar para cada uno y cómo organizar un dashboard de una página en Excel, con los KPIs principales arriba."</em></blockquote>
+<hr>
+<h2>5.5. Interpretar y narrar (data storytelling)</h2>
+<p>Un dashboard sin lectura no sirve. La IA te ayuda a <strong>redactar la interpretación</strong> (tú la validas):</p>
+<blockquote><em>"A partir de estos resultados [pega los indicadores, anónimos], redáctame un párrafo de conclusiones para un informe de gestión: qué destaca, qué ha mejorado y qué requiere acción. Tono profesional y prudente; no inventes causas."</em></blockquote>
+<p>✅ Verifica que la interpretación no afirme causas que tus datos no demuestran.</p>
+<hr>
+<h2>5.6. 🧪 Ejercicios prácticos (con datos ficticios)</h2>
+<blockquote>Copia esta tabla <strong>ficticia</strong> a Excel o Google Sheets (es inventada, totalmente segura). Filas = pacientes de un programa de control de hipertensión.</blockquote>
+<pre><code>Codigo | Franja_edad | Sexo | TA_sistolica | Controlada | Adherencia
+P001   | 60-69       | M    | 130          | Si         | Alta
+P002   | 70-79       | F    | 155          | No         | Baja
+P003   | 60-69       | F    | 128          | Si         | Alta
+P004   | 80-89       | M    | 160          | No         | Media
+P005   | 70-79       | M    | 138          | Si         | Media
+P006   | 60-69       | F    | 142          | No         | Baja
+P007   | 80-89       | F    | 135          | Si         | Alta
+P008   | 70-79       | M    | 150          | No         | Baja
+P009   | 60-69       | M    | 125          | Si         | Alta
+P010   | 80-89       | F    | 158          | No         | Media</code></pre>
+<p><strong>Ejercicio 1 — Fórmula con ayuda de IA.</strong> Pídele a ChatGPT/Claude/Gemini la fórmula para calcular el <strong>% de pacientes "Controlada = Si"</strong>. Escríbela en Excel y comprueba el resultado (pista: deberían ser 5 de 10 = 50%).</p>
+<blockquote>Prompt sugerido: <em>"En Excel, la columna E ('Controlada') tiene 'Si'/'No' en E2:E11. Dame la fórmula para el porcentaje de 'Si' y explícame dónde ponerla."</em></blockquote>
+<p><strong>Ejercicio 2 — Tabla dinámica.</strong> Crea una tabla dinámica que muestre <strong>cuántos pacientes están controlados por franja de edad</strong>. Pídele a la IA los pasos.</p>
+<p><strong>Ejercicio 3 — Gráfico.</strong> Crea un <strong>gráfico de barras</strong> de "Controlada (Sí/No)" y un <strong>gráfico</strong> del nº de pacientes por nivel de adherencia. Pregunta a la IA qué gráfico es mejor para cada caso y por qué.</p>
+<p><strong>Ejercicio 4 — Dashboard + narrativa.</strong> Monta un mini-dashboard de una página con: KPI "% controlados", gráfico por edad y gráfico por adherencia. Después, pide a la IA un párrafo de conclusiones y <strong>corrígelo</strong> tú.</p>
+<p><strong>Ejercicio 5 — Anonimización (legal).</strong> Te dan este registro real (ficticio para el ejercicio):</p>
+<blockquote><em>"Lucía Gómez, 82 años, HC 44521, ingresó el 3/4, TA 158, no controlada, vive en Sigüenza."</em></blockquote>
+<p>Reescríbelo como <strong>una fila anónima</strong> válida para tu tabla y explica qué quitaste y por qué.</p>
+<hr>
+<h2>5.7. Resumen del módulo</h2>
+<ul><li>Los datos se vuelven útiles como <strong>indicadores</strong> (estructura/proceso/resultado) y <strong>dashboards</strong>.</li><li><strong>Solo datos ficticios, anonimizados o agregados</strong>; cuidado con los <strong>cuasi-identificadores</strong> (RGPD, Módulo 1).</li><li>Usa la IA como <strong>copiloto</strong>: en el navegador (gratis), con <strong>Copilot</strong> en Excel, <strong>Gemini</strong> en Sheets, o subiendo CSV <strong>anónimos</strong>.</li><li><strong>Pide la fórmula y ejecútala en Excel</strong>: la IA puede fallar en cálculos → verifica.</li><li>Cierra con <strong>interpretación</strong> validada por ti.</li></ul>
+<hr>
+<h2>📝 Cuestionario del Módulo 5</h2>
+<p><em>(8 preguntas. Importa con "Test_Modulo_5_GIFT.txt".)</em></p>
+<h2>📤 Entregable 5</h2>
+<p>Consulta el enunciado en <strong>"Entregable_Modulo_5.md"</strong>: dashboard de indicadores con datos ficticios + anonimización.</p>
+<hr>
+<p><em>Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 5 · v1.0</em></p>

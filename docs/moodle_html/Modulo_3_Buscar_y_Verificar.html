@@ -1,0 +1,69 @@
+<!-- Fragmento HTML para pegar en Moodle: crea una 'Pagina', pulsa el boton <> (codigo HTML) y pega esto. -->
+<h1>MÓDULO 3 — Buscar y verificar evidencia</h1>
+<h3>Lección para el alumnado (lista para pegar en Moodle)</h3>
+<blockquote>⏱️ Tiempo estimado: 50–60 min · 🎯 Objetivo: usar la IA para encontrar información fiable <strong>sin que se invente las fuentes</strong>.</blockquote>
+<blockquote>⚠️ <strong>Idea que vertebra el módulo:</strong> un ChatGPT "normal" puede sonar muy seguro y estar equivocado. Existen herramientas que <strong>citan de dónde sacan la información</strong> — y aun así, tu trabajo es <strong>comprobarlo</strong>. Aquí aprendes ambas cosas: qué herramienta usar y cómo verificar.</blockquote>
+<hr>
+<h2>3.0. El problema: la IA que "sabe" pero no enseña sus fuentes</h2>
+<p>En el Módulo 0 vimos las <strong>alucinaciones</strong>: la IA puede inventarse datos, cifras y referencias con total seguridad. Para buscar información clínica, un chat generalista <strong>no basta</strong>, porque normalmente:</p>
+<ul><li>No te dice de dónde sale lo que afirma.</li><li>Puede mezclar información actual con desactualizada.</li><li>Puede inventarse un estudio que no existe.</li></ul>
+<p>La solución tiene dos patas:</p>
+<ol><li><strong>Usar herramientas que buscan en fuentes reales y las citan.</strong></li><li><strong>Verificar siempre</strong> esas fuentes (no fiarte del resumen).</li></ol>
+<hr>
+<h2>3.1. Perplexity — búsqueda con fuentes citadas</h2>
+<p><strong>Perplexity</strong> es como un buscador conversacional: respondes con lenguaje natural y te da una respuesta <strong>con enlaces numerados a las fuentes</strong>.</p>
+<p><strong>Para qué te sirve en sanidad:</strong></p>
+<ul><li>Ponerte al día rápido sobre un tema.</li><li>Encontrar guías, documentos oficiales y artículos divulgativos.</li></ul>
+<p><strong>Cómo usarla bien:</strong></p>
+<ul><li>Sé específico/a y pide fuentes recientes y fiables.</li><li><strong>Pulsa en cada cita</strong> y comprueba la fuente (¿es una sociedad científica, un ministerio, una revista... o un blog cualquiera?).</li></ul>
+<p><strong>Prompt de ejemplo:</strong></p>
+<blockquote><em>"Resume las recomendaciones actuales sobre prevención de úlceras por presión en pacientes encamados. Cita fuentes oficiales o de sociedades científicas y dame los enlaces."</em></blockquote>
+<blockquote>💡 Perplexity tiene un <strong>modo académico/"Académico"</strong> que prioriza artículos científicos. Útil cuando buscas evidencia, no divulgación.</blockquote>
+<hr>
+<h2>3.2. Consensus — evidencia científica resumida</h2>
+<p><strong>Consensus</strong> busca directamente en <strong>artículos científicos</strong> y te resume <strong>qué dice la evidencia</strong> sobre una pregunta, enlazando los estudios.</p>
+<p><strong>Para qué te sirve:</strong></p>
+<ul><li>Responder preguntas tipo <em>"¿funciona X para Y?"</em> apoyándote en estudios.</li><li>Ver de un vistazo si la evidencia es favorable, mixta o escasa.</li></ul>
+<p><strong>Cómo usarla bien:</strong></p>
+<ul><li>Formula preguntas claras y concretas (mejor si son tipo PICO, ver 3.4).</li><li><strong>Abre los estudios</strong> que cita y comprueba que dicen lo que resume.</li></ul>
+<p><strong>Prompt de ejemplo:</strong></p>
+<blockquote><em>"¿La movilización precoz reduce las complicaciones en pacientes posquirúrgicos? Resume la evidencia y dame los estudios con sus enlaces y tipo de estudio."</em></blockquote>
+<blockquote>⚠️ Que un resumen suene contundente no significa que la evidencia sea sólida. Mira el <strong>tipo de estudio</strong> y cuántos lo respaldan.</blockquote>
+<hr>
+<h2>3.3. NotebookLM — pregúntale a TUS documentos</h2>
+<p><strong>NotebookLM</strong> (de Google) es distinto: tú <strong>subes tus documentos</strong> (PDFs de guías, protocolos de tu centro, artículos) y la IA <strong>responde solo con lo que hay en ellos</strong>, citando la parte concreta.</p>
+<p><strong>Por qué es oro para sanidad:</strong></p>
+<ul><li>Responde <strong>basándose únicamente en tus fuentes</strong> → muchas menos alucinaciones.</li><li>Te dice <strong>en qué documento y dónde</strong> está cada respuesta.</li><li>Ideal para manejar protocolos largos, guías clínicas, apuntes.</li></ul>
+<p><strong>Cómo usarlo:</strong></p>
+<ol><li>Crea un cuaderno y <strong>sube tus PDFs</strong> (guías, protocolos).</li><li>Pregunta en lenguaje natural.</li><li>Revisa la cita que te da y <strong>comprueba en el documento</strong>.</li></ol>
+<p><strong>Prompt de ejemplo (con tus PDFs cargados):</strong></p>
+<blockquote><em>"Basándote ÚNICAMENTE en los documentos subidos, ¿cuál es el procedimiento recomendado para el lavado de manos quirúrgico? Cítame el documento y el apartado. Si no aparece, dímelo."</em></blockquote>
+<blockquote>⚠️ <strong>Datos de pacientes: jamás</strong> (Módulo 1). Sube guías y protocolos, no historias clínicas identificables.</blockquote>
+<hr>
+<h2>3.4. Estrategia de búsqueda validada (introducción)</h2>
+<p>Para buscar evidencia con orden, formula la pregunta en formato <strong>PICO</strong>:</p>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Letra</th><th>Significa</th></tr></thead><tbody><tr><td><strong>P</strong></td><td>Paciente / Población / Problema</td></tr><tr><td><strong>I</strong></td><td>Intervención</td></tr><tr><td><strong>C</strong></td><td>Comparación</td></tr><tr><td><strong>O</strong></td><td>Outcome (resultado)</td></tr></tbody></table>
+<p>Y combina términos con <strong>operadores booleanos</strong>:</p>
+<ul><li><strong>AND</strong> → restringe (exige ambos): <code>higiene de manos AND infección</code></li><li><strong>OR</strong> → amplía (sinónimos): <code>anciano OR mayor OR geriátrico</code></li><li><strong>NOT</strong> → excluye: <code>úlcera NOT diabética</code></li></ul>
+<p>La base de datos de referencia en salud es <strong>PubMed</strong> (gratuita). En español también <strong>Scielo</strong> y <strong>Cuiden</strong>.</p>
+<p><strong>Prompt de ayuda (la búsqueda final la haces tú en PubMed):</strong></p>
+<blockquote><em>"Actúa como documentalista biomédico. Transforma esta duda en una pregunta PICO y propón una cadena de búsqueda con operadores booleanos para PubMed. Recuérdame ejecutarla yo y verificar los resultados. Mi duda es: [escríbela]."</em></blockquote>
+<blockquote>📌 Aquí lo vemos a nivel básico. La <strong>estrategia de búsqueda rigurosa y reproducible</strong> (términos MeSH/DeCS, niveles de evidencia, tabla de evidencia, Zotero) se trabaja a fondo en el <strong>Módulo 6</strong>.</blockquote>
+<hr>
+<h2>3.5. Comprobar las fuentes (la habilidad que más vale)</h2>
+<p>Tengas la herramienta que tengas, <strong>verifica</strong>. Checklist rápida:</p>
+<ol><li><strong>¿La fuente existe?</strong> Busca el título o el DOI en PubMed / Google Scholar.</li><li><strong>¿Coinciden</strong> autores, año y revista con lo que dijo la IA?</li><li><strong>¿Dice lo que afirma?</strong> Abre la fuente y compruébalo (no te quedes con el resumen).</li><li><strong>¿Es fiable?</strong> Prioriza: sociedades científicas, organismos oficiales (Ministerio, OMS), revistas indexadas. Desconfía de blogs y webs comerciales.</li><li><strong>¿Está vigente?</strong> Una guía de hace 15 años puede estar superada.</li></ol>
+<blockquote>🚩 <strong>Bandera roja:</strong> una referencia "perfecta" para tu tema que no aparece en ninguna base de datos → trátala como <strong>inventada</strong> y descártala.</blockquote>
+<hr>
+<h2>3.6. ¿Qué herramienta uso para qué? (resumen)</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Necesito...</th><th>Herramienta</th></tr></thead><tbody><tr><td>Ponerme al día con fuentes citadas</td><td><strong>Perplexity</strong></td></tr><tr><td>Saber qué dice la evidencia científica</td><td><strong>Consensus</strong></td></tr><tr><td>Preguntar a mis propios protocolos/PDFs</td><td><strong>NotebookLM</strong></td></tr><tr><td>La búsqueda formal y reproducible</td><td><strong>PubMed</strong> (+ PICO, Módulo 6)</td></tr></tbody></table>
+<hr>
+<h2>3.7. Resumen del módulo</h2>
+<ul><li>Un chat generalista <strong>no cita fuentes</strong>; para buscar evidencia, usa herramientas que sí lo hacen.</li><li><strong>Perplexity</strong> (fuentes citadas), <strong>Consensus</strong> (evidencia científica), <strong>NotebookLM</strong> (tus documentos).</li><li>Formula la pregunta en <strong>PICO</strong> y combina con <strong>booleanos</strong>; la base es <strong>PubMed</strong>.</li><li><strong>Verifica siempre</strong>: que la fuente exista, coincida, diga lo que afirma, sea fiable y esté vigente.</li><li>Datos de pacientes: <strong>nunca</strong>.</li></ul>
+<hr>
+<h2>📝 Cuestionario del Módulo 3</h2>
+<p><em>(10 preguntas. Importa con "Test_Modulo_3_GIFT.txt".)</em></p>
+<h2>📤 Entregable 3</h2>
+<p>Consulta el enunciado en <strong>"Entregable_Modulo_3.md"</strong>: estrategia de búsqueda + 5 fuentes verificadas.</p>
+<hr>
+<p><em>Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 3 · v1.0</em></p>
