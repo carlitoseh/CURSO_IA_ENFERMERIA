@@ -113,6 +113,7 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 .etiqueta-pronto { background: #fff3d6; color: #9a6700; }
+.etiqueta-disponible { background: #e9f8f5; color: #17786d; }
 
 /* ---------- Lista de módulos ---------- */
 .lista-modulos { list-style: none; max-width: 760px; margin: 0 auto; }

@@ -15,7 +15,7 @@
 | **Modalidad** | Mixta (*blended*): contenido autoguiado en **Moodle** + **web de prácticas** + **2 sesiones online en directo** |
 | **Metodología** | Microaprendizaje diario + *learning by doing*: cada lección termina en un **entregable** que el docente corrige |
 | **Evaluación** | Cuestionarios tipo test (Moodle) + entregables prácticos corregidos + proyecto final integrador |
-| **Herramientas** | Gratuitas (ChatGPT, Gemini, NotebookLM, Perplexity, Consensus, Copilot, Excel/Sheets). Funciones de pago siempre marcadas como *opcionales* |
+| **Herramientas** | Gratuitas (ChatGPT, Claude, Gemini, NotebookLM, Perplexity, Consensus, Copilot, Canva, Zotero, Excel/Sheets). Funciones de pago siempre marcadas como *opcionales* |
 | **Duración orientativa** | 6 módulos + proyecto final ≈ 5–6 semanas a ritmo de ~20–30 min/día |
 | **Eje transversal** | Ética, RGPD, seguridad del dato y responsabilidad profesional en **todos** los módulos |
 
@@ -76,7 +76,7 @@ Al finalizar el curso, el alumnado será capaz de:
 MÓDULO 0 ─ Bienvenida y fundamentos
      │      (¿Qué es la IA? Panorama de herramientas. Crear cuentas)
      ▼
-MÓDULO 1 ─ Ética, RGPD y seguridad del dato   ⚖️  [eje transversal, pero base obligatoria]
+MÓDULO 1 ─ Ética, legislación y seguridad ⚖️  [eje transversal, pero base obligatoria]
      │
      ▼
 MÓDULO 2 ─ El arte del prompt (hablar con la IA)
@@ -115,16 +115,19 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - ✅ **Entregable 0:** captura de tu primer chat + 3 dudas que tengas.
 - 📝 **Test 0:** 5 preguntas sobre conceptos básicos.
 
-### MÓDULO 1 — Ética, RGPD y seguridad del dato *(3–4 días)*
+### MÓDULO 1 — Ética, legislación y seguridad del dato *(3–4 días)*
 **Objetivo:** usar la IA sin meterte en un problema legal ni deontológico.
 - 1.1. Datos personales y datos de salud: por qué son "categoría especial".
-- 1.2. RGPD y LOPDGDD en 15 minutos para sanitarios.
-- 1.3. El AI Act europeo: qué cambia y qué significa "alto riesgo".
-- 1.4. Anonimización y seudonimización práctica (cómo preparar un caso antes de usar IA).
-- 1.5. Sesgos, equidad y responsabilidad profesional.
-- 1.6. Checklist de uso seguro (la imprimes y la pegas en tu mesa).
+- 1.2. El marco normativo completo en España: RGPD, LOPDGDD, Ley 41/2002, EHDS, MDR y deontología.
+- 1.3. El AI Act europeo: niveles de riesgo, calendario de aplicación por fases (2025–2027) y la AESIA.
+- 1.4. Comparativa rápida UE/España vs EE. UU. (HIPAA, FDA, NIST).
+- 1.5. Anonimización y seudonimización práctica (cómo preparar un caso antes de usar IA).
+- 1.6. Sesgos, equidad y responsabilidad profesional.
+- 1.7. Checklist de uso seguro (la imprimes y la pegas en tu mesa).
 - ✅ **Entregable 1:** anonimizar un caso clínico de ejemplo y justificar qué quitaste.
-- 📝 **Test 1:** 10 preguntas (RGPD, datos especiales, buenas prácticas).
+- 📝 **Test 1:** 12 preguntas (RGPD, AI Act/AESIA, comparativa EEUU, buenas prácticas).
+
+> ⚠️ La legislación de IA está en pleno desarrollo: **verificar y actualizar este módulo antes de impartir el curso**.
 
 ### MÓDULO 2 — El arte del prompt *(3–4 días)*
 **Objetivo:** conseguir buenos resultados de forma reproducible.
@@ -146,32 +149,35 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - 📝 **Test 3:** 10 preguntas (PICO, verificación, herramientas).
 
 ### MÓDULO 4 — FLUJO: Programa de Educación para la Salud *(4–5 días)*
-**Objetivo:** crear un programa de EpS completo de principio a fin.
-- 4.1. De la idea al objetivo: definir población, necesidad y objetivos SMART.
-- 4.2. Estructura del programa (sesiones, contenidos, metodología, cronograma).
-- 4.3. Generar materiales: guiones, infografías, folletos, lenguaje adaptado al paciente.
-- 4.4. Evaluación del programa (indicadores, encuestas, pre/post).
-- 4.5. Verificación clínica: revisar que todo el contenido es correcto y basado en evidencia.
-- ✅ **Entregable 4:** programa de EpS real de tu servicio (plantilla guiada).
+**Objetivo:** crear un programa de EpS completo de principio a fin, en cualquiera de sus tres niveles.
+- 4.1. El ciclo completo: de la identificación de necesidades de la población a la evaluación.
+- 4.2. Los tres niveles de la EpS con ejemplos: **individual, grupal y comunitario/colectivo**.
+- 4.3. Objetivos SMART (cognitivos, actitudinales y de habilidades), contenidos, metodología y cronograma.
+- 4.4. Generar materiales: guiones, infografías, folletos, lenguaje adaptado al paciente.
+- 4.5. Presentaciones con IA: **Canva** (Magic Design, Magic Write), flujo **NotebookLM → Canva** y edición con **OCR**.
+- 4.6. Evaluación del programa (indicadores, encuestas, pre/post) y verificación clínica de todo el contenido.
+- ✅ **Entregable 4:** programa de EpS real de tu servicio + presentación creada con IA.
 - 📝 **Test 4:** 8 preguntas sobre diseño de EpS.
 
 ### MÓDULO 5 — FLUJO: Datos, indicadores y dashboards *(4–5 días)*
-**Objetivo:** convertir datos en información visual útil.
+**Objetivo:** convertir datos en información visual útil, **con datos siempre anónimos**.
 - 5.1. Pensar en indicadores: qué medir y por qué (estructura, proceso, resultado).
-- 5.2. Preparar los datos (ficticios/anonimizados) en Excel o Google Sheets.
-- 5.3. Crear fórmulas y tablas dinámicas pidiéndoselo a ChatGPT/Gemini/Copilot.
-- 5.4. Construir un **dashboard** de indicadores con gráficos.
-- 5.5. Interpretar y narrar los resultados ("data storytelling").
-- ✅ **Entregable 5:** dashboard de indicadores de tu unidad con datos ficticios.
-- 📝 **Test 5:** 8 preguntas (indicadores, datos, visualización).
+- 5.2. Preparar datos anónimos conforme al RGPD: ficticios, anonimizados o agregados; cuasi-identificadores.
+- 5.3. La IA en Excel/Sheets: ChatGPT/Claude/Gemini como copiloto, **Copilot** en Excel, **Gemini** en Sheets.
+- 5.4. Crear fórmulas y tablas dinámicas, y construir un **dashboard** de indicadores con gráficos.
+- 5.5. Interpretar y narrar los resultados ("data storytelling") **verificando los cálculos**.
+- 5.6. Ejercicios prácticos con un dataset ficticio (control de HTA).
+- ✅ **Entregable 5:** anonimización de registros + dashboard de indicadores con datos ficticios.
+- 📝 **Test 5:** 8 preguntas (indicadores, anonimización, visualización).
 
 ### MÓDULO 6 — FLUJO: Investigación asistida por IA *(4–5 días)*
 **Objetivo:** acelerar el trabajo de investigación sin perder rigor.
-- 6.1. De la pregunta de investigación a la estrategia de búsqueda (repaso PICO + bases de datos).
-- 6.2. Revisión de literatura asistida (Consensus, NotebookLM, Perplexity).
-- 6.3. Organizar y sintetizar hallazgos (tablas de evidencia).
-- 6.4. Redacción asistida: introducción, justificación, ayuda con el estilo (sin plagiar ni inventar citas).
-- 6.5. Ética de la investigación con IA: transparencia, declaración de uso, integridad.
+- 6.1. De la pregunta de investigación a la estrategia de búsqueda reproducible (PICO, MeSH/DeCS, booleanos).
+- 6.2. Revisión de literatura asistida (Consensus, NotebookLM, Perplexity, Elicit) y verificación de fuentes.
+- 6.3. Organizar y sintetizar hallazgos (tablas de evidencia, niveles de evidencia).
+- 6.4. Gestión bibliográfica con **Zotero** (+ ruta avanzada opcional: conectar la IA con Zotero/PubMed vía **MCP** y Skills).
+- 6.5. Redacción asistida: introducción, justificación, ayuda con el estilo (sin plagiar ni inventar citas).
+- 6.6. Ética de la investigación con IA: transparencia, declaración de uso, integridad.
 - ✅ **Entregable 6:** mini-revisión sobre un tema con estrategia, fuentes verificadas y síntesis.
 - 📝 **Test 6:** 10 preguntas (búsqueda, síntesis, integridad).
 
@@ -223,16 +229,21 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 
 > Ventaja: la web es **gratuita, pública y fácil de actualizar**; Moodle guarda lo evaluable y privado.
 
+- 🌐 **Web publicada:** https://carlitosiacursoenfermeria.netlify.app
+- 📦 **Repositorio:** https://github.com/carlitoseh/CURSO_IA_ENFERMERIA
+
 ---
 
-## 10. Próximos pasos (hoja de ruta del montaje)
+## 10. Estado del proyecto (hoja de ruta)
 
 1. ✅ **Documento del curso** (este archivo).
-2. ⏭️ **Esqueleto de la web** (estructura de páginas y diseño base).
-3. ⏭️ **Primer flujo de trabajo completo** como plantilla (p. ej. Educación para la Salud).
-4. ⏭️ **Publicación en GitHub + Netlify** (gratis, paso a paso).
-5. ⏭️ Ir **añadiendo flujos** uno a uno, a ritmo diario.
+2. ✅ **Web publicada** con actualización automática (GitHub + Netlify): https://carlitosiacursoenfermeria.netlify.app
+3. ✅ **Los 8 módulos completos**: lección + test GIFT + entregable con rúbrica (`docs/modulos/` y `docs/moodle/`).
+4. ✅ **5 flujos de trabajo** publicados en la web: EpS, presentaciones (Canva+NotebookLM), dashboard, investigación y agentes.
+5. ✅ **Lecciones en HTML** listas para pegar en Moodle (`docs/moodle_html/`).
+6. ⏭️ **Montaje en Moodle** cuando se habilite el acceso (guía: `docs/03_Guia_Montaje_Moodle.md`).
+7. ⏭️ **Actualizar la legislación del Módulo 1** justo antes de impartir el curso.
 
 ---
 
-*Documento vivo — versión 1.0. Se irá actualizando a medida que avance el curso.*
+*Documento vivo — versión 1.1 (junio 2026). Se irá actualizando a medida que avance el curso.*
