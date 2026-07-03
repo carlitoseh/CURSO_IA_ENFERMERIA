@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flujo: Crear agentes y Gems para sanidad · IA para Sanidad</title>
+  <meta name="description" content="Crea tu propio asistente de IA (GPT, Gemini Gem o NotebookLM) para tu servicio, con instrucciones y límites de seguridad.">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a href="../index.html" class="logo">🩺 IA para Sanidad</a>
+      <nav class="nav">
+        <a href="../index.html">Inicio</a>
+        <a href="../index.html#modulos">Módulos</a>
+        <a href="../index.html#flujos">Flujos de trabajo</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="flujo-cabecera">
+    <div class="contenedor">
+      <p class="miga"><a href="../index.html">Inicio</a> › <a href="../index.html#flujos">Flujos</a> › Crear agentes y Gems</p>
+      <h1>🤖 Crear agentes y Gems para sanidad</h1>
+      <p>Convierte un buen prompt en un asistente reutilizable para tu servicio: un GPT, una Gem de Gemini o un cuaderno de NotebookLM. Tiempo estimado: 45–60 min.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor" style="max-width: 820px;">
+
+      <div class="aviso">
+        <strong>Antes de empezar:</strong> un agente hereda tus reglas. Configúralo para que <strong>verifique</strong>,
+        <strong>no invente</strong> y <strong>nunca use datos identificables de pacientes</strong>. Tú sigues siendo responsable de lo que produce.
+      </div>
+
+      <h2 style="text-align:left; margin-bottom: 28px;">Paso a paso</h2>
+
+      <!-- PASO 1 -->
+      <div class="paso">
+        <div class="paso-num">1</div>
+        <div class="paso-cuerpo">
+          <h3>Elige la tarea y la herramienta</h3>
+          <p>¿Qué tarea repites mucho? Según el caso: <strong>GPT</strong> (ChatGPT, crear suele ser de pago), <strong>Gem</strong> (Gemini, gratis) o <strong>NotebookLM</strong> (gratis, experto en tus documentos).</p>
+          <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+            <strong>Ejemplos:</strong> traductor a lenguaje paciente · asistente de protocolos (NotebookLM) · ayudante de programas de EpS · generador de indicadores.
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="paso">
+        <div class="paso-num">2</div>
+        <div class="paso-cuerpo">
+          <h3>Redacta las instrucciones del agente</h3>
+          <p>Usa esta plantilla como instrucciones (Configure en GPT, o la Gem):</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Instrucciones · GPT / Gem</span>
+            <div class="prompt-texto">Eres un/a enfermero/a experto/a en [tema]. Tu objetivo es [tarea, p. ej. reescribir textos clínicos en lenguaje sencillo para pacientes].
+
+Cómo actúas: [pasos y estilo, p. ej. frases cortas, sin tecnicismos, organizado en apartados].
+Tono: [cercano y profesional].
+
+LÍMITES (obligatorios):
+- No diagnostiques ni sustituyas el criterio profesional.
+- No inventes datos ni referencias; si no lo sabes, dilo.
+- No solicites ni utilices datos identificables de pacientes.
+- Recuerda siempre al usuario que debe verificar el contenido clínico antes de usarlo.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 3 -->
+      <div class="paso">
+        <div class="paso-num">3</div>
+        <div class="paso-cuerpo">
+          <h3>Créalo en tu herramienta</h3>
+          <ul style="color:var(--texto-suave); margin:6px 0 0 18px;">
+            <li><strong>ChatGPT:</strong> Explorar GPT → Crear → pestaña "Configure" → pega nombre, descripción e instrucciones.</li>
+            <li><strong>Gemini:</strong> gestor de Gems → Nueva Gem → nombre + instrucciones.</li>
+            <li><strong>NotebookLM:</strong> nuevo cuaderno → sube tus guías/protocolos (sin datos de pacientes) → pregunta.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PASO 4 -->
+      <div class="paso">
+        <div class="paso-num">4</div>
+        <div class="paso-cuerpo">
+          <h3>(Opcional) Añade conocimiento</h3>
+          <p>Sube documentos de apoyo (guías, protocolos anónimos) para que responda basándose en ellos. Nunca subas historias clínicas ni datos identificables.</p>
+        </div>
+      </div>
+
+      <!-- PASO 5 -->
+      <div class="paso">
+        <div class="paso-num">5</div>
+        <div class="paso-cuerpo">
+          <h3>Prueba, ajusta y comparte con cabeza</h3>
+          <p>Pruébalo con 2-3 casos reales, comprueba que respeta los límites y afina las instrucciones. Si lo compartes en público, no incluyas nada confidencial.</p>
+          <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+            <strong>Tu entregable (Módulo 7):</strong> la tarea + las instrucciones completas (con límites) + 2-3 capturas de prueba + qué ajustaste al iterar.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Curso de IA aplicada a la Enfermería y la Sanidad · Material docente</p>
+      <p class="pie-nota">Hecho con fines educativos. Versión 1.0</p>
+    </div>
+  </footer>
+
+  <script src="../js/copiar.js"></script>
+</body>
+</html>
