@@ -14,7 +14,7 @@
 4. Importar los test desde los archivos GIFT
 5. Crear los cuestionarios (quiz) con esas preguntas
 6. Crear los entregables (actividad "Tarea")
-7. Configurar las dos sesiones en directo
+7. Subir los vídeos explicativos de los flujos de trabajo
 8. Ajustes de evaluación y seguimiento
 9. Checklist final antes de abrir el curso a los alumnos
 
@@ -132,20 +132,31 @@ Para cada módulo con entregable (archivos `Entregable_Modulo_X.md`).
 
 ---
 
-## 7. Configurar las dos sesiones en directo
+## 7. Subir los vídeos explicativos de los flujos de trabajo
 
-El curso tiene 2 directos (tras el Módulo 3 y tras el Módulo 7/proyecto).
+Cada flujo de trabajo de la web tiene un **vídeo explicativo** en el que se realiza el flujo completo
+usando los recursos y prompts publicados en la web. Van 5 vídeos, uno por flujo, en la sección del módulo
+al que pertenece cada uno:
 
-**Opción A — Si tu Moodle tiene "BigBlueButton" (videollamada integrada):**
-1. **"+ Añadir una actividad o recurso"** → **"BigBlueButton"**.
-2. Ponle nombre (*"Directo 1 — Dudas y demo"*), fecha y guarda. Se graba dentro de Moodle.
+| Vídeo | Flujo | Sección de Moodle |
+|---|---|---|
+| 🎬 EpS completo | Educación para la Salud | Módulo 4 |
+| 🎬 Presentaciones con IA | Canva + NotebookLM + OCR | Módulo 4 |
+| 🎬 Dashboard | Indicadores en Excel/Sheets | Módulo 5 |
+| 🎬 Investigación | PICO → verificación → Zotero | Módulo 6 |
+| 🎬 Agentes | GPTs, Gems y NotebookLM | Módulo 7 |
 
-**Opción B — Con una herramienta externa (Zoom, Google Meet, Teams):**
-1. Crea la reunión en esa herramienta y copia el enlace.
-2. En Moodle: **"+ Añadir una actividad o recurso"** → **"URL"**, pega el enlace y ponle nombre.
-3. Tras el directo, sube la grabación o su enlace en la misma sección.
+**Opción A — Vídeo alojado fuera (YouTube oculto, Vimeo, Drive):** *(recomendada: no gasta espacio de Moodle)*
+1. Sube el vídeo a la plataforma (en YouTube, visibilidad **"Oculto"**: solo lo ve quien tenga el enlace).
+2. En Moodle: **"+ Añadir una actividad o recurso"** → **"URL"**, pega el enlace y ponle nombre
+   (*"🎬 Vídeo — Flujo de Educación para la Salud"*).
+   *(También puedes incrustarlo en una "Página" con el editor → botón de insertar multimedia.)*
 
-> 📌 Recuerda anunciar la fecha/hora con antelación en el **Foro de avisos** del curso.
+**Opción B — Archivo subido a Moodle:**
+1. **"+ Añadir una actividad o recurso"** → **"Archivo"** y sube el .mp4 (ojo al límite de tamaño de tu Moodle).
+
+> 📌 Coloca cada vídeo **encima del enlace a la página del flujo en la web**, con una etiqueta tipo:
+> *"1º Ve el vídeo · 2º practica con la guía de la web · 3º sube tu entregable"*.
 
 ---
 
@@ -167,7 +178,7 @@ Antes de dar de alta a los alumnos, comprueba:
 - [ ] Cada módulo tiene: Lección (Página) + Test (Cuestionario) + Entregable (Tarea) cuando corresponda.
 - [ ] Las preguntas GIFT están importadas y asignadas a su cuestionario.
 - [ ] En los entregables **no** aparece la solución/rúbrica para el alumno.
-- [ ] Fechas de directos publicadas y enlaces puestos.
+- [ ] Los 5 vídeos de los flujos subidos/enlazados en su módulo (4, 5, 6 y 7).
 - [ ] Rastreo de finalización activado.
 - [ ] Has hecho una **vista previa como estudiante** (menú del curso → "Cambiar rol a… Estudiante") para ver cómo lo verán ellos.
 
@@ -183,7 +194,7 @@ Antes de dar de alta a los alumnos, comprueba:
       a) subir Lección (Página)         →  paso 3
       b) crear Cuestionario + preguntas →  paso 5
       c) crear Tarea (entregable)       →  paso 6
-5. Crear los 2 directos                 →  paso 7
+5. Subir los vídeos de los flujos       →  paso 7
 6. Activar finalización y revisar       →  paso 8 + 9
 ```
 

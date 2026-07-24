@@ -2,6 +2,8 @@
 
 Curso práctico, ético y realista de Inteligencia Artificial para profesionales sanitarios.
 Material docente completo (8 módulos) + web pública de flujos de trabajo.
+Curso 100 % online y a tu ritmo: cada flujo de trabajo tiene un **vídeo explicativo** en el que se
+realiza el flujo completo usando los recursos y prompts publicados en la web.
 
 - 🌐 **Web publicada:** https://carlitosiacursoenfermeria.netlify.app
 - 📦 **Repositorio:** https://github.com/carlitoseh/CURSO_IA_ENFERMERIA
@@ -41,7 +43,7 @@ DOCENCIA IA/
 | Módulo | Tema |
 |---|---|
 | 0 | Bienvenida y fundamentos de la IA |
-| 1 | Ética, legislación (RGPD, AI Act) y seguridad del dato |
+| 1 | Ética, legislación (RGPD, AI Act con el «Digital Omnibus», ley española de IA) y seguridad del dato |
 | 2 | El arte del prompt (RTF, CRAFT, RECETA) |
 | 3 | Buscar y verificar evidencia (Perplexity, Consensus, NotebookLM) |
 | 4 | Programa de Educación para la Salud (3 niveles + Canva) |
@@ -80,4 +82,5 @@ Sigue [docs/03_Guia_Montaje_Moodle.md](docs/03_Guia_Montaje_Moodle.md): seccione
 (`docs/moodle_html/`), importación de tests GIFT (`docs/moodle/`) y tareas con rúbrica.
 
 ---
-Material con fines educativos. Versión 1.1 (junio 2026)
+Material con fines educativos. Versión 1.2 (julio 2026): curso sin sesiones en directo (vídeo explicativo
+por flujo de trabajo) y legislación del Módulo 1 actualizada a julio de 2026.

@@ -12,11 +12,11 @@
 |---|---|
 | **Título** | IA aplicada a la Enfermería y la Sanidad: del primer prompt al flujo de trabajo real |
 | **Dirigido a** | Profesionales de enfermería y otros perfiles sanitarios **sin experiencia previa en IA** y con nivel básico de informática |
-| **Modalidad** | Mixta (*blended*): contenido autoguiado en **Moodle** + **web de prácticas** + **2 sesiones online en directo** |
+| **Modalidad** | 100 % online, a tu ritmo: contenido autoguiado en **Moodle** + **web de prácticas** + **vídeo explicativo de cada flujo de trabajo** |
 | **Metodología** | Microaprendizaje diario + *learning by doing*: cada lección termina en un **entregable** que el docente corrige |
 | **Evaluación** | Cuestionarios tipo test (Moodle) + entregables prácticos corregidos + proyecto final integrador |
 | **Herramientas** | Gratuitas (ChatGPT, Claude, Gemini, NotebookLM, Perplexity, Consensus, Copilot, Canva, Zotero, Excel/Sheets). Funciones de pago siempre marcadas como *opcionales* |
-| **Duración orientativa** | 6 módulos + proyecto final ≈ 5–6 semanas a ritmo de ~20–30 min/día |
+| **Duración orientativa** | 8 módulos + proyecto final ≈ 5–6 semanas a ritmo de ~20–30 min/día |
 | **Eje transversal** | Ética, RGPD, seguridad del dato y responsabilidad profesional en **todos** los módulos |
 
 ---
@@ -104,7 +104,8 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 
 ## 6. Cronograma detallado por módulos
 
-> Cada módulo incluye: **vídeo/lectura breve → práctica guiada en la web → cuestionario tipo test (Moodle) → entregable corregido**.
+> Cada módulo incluye: **lectura breve → práctica guiada en la web → cuestionario tipo test (Moodle) → entregable corregido**.
+> Además, **cada flujo de trabajo tiene un vídeo explicativo** en el que el docente realiza el flujo completo usando los recursos y prompts publicados en la web (ver apartado 7).
 
 ### MÓDULO 0 — Bienvenida y fundamentos *(2–3 días)*
 **Objetivo:** perder el miedo y dejar el entorno listo.
@@ -119,7 +120,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 **Objetivo:** usar la IA sin meterte en un problema legal ni deontológico.
 - 1.1. Datos personales y datos de salud: por qué son "categoría especial".
 - 1.2. El marco normativo completo en España: RGPD, LOPDGDD, Ley 41/2002, EHDS, MDR y deontología.
-- 1.3. El AI Act europeo: niveles de riesgo, calendario de aplicación por fases (2025–2027) y la AESIA.
+- 1.3. El AI Act europeo: niveles de riesgo, calendario de aplicación por fases (2025–2028, revisado por el «Digital Omnibus») y la AESIA.
 - 1.4. Comparativa rápida UE/España vs EE. UU. (HIPAA, FDA, NIST).
 - 1.5. Anonimización y seudonimización práctica (cómo preparar un caso antes de usar IA).
 - 1.6. Sesgos, equidad y responsabilidad profesional.
@@ -127,7 +128,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - ✅ **Entregable 1:** anonimizar un caso clínico de ejemplo y justificar qué quitaste.
 - 📝 **Test 1:** 12 preguntas (RGPD, AI Act/AESIA, comparativa EEUU, buenas prácticas).
 
-> ⚠️ La legislación de IA está en pleno desarrollo: **verificar y actualizar este módulo antes de impartir el curso**.
+> ℹ️ Legislación **actualizada a julio de 2026**: incluye el «Digital Omnibus» europeo (retrasa el alto riesgo a dic-2027/ago-2028) y el Proyecto de Ley española de gobernanza de la IA (en el Congreso desde mayo de 2026). Revisar de nuevo antes de cada edición del curso.
 
 ### MÓDULO 2 — El arte del prompt *(3–4 días)*
 **Objetivo:** conseguir buenos resultados de forma reproducible.
@@ -156,6 +157,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - 4.4. Generar materiales: guiones, infografías, folletos, lenguaje adaptado al paciente.
 - 4.5. Presentaciones con IA: **Canva** (Magic Design, Magic Write), flujo **NotebookLM → Canva** y edición con **OCR**.
 - 4.6. Evaluación del programa (indicadores, encuestas, pre/post) y verificación clínica de todo el contenido.
+- 🎬 **Vídeos del módulo:** flujo de EpS completo y flujo de presentaciones con IA, realizados con los recursos y prompts de la web.
 - ✅ **Entregable 4:** programa de EpS real de tu servicio + presentación creada con IA.
 - 📝 **Test 4:** 8 preguntas sobre diseño de EpS.
 
@@ -167,6 +169,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - 5.4. Crear fórmulas y tablas dinámicas, y construir un **dashboard** de indicadores con gráficos.
 - 5.5. Interpretar y narrar los resultados ("data storytelling") **verificando los cálculos**.
 - 5.6. Ejercicios prácticos con un dataset ficticio (control de HTA).
+- 🎬 **Vídeo del módulo:** construcción del dashboard de principio a fin con el dataset ficticio y los prompts de la web.
 - ✅ **Entregable 5:** anonimización de registros + dashboard de indicadores con datos ficticios.
 - 📝 **Test 5:** 8 preguntas (indicadores, anonimización, visualización).
 
@@ -178,6 +181,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - 6.4. Gestión bibliográfica con **Zotero** (+ ruta avanzada opcional: conectar la IA con Zotero/PubMed vía **MCP** y Skills).
 - 6.5. Redacción asistida: introducción, justificación, ayuda con el estilo (sin plagiar ni inventar citas).
 - 6.6. Ética de la investigación con IA: transparencia, declaración de uso, integridad.
+- 🎬 **Vídeo del módulo:** flujo de investigación completo (PICO → búsqueda → verificación → tabla de evidencia) con los prompts de la web.
 - ✅ **Entregable 6:** mini-revisión sobre un tema con estrategia, fuentes verificadas y síntesis.
 - 📝 **Test 6:** 10 preguntas (búsqueda, síntesis, integridad).
 
@@ -188,6 +192,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - 7.3. Crear una **Gem** en Gemini paso a paso.
 - 7.4. Crear y compartir un **cuaderno de NotebookLM** con tus protocolos.
 - 7.5. Buenas prácticas: instrucciones, límites, qué nunca debe hacer el agente.
+- 🎬 **Vídeo del módulo:** creación de un agente de principio a fin (instrucciones, límites y pruebas) con la plantilla de la web.
 - ✅ **Entregable 7:** un agente funcional para una tarea de tu servicio + instrucciones documentadas.
 - 📝 **Test 7:** 8 preguntas sobre agentes y configuración.
 
@@ -195,18 +200,23 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 **Objetivo:** demostrar que sabes aplicar todo a un caso real.
 - Elige un problema real de tu servicio y resuélvelo combinando ≥3 herramientas vistas.
 - Entrega: documento del proyecto + materiales generados + reflexión ética.
-- 🎥 Presentación en una de las sesiones en directo (opcional/voluntaria).
+- 🎥 (Opcional) Acompaña la entrega con un vídeo corto (3–5 min) presentando tu proyecto.
 
 ---
 
-## 7. Las dos sesiones en directo (online / streaming)
+## 7. Vídeos explicativos de los flujos de trabajo
 
-| Sesión | Momento | Contenido |
+**Cada flujo de trabajo de la web tiene su vídeo explicativo**: el docente realiza el flujo completo de principio a fin, en pantalla, usando **los mismos recursos y prompts que están publicados en la web**. Así el alumno primero lo ve hecho y después lo repite a su ritmo con la guía escrita.
+
+| Vídeo | Flujo (página de la web) | Qué se muestra |
 |---|---|---|
-| **Directo 1** | Tras el Módulo 3 | Resolución de dudas de los fundamentos + ética + prompting + búsqueda. Demo en vivo de un flujo. |
-| **Directo 2** | Tras el Módulo 7 / Proyecto | Co-creación de flujos de trabajo útiles propuestos por el alumnado + dudas del proyecto final. |
+| 🎬 1 | Programa de Educación para la Salud | De la necesidad detectada al programa completo con objetivos SMART, materiales y evaluación |
+| 🎬 2 | Presentaciones con IA (Canva + NotebookLM) | Guion fundamentado en NotebookLM → diapositivas en Canva → reutilizar material con OCR |
+| 🎬 3 | Dashboard de indicadores en Excel | Del dato anónimo al panel: fórmulas, tablas dinámicas, gráficos y conclusiones |
+| 🎬 4 | Investigación rigurosa | PICO → estrategia de búsqueda → verificación anti-alucinaciones → tabla de evidencia → Zotero |
+| 🎬 5 | Agentes a medida | Crear un GPT/Gem/cuaderno con instrucciones, límites de seguridad y pruebas |
 
-> Se graban y se suben a Moodle para quien no pueda asistir.
+> Los vídeos se publican en **Moodle** (y se enlazan desde la web). Las dudas se resuelven en el **foro de dudas** del curso, que el docente revisa de forma continua.
 
 ---
 
@@ -216,7 +226,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 |---|---|---|
 | Cuestionarios tipo test | 30 % | Moodle |
 | Entregables por módulo (corregidos) | 50 % | Moodle (subida de archivo) |
-| Proyecto final | 20 % | Moodle + directo opcional |
+| Proyecto final | 20 % | Moodle |
 
 **Criterio de aprobado sugerido:** completar todos los test (≥70 %) y entregar todos los entregables con valoración "apto".
 
@@ -224,8 +234,8 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 
 ## 9. Estructura web ↔ Moodle (cómo encaja la página)
 
-- **Moodle** = aula oficial: matrícula, test, subida de entregables, calificaciones, foros, directos.
-- **Web pública (Netlify + GitHub)** = manual de prácticas vivo: cada flujo de trabajo explicado **paso a paso con capturas, prompts copiables y ejemplos**. El alumno la consulta mientras practica y luego sube su entregable a Moodle.
+- **Moodle** = aula oficial: matrícula, test, subida de entregables, calificaciones, foros y **vídeos explicativos de los flujos**.
+- **Web pública (Netlify + GitHub)** = manual de prácticas vivo: cada flujo de trabajo explicado **paso a paso con prompts copiables y ejemplos**, acompañado de su **vídeo explicativo**. El alumno ve el vídeo, practica con la guía y sube su entregable a Moodle.
 
 > Ventaja: la web es **gratuita, pública y fácil de actualizar**; Moodle guarda lo evaluable y privado.
 
@@ -241,9 +251,10 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 3. ✅ **Los 8 módulos completos**: lección + test GIFT + entregable con rúbrica (`docs/modulos/` y `docs/moodle/`).
 4. ✅ **5 flujos de trabajo** publicados en la web: EpS, presentaciones (Canva+NotebookLM), dashboard, investigación y agentes.
 5. ✅ **Lecciones en HTML** listas para pegar en Moodle (`docs/moodle_html/`).
-6. ⏭️ **Montaje en Moodle** cuando se habilite el acceso (guía: `docs/03_Guia_Montaje_Moodle.md`).
-7. ⏭️ **Actualizar la legislación del Módulo 1** justo antes de impartir el curso.
+6. ✅ **Legislación del Módulo 1 actualizada a julio de 2026** (Digital Omnibus del AI Act, ley española de IA en el Congreso, EHDS).
+7. ⏭️ **Grabar los vídeos explicativos de los 5 flujos de trabajo** (uno por flujo, siguiendo los recursos y prompts de la web).
+8. ⏭️ **Montaje en Moodle** cuando se habilite el acceso (guía: `docs/03_Guia_Montaje_Moodle.md`).
 
 ---
 
-*Documento vivo — versión 1.1 (junio 2026). Se irá actualizando a medida que avance el curso.*
+*Documento vivo — versión 1.2 (julio 2026). Se irá actualizando a medida que avance el curso.*

@@ -3,7 +3,7 @@
 
 > ⏱️ Tiempo estimado: 55–70 min · 🎯 Objetivo: usar la IA sin meterte en un problema legal ni deontológico. **Este es el módulo más importante del curso.**
 
-> ⚠️ **AVISO DE ACTUALIZACIÓN (leer):** la legislación de IA está en pleno desarrollo. El **Reglamento Europeo de IA (AI Act)** se aplica **por fases entre 2025 y 2027**, y en EE. UU. el marco cambia con cada administración. Los datos de esta lección están actualizados a **junio de 2026**. *Antes de impartir el curso, verifica si ha habido cambios* (especialmente en las fechas de aplicación del AI Act y en la normativa española de desarrollo).
+> ⚠️ **AVISO DE ACTUALIZACIÓN (leer):** la legislación de IA está en pleno desarrollo. El **Reglamento Europeo de IA (AI Act)** se aplica **por fases entre 2025 y 2028** (calendario revisado en 2026 por el llamado **«Digital Omnibus»**), y en EE. UU. el marco cambia con cada administración. Los datos de esta lección están actualizados a **julio de 2026**. *Antes de impartir el curso, verifica si ha habido cambios* (especialmente en la tramitación de la ley española de IA).
 
 ---
 
@@ -35,7 +35,7 @@ Cuando usas IA en sanidad en España, te afectan **varias normas a la vez**. Est
 | **LOPDGDD** — Ley Orgánica 3/2018 | Adapta y completa el RGPD en España | Detalla deberes, derechos digitales y régimen sancionador en España |
 | **AI Act** — Reglamento (UE) 2024/1689 | Primer reglamento integral de IA del mundo | Clasifica los usos sanitarios de IA como sensibles/alto riesgo |
 | **Ley 41/2002** de autonomía del paciente | Historia clínica, confidencialidad y consentimiento informado | Refuerza el deber de secreto y el control sobre la información clínica |
-| **EHDS** — Espacio Europeo de Datos Sanitarios (Reglamento UE 2025) | Uso primario y secundario de datos de salud en la UE | Marco europeo para compartir y reutilizar datos sanitarios con garantías |
+| **EHDS** — Espacio Europeo de Datos Sanitarios (Reglamento (UE) 2025/327) | Uso primario y secundario de datos de salud en la UE | Marco europeo para compartir y reutilizar datos sanitarios con garantías (aplicable por fases desde 2027) |
 | **MDR** — Reglamento (UE) 2017/745 de productos sanitarios | Software y dispositivos médicos (incluida IA como "producto sanitario") | Una IA que diagnostica o decide puede ser un "producto sanitario" regulado |
 | **Códigos deontológicos** (enfermería, medicina...) | Deberes profesionales | El secreto profesional sigue vigente uses o no uses IA |
 
@@ -67,20 +67,21 @@ El **Reglamento Europeo de Inteligencia Artificial (AI Act, Reglamento UE 2024/1
 - **Riesgo limitado:** obligación de **transparencia** (avisar de que algo está hecho con IA, p. ej. un chatbot).
 - **Riesgo mínimo:** la mayoría de usos cotidianos (sin obligaciones especiales).
 
-### 📅 Calendario de aplicación por fases
-| Fecha | Qué empieza a aplicarse |
-|---|---|
-| **Ago 2024** | Entrada en vigor del reglamento |
-| **Feb 2025** | Prohibiciones de IA de "riesgo inaceptable" + obligación de **alfabetización en IA** del personal |
-| **Ago 2025** | Reglas para modelos de IA de **propósito general** (como los que hay tras ChatGPT/Gemini), gobernanza y sanciones |
-| **Ago 2026** | Se aplican la mayoría de obligaciones, incluidos muchos sistemas de **alto riesgo** |
-| **Ago 2027** | Alto riesgo ligado a **productos sanitarios** y otros productos regulados (transición más larga) |
+### 📅 Calendario de aplicación por fases (revisado en 2026 por el «Digital Omnibus»)
+| Fecha | Qué empieza a aplicarse | Estado (jul-2026) |
+|---|---|---|
+| **Ago 2024** | Entrada en vigor del reglamento | ✅ En vigor |
+| **Feb 2025** | Prohibiciones de IA de "riesgo inaceptable" + obligación de **alfabetización en IA** del personal | ✅ Aplicable |
+| **Ago 2025** | Reglas para modelos de IA de **propósito general** (como los que hay tras ChatGPT/Gemini), gobernanza y sanciones | ✅ Aplicable |
+| **Ago 2026** | Obligaciones de **transparencia** (art. 50): avisar cuando interactúas con una IA y marcar el contenido generado por IA | 🟡 Entra en aplicación el 2-ago-2026 |
+| **Dic 2027** | Sistemas de **alto riesgo** "independientes" (anexo III) | ⏳ Aplazado por el «Digital Omnibus» (antes: ago-2026) |
+| **Ago 2028** | Alto riesgo integrado en **productos regulados** (incluidos los **productos sanitarios** del MDR) | ⏳ Aplazado por el «Digital Omnibus» (antes: ago-2027) |
 
-> ⚠️ **Estas fechas pueden ajustarse.** Verifica el calendario vigente antes de impartir el curso.
+> 🆕 **¿Qué es el «Digital Omnibus»?** Un paquete europeo de simplificación aprobado en **junio de 2026** que **retrasa las obligaciones de alto riesgo** (porque los estándares técnicos no estaban listos) y añade una **nueva prohibición**: sistemas de IA que generen **imágenes íntimas no consentidas** (deepfakes sexuales) o material de abuso infantil — prohibición impulsada por España.
 
 ### Y en España, ¿quién vigila esto?
 - **AESIA** — la **Agencia Española de Supervisión de la Inteligencia Artificial** (con sede en A Coruña) es la autoridad encargada de supervisar el cumplimiento del AI Act en España. Fue de las primeras de su tipo en la UE.
-- España trabaja además en una **ley nacional de gobernanza y buen uso de la IA** que adapta el reglamento europeo (en tramitación). *Comprueba su estado actualizado.*
+- El **26 de mayo de 2026** el Consejo de Ministros aprobó el **Proyecto de Ley Orgánica para el buen uso y la gobernanza de la IA**, que ya se tramita en el **Congreso**. Reparte la vigilancia: **AESIA** (general), **AEPD** (datos), Banco de España (finanzas) y CGPJ (justicia). *Aún no es ley: comprueba su estado antes de impartir el curso.*
 
 > 📌 **Lo que te llevas:** en sanidad, la IA que **apoya decisiones clínicas** se considera sensible y exige **supervisión humana** siempre. Como principio general: **sé transparente** cuando un material esté generado con IA, y recuerda que ya existe la obligación de que el personal tenga **formación básica en IA** (¡como este curso!).
 
@@ -92,7 +93,7 @@ Además de lo anterior, en salud hay normas propias que conviene conocer:
 
 - **Historia clínica y confidencialidad (Ley 41/2002):** la información clínica está especialmente protegida; el acceso debe estar justificado y el secreto es obligatorio.
 - **Producto sanitario con IA (MDR, Reglamento UE 2017/745):** si una herramienta de IA tiene una finalidad médica (diagnosticar, decidir tratamiento), puede ser un **producto sanitario** que necesita marcado CE y evaluación. Las herramientas generalistas tipo ChatGPT **no** lo son y **no deben usarse como tales**.
-- **Espacio Europeo de Datos Sanitarios (EHDS):** marco europeo (aprobado en 2025) que regula cómo se comparten y reutilizan los datos de salud, con garantías para el ciudadano.
+- **Espacio Europeo de Datos Sanitarios (EHDS, Reglamento (UE) 2025/327):** marco europeo en vigor desde marzo de 2025 que regula cómo se comparten y reutilizan los datos de salud, con garantías para el ciudadano. Se aplicará **de forma progresiva a partir de marzo de 2027** (historia clínica interoperable, receta electrónica europea… con hitos hasta 2031).
 
 ---
 
@@ -163,7 +164,7 @@ Esta es la habilidad estrella del módulo. Antes de pegar cualquier caso en una 
 - En España te afectan **a la vez**: RGPD + LOPDGDD (datos), AI Act (uso de IA) y normas sanitarias (Ley 41/2002, MDR, EHDS).
 - En IA pública: **CERO datos identificables de pacientes**. Asume que lo que escribes puede guardarse.
 - **Anonimiza siempre** antes de usar.
-- El **AI Act** se aplica por fases (2025–2027), exige **supervisión humana** y transparencia, y en España lo vigila la **AESIA**.
+- El **AI Act** se aplica por fases (2025–2028, calendario revisado por el «Digital Omnibus»), exige **supervisión humana** y transparencia, y en España lo vigila la **AESIA** (con una ley española de IA en tramitación en el Congreso).
 - **UE/España = más garantías; EE. UU. = más innovación y fragmentación.** Tu marco es el europeo.
 - Ojo con los **sesgos**. Y recuerda: **la responsabilidad profesional es siempre tuya.**
 
@@ -176,4 +177,4 @@ Esta es la habilidad estrella del módulo. Antes de pegar cualquier caso en una 
 Consulta el enunciado en **"Entregable_Modulo_1.md"**: anonimizar un caso clínico de ejemplo.
 
 ---
-*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 1 · v1.1 (legislación ampliada, jun-2026)*
+*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 1 · v1.2 (legislación actualizada, jul-2026)*

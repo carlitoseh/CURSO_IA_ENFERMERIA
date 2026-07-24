@@ -10,7 +10,7 @@
 4. **Escribe un texto breve** respondiendo a:
    - ¿Conseguiste verificar la referencia que te dio la IA? ¿Existía o no?
    - ¿Qué te ha sorprendido (para bien o para mal) de este primer contacto?
-   - Escribe **3 dudas** que te hayan surgido (las resolveremos en la primera sesión en directo).
+   - Escribe **3 dudas** que te hayan surgido (las resolveremos en el foro de dudas del curso).
 
 ## Qué entregar
 - 1 captura de pantalla.
