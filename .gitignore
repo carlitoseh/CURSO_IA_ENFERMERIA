@@ -10,6 +10,9 @@ desktop.ini
 # Configuración interna de Claude Code (no es parte del curso)
 .claude/
 
+# Material privado del docente (solo local, no se sube a GitHub)
+apuntes del profesor/
+
 # Temporales
 *.tmp
 *~
