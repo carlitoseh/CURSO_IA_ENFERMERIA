@@ -4,7 +4,7 @@
 
 ## Qué tienes que hacer
 
-1. **Crea tus cuentas** de ChatGPT y Gemini (como se explica en la lección 0.4).
+1. **Crea tus cuentas** de ChatGPT, Claude y Gemini (como se explica en la lección 0.4).
 2. **Haz una captura de pantalla** de tu primera conversación (la del saludo).
 3. **Haz la prueba de la alucinación** (pedir una referencia bibliográfica) e intenta verificar en Google si el estudio existe.
 4. **Escribe un texto breve** respondiendo a:

@@ -61,9 +61,11 @@ No necesitas instalar nada. En **ChatGPT, Claude o Gemini**:
 ### Opción B — Copilot en Excel *(si tu institución tiene Microsoft 365)*
 **Copilot** está integrado en Excel: le pides en lenguaje natural *"crea una columna que clasifique la tensión en normal/alta"* o *"resume estos datos y sugiéreme un gráfico"* y lo hace sobre tu hoja. Muy potente; recuerda igualmente la **regla de datos anónimos**.
 
-### Opción C — Gemini en Google Sheets / ChatGPT con análisis de archivos
+### Opción C — Gemini en Google Sheets / ChatGPT o Claude con análisis de archivos
 - **Gemini** está integrado en Google Workspace (Sheets) y ayuda con fórmulas y análisis.
 - **ChatGPT o Claude** permiten **subir un archivo CSV** (¡anónimo!) y analizarlo, generar gráficos y resúmenes.
+
+> 💡 **Truco con Claude:** súbele el CSV **anónimo** y pídele que **calcule los indicadores mostrando el procedimiento** y que te devuelva además las **fórmulas de Excel equivalentes** para que reproduzcas el cálculo en tu hoja. Así tienes dos vías de comprobación: lo que dice la IA y lo que te sale a ti en Excel. Prompt: *"Te adjunto una tabla ficticia y anónima. Calcula [indicadores], muéstrame cómo has llegado a cada cifra y dame la fórmula de Excel en español equivalente para cada uno."*
 
 ### Opción D — Complementos (add-ins) de IA en Excel *(opcional / a veces de pago)*
 Existen complementos que añaden funciones de IA dentro de Excel (p. ej. fórmulas tipo `=IA(...)`). Suelen requerir una clave de API y/o pago. **Opcional**; márcalo como avanzado.
@@ -149,4 +151,4 @@ Reescríbelo como **una fila anónima** válida para tu tabla y explica qué qui
 Consulta el enunciado en **"Entregable_Modulo_5.md"**: dashboard de indicadores con datos ficticios + anonimización.
 
 ---
-*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 5 · v1.0*
+*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 5 · v2.0 (incluye Claude, ago-2026)*

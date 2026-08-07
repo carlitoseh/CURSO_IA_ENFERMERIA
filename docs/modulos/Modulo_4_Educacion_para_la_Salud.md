@@ -48,7 +48,7 @@ Define qué quieres conseguir, de forma medible. En EpS se trabajan tres tipos:
 ### Fase 4 · Contenidos, metodología y actividades
 Qué se enseña y **cómo** — y aquí cambia mucho según el nivel (ver 4.2).
 - 🤖 **La IA ayuda a:** proponer contenidos, dinámicas y un cronograma de sesiones.
-- ✅ **Verifica tú:** que el contenido clínico sea correcto y esté basado en evidencia (Módulos 3 y 6).
+- ✅ **Verifica tú:** que el contenido clínico sea correcto y esté basado en evidencia (Módulo 3).
 
 ### Fase 5 · Recursos y materiales
 Folletos, infografías, **presentaciones** (ver apartado 4.3), vídeos, material para el participante.
@@ -112,7 +112,7 @@ Aquí entran las herramientas de diseño. **Canva** tiene funciones de IA muy ú
 > ⚠️ **Verifica siempre** el contenido clínico que genere Canva y revisa derechos de uso de las imágenes. Las funciones y los límites del plan gratuito **cambian**: comprueba lo disponible en tu cuenta.
 
 ### 🔄 Flujo recomendado: de la evidencia a la presentación
-1. **Reúne fuentes verificadas** (Módulos 3 y 6) y súbelas a **NotebookLM**.
+1. **Reúne fuentes verificadas** (Módulo 3) y súbelas a **NotebookLM**.
 2. **Pide a NotebookLM el guion de la presentación**, fundamentado solo en tus documentos (cita la fuente de cada idea):
    > *"Basándote ÚNICAMENTE en los documentos subidos, crea el guion de una presentación de [nº] diapositivas sobre [tema] para [población]. Para cada diapositiva: título, 3-4 ideas clave y la fuente. Lenguaje claro para [nivel]."*
 3. **Lleva ese guion a Canva** y usa **"crear presentación a partir de texto" / Magic Design** para generar el diseño automáticamente.
@@ -126,6 +126,8 @@ Si tienes contenido **en imagen o PDF** (una infografía antigua, un cartel esca
 3. Edita ese texto en Canva (corrige, actualiza, mejora el diseño) en lugar de reescribirlo desde cero.
 
 > ⚠️ El OCR puede cometer errores de transcripción: **revisa el texto extraído**, sobre todo cifras, dosis y nombres. Verifica también que tienes permiso para reutilizar ese material.
+
+> 💡 **Alternativa a NotebookLM para el guion:** puedes adjuntar tus PDF verificados a **Claude** y pedirle el guion diapositiva a diapositiva ("usa solo los documentos adjuntos y cita de cuál sale cada idea"). Va especialmente bien cuando manejas **guías largas** o varios documentos a la vez. Si vas a preparar muchos materiales del mismo programa, crea un **Proyecto** en Claude con esos documentos y trabaja siempre dentro de él.
 
 > 💡 En la web del curso tienes el **flujo paso a paso "Presentaciones con IA (Canva + NotebookLM)"** con todos los prompts copiables.
 
@@ -148,4 +150,4 @@ Si tienes contenido **en imagen o PDF** (una infografía antigua, un cartel esca
 Consulta el enunciado en **"Entregable_Modulo_4.md"**: programa de EpS completo + una presentación creada con IA.
 
 ---
-*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 4 · v1.0*
+*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 4 · v2.0 (incluye Claude, ago-2026)*

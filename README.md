@@ -1,7 +1,7 @@
 # IA para Enfermería y Sanidad — Curso práctico
 
 Curso práctico, ético y realista de Inteligencia Artificial para profesionales sanitarios.
-Material docente completo (8 módulos) + web pública de flujos de trabajo.
+Material docente completo (7 módulos) + web pública de flujos de trabajo.
 Curso 100 % online y a tu ritmo: cada flujo de trabajo tiene un **vídeo explicativo** en el que se
 realiza el flujo completo usando los recursos y prompts publicados en la web.
 
@@ -16,7 +16,7 @@ DOCENCIA IA/
 │   ├── 01_Programa_del_Curso.md      Programa, cronograma, itinerario y objetivos
 │   ├── 02_Guia_Publicacion.md        Cómo publicar la web (GitHub + Netlify)
 │   ├── 03_Guia_Montaje_Moodle.md     Cómo montar el curso en Moodle, paso a paso
-│   ├── modulos/                      Lecciones (Modulo_0 a Modulo_7) y entregables con rúbrica
+│   ├── modulos/                      Lecciones (Modulo_0 a Modulo_6) y entregables con rúbrica
 │   ├── moodle/                       Tests en formato GIFT (importables en Moodle)
 │   └── moodle_html/                  Lecciones en HTML listas para pegar en Moodle (+ LEEME)
 ├── web/                           Página web pública (lo que publica Netlify)
@@ -25,11 +25,11 @@ DOCENCIA IA/
 │   ├── css/estilo.css                Estilos
 │   ├── js/copiar.js                  Botón "copiar" en los prompts
 │   └── flujos/                       Flujos de trabajo paso a paso
+│       ├── investigacion.html           Investigación rigurosa (PICO, verificación, Zotero)
 │       ├── educacion-salud.html         Programa de Educación para la Salud
 │       ├── presentacion-canva.html      Presentaciones con IA (Canva + NotebookLM + OCR)
 │       ├── dashboard-excel.html         Dashboard de indicadores (datos anónimos)
-│       ├── investigacion.html           Investigación rigurosa (PICO, verificación, Zotero)
-│       └── agentes.html                 Crear agentes, GPTs y Gems
+│       └── agentes.html                 Crear agentes: GPTs, Gems, Proyectos de Claude
 ├── netlify.toml                   Configuración de publicación (carpeta web)
 ├── .gitignore
 └── README.md                      Este archivo
@@ -38,20 +38,20 @@ DOCENCIA IA/
 > 🔒 **División pública/privada:** Netlify publica **solo** la carpeta `web/`. Las lecciones, los tests
 > (con sus respuestas) y las rúbricas viven en `docs/` y van a **Moodle** (privado).
 
-## Contenido del curso (8 módulos)
+## Contenido del curso (7 módulos)
 
 | Módulo | Tema |
 |---|---|
-| 0 | Bienvenida y fundamentos de la IA |
+| 0 | Bienvenida y fundamentos de la IA (ChatGPT, Claude, Gemini…) |
 | 1 | Ética, legislación (RGPD, AI Act con el «Digital Omnibus», ley española de IA) y seguridad del dato |
 | 2 | El arte del prompt (RTF, CRAFT, RECETA) |
-| 3 | Buscar y verificar evidencia (Perplexity, Consensus, NotebookLM) |
+| 3 | Investigación y evidencia científica (PICO, MeSH, verificación, síntesis, Zotero, MCP) |
 | 4 | Programa de Educación para la Salud (3 niveles + Canva) |
 | 5 | Datos, indicadores y dashboards (datos anónimos) |
-| 6 | Investigación rigurosa (PICO, Zotero, MCP) |
-| 7 | Agentes a medida (GPTs, Gems, NotebookLM) |
+| 6 | Agentes a medida (GPTs, Gems, Proyectos de Claude, NotebookLM) |
 
 Cada módulo incluye: **lección** + **test tipo test (GIFT)** + **entregable con rúbrica de corrección**.
+Cada flujo de trabajo (módulos 3 a 6) tiene además un **vídeo explicativo** del docente.
 
 ## Ver la web en tu ordenador (sin publicar)
 
@@ -82,5 +82,7 @@ Sigue [docs/03_Guia_Montaje_Moodle.md](docs/03_Guia_Montaje_Moodle.md): seccione
 (`docs/moodle_html/`), importación de tests GIFT (`docs/moodle/`) y tareas con rúbrica.
 
 ---
-Material con fines educativos. Versión 1.2 (julio 2026): curso sin sesiones en directo (vídeo explicativo
-por flujo de trabajo) y legislación del Módulo 1 actualizada a julio de 2026.
+Material con fines educativos. Versión 2.0 (agosto 2026): toda la investigación unificada en el Módulo 3,
+formación en **Claude** integrada en todo el curso (documentos, análisis, Proyectos y MCP) y legislación
+actualizada a agosto de 2026 (Reglamento (UE) 2026/1744, transparencia ya aplicable, ley española en
+tramitación y orientaciones de la AEPD sobre IA agéntica).

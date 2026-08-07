@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flujo: Crear agentes y Gems para sanidad · IA para Sanidad</title>
-  <meta name="description" content="Crea tu propio asistente de IA (GPT, Gemini Gem o NotebookLM) para tu servicio, con instrucciones y límites de seguridad.">
+  <meta name="description" content="Crea tu propio asistente de IA (GPT, Gemini Gem, Proyecto de Claude o NotebookLM) para tu servicio, con instrucciones y límites de seguridad.">
   <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
@@ -51,7 +51,7 @@
         <div class="paso-num">1</div>
         <div class="paso-cuerpo">
           <h3>Elige la tarea y la herramienta</h3>
-          <p>¿Qué tarea repites mucho? Según el caso: <strong>GPT</strong> (ChatGPT, crear suele ser de pago), <strong>Gem</strong> (Gemini, gratis) o <strong>NotebookLM</strong> (gratis, experto en tus documentos).</p>
+          <p>¿Qué tarea repites mucho? Según el caso: <strong>GPT</strong> (ChatGPT, crear suele ser de pago), <strong>Gem</strong> (Gemini, gratis), <strong>Proyecto de Claude</strong> (gratis, ideal si el asistente debe trabajar siempre con tus documentos) o <strong>NotebookLM</strong> (gratis, experto en tus documentos y fácil de compartir).</p>
           <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
             <strong>Ejemplos:</strong> traductor a lenguaje paciente · asistente de protocolos (NotebookLM) · ayudante de programas de EpS · generador de indicadores.
           </div>
@@ -88,6 +88,7 @@ LÍMITES (obligatorios):
           <ul style="color:var(--texto-suave); margin:6px 0 0 18px;">
             <li><strong>ChatGPT:</strong> Explorar GPT → Crear → pestaña "Configure" → pega nombre, descripción e instrucciones.</li>
             <li><strong>Gemini:</strong> gestor de Gems → Nueva Gem → nombre + instrucciones.</li>
+            <li><strong>Claude:</strong> Proyectos → Nuevo proyecto → escribe las instrucciones del proyecto y sube los documentos de apoyo.</li>
             <li><strong>NotebookLM:</strong> nuevo cuaderno → sube tus guías/protocolos (sin datos de pacientes) → pregunta.</li>
           </ul>
         </div>
@@ -108,8 +109,13 @@ LÍMITES (obligatorios):
         <div class="paso-cuerpo">
           <h3>Prueba, ajusta y comparte con cabeza</h3>
           <p>Pruébalo con 2-3 casos reales, comprueba que respeta los límites y afina las instrucciones. Si lo compartes en público, no incluyas nada confidencial.</p>
+          <div class="aviso">
+            <strong>Pon a prueba los límites (las 3 pruebas de seguridad):</strong> pídele un diagnóstico (debe negarse) ·
+            pégale un caso con nombre y apellidos (debe pedirte que retires los datos) · pregúntale algo que no está en sus
+            documentos (debe decir que no lo sabe). Si supera las tres, tus límites funcionan.
+          </div>
           <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
-            <strong>Tu entregable (Módulo 7):</strong> la tarea + las instrucciones completas (con límites) + 2-3 capturas de prueba + qué ajustaste al iterar.
+            <strong>Tu entregable (Módulo 6):</strong> la tarea + las instrucciones completas (con límites) + 2-3 capturas de prueba + qué ajustaste al iterar.
           </div>
         </div>
       </div>
@@ -120,7 +126,7 @@ LÍMITES (obligatorios):
   <footer class="pie">
     <div class="contenedor">
       <p>Curso de IA aplicada a la Enfermería y la Sanidad · Material docente</p>
-      <p class="pie-nota">Hecho con fines educativos. Versión 1.2</p>
+      <p class="pie-nota">Hecho con fines educativos. Versión 2.0</p>
     </div>
   </footer>
 

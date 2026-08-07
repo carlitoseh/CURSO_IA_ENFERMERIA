@@ -103,6 +103,8 @@ Truco de oro para principiantes: *"Antes de redactar, hazme las preguntas que ne
 Un prompt es una **conversación**, no un botón. Si la respuesta no te convence, refínala:
 > *"Está bien, pero hazlo más corto."* · *"Cámbialo a un tono más formal."* · *"Añade un ejemplo en cada punto."*
 
+> 💡 **Estas técnicas funcionan igual en ChatGPT, Claude, Gemini o Copilot.** No estás aprendiendo a usar una aplicación concreta: estás aprendiendo a **encargar bien un trabajo**, y eso vale para cualquier herramienta (y para las que salgan mañana).
+
 ---
 
 ## 2.6. Errores típicos (y cómo evitarlos)
@@ -131,6 +133,8 @@ Guarda estas plantillas; solo tienes que rellenar los [corchetes]:
 **📋 Plantilla — Lluvia de ideas:**
 > *"Actúa como enfermero/a docente. Dame [nº] ideas para [objetivo, p. ej. una actividad de educación para la salud sobre tabaquismo]. Para cada idea, una frase explicando en qué consiste."*
 
+> 💾 **Truco para no repetir el contexto cada vez:** si siempre trabajas con la misma información de fondo (tu servicio, tu población, tu estilo), en **Claude** puedes crear un **Proyecto** y escribir ahí las instrucciones una sola vez; todas las conversaciones dentro de ese proyecto ya las tendrán en cuenta. En el **Módulo 6** convertirás tus mejores prompts en asistentes reutilizables.
+
 ---
 
 ## 2.8. Resumen del módulo
@@ -150,4 +154,4 @@ Guarda estas plantillas; solo tienes que rellenar los [corchetes]:
 Consulta el enunciado en **"Entregable_Modulo_2.md"**.
 
 ---
-*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 2 · v1.0*
+*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 2 · v2.0 (incluye Claude, ago-2026)*

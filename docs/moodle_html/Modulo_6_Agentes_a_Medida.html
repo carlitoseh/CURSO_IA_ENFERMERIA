@@ -1,0 +1,65 @@
+﻿<!-- Fragmento HTML para pegar en Moodle: crea una 'Pagina', pulsa el boton <> (codigo HTML) y pega esto. -->
+<h1>MÓDULO 6 — Agentes a medida (GPTs, Gems, Proyectos de Claude y NotebookLM)</h1>
+<h3>Lección para el alumnado (lista para pegar en Moodle)</h3>
+<blockquote>⏱️ Tiempo estimado: 60–75 min · 🎯 Objetivo: crear tu propio asistente de IA especializado para una tarea real de tu servicio, con instrucciones y límites bien definidos.</blockquote>
+<blockquote>⚠️ <strong>Regla del módulo:</strong> un agente hereda tus reglas. Configúralo para que <strong>verifique</strong>, <strong>no invente</strong> y <strong>nunca maneje datos identificables de pacientes</strong> (Módulos 1 y 3). Tú sigues siendo responsable de lo que produzca.</blockquote>
+<hr>
+<h2>6.0. ¿Qué es un "agente"/GPT/Gem y cuándo merece crearlo?</h2>
+<p>Hasta ahora escribías un buen prompt cada vez. Un <strong>agente personalizado</strong> es como <strong>guardar ese prompt convertido en un asistente reutilizable</strong>: le das un rol fijo, unas instrucciones y, si quieres, unos documentos, y ya está listo para usarlo (y compartirlo) las veces que quieras.</p>
+<p>Nombres según la herramienta:</p>
+<ul><li><strong>GPT personalizado</strong> → en ChatGPT <em>(crearlos suele requerir cuenta de pago)</em>.</li><li><strong>Gem</strong> → en Gemini (Google) <em>(gratis)</em>.</li><li><strong>Proyecto</strong> → en Claude <em>(gratis)</em>: una carpeta de trabajo con <strong>instrucciones propias</strong> y <strong>documentos de apoyo</strong>; todas las conversaciones dentro del proyecto heredan ese contexto.</li><li><strong>Cuaderno</strong> → en NotebookLM <em>(gratis)</em>: asistente que responde solo sobre tus documentos.</li></ul>
+<p><strong>¿Cuándo merece la pena crear uno?</strong> Cuando repites una tarea con frecuencia:</p>
+<ul><li>"Adaptar textos clínicos a lenguaje para pacientes."</li><li>"Ayudarme a redactar planes de cuidados con nuestra estructura."</li><li>"Responder dudas sobre nuestros protocolos" (NotebookLM).</li></ul>
+<p>Si es algo puntual, un prompt basta. Si lo harás muchas veces, <strong>crea un agente</strong>.</p>
+<hr>
+<h2>6.1. Anatomía de un buen agente</h2>
+<p>Da igual la herramienta; un buen agente define:</p>
+<ol><li><strong>Rol / identidad:</strong> quién es ("Eres un enfermero/a docente experto/a en…").</li><li><strong>Objetivo:</strong> para qué sirve exactamente.</li><li><strong>Instrucciones / cómo actuar:</strong> tono, formato, pasos a seguir.</li><li><strong>Límites (lo más importante en sanidad):</strong> qué <strong>no</strong> debe hacer.</li><li><strong>Conocimiento (opcional):</strong> documentos que puede usar (guías, protocolos… <strong>sin datos de pacientes</strong>).</li></ol>
+<p><strong>Plantilla de instrucciones (sirve para GPT o Gem):</strong></p>
+<blockquote><em>"Eres un/a enfermero/a experto/a en [tema]. Tu objetivo es [tarea]. Actúa así: [pasos/estilo]. Usa un tono [tono]. IMPORTANTE: no inventes datos ni referencias; si no estás seguro, dilo. Nunca pidas ni utilices datos identificables de pacientes. Recuerda siempre al usuario que debe verificar el contenido clínico."</em></blockquote>
+<hr>
+<h2>6.2. Crear un GPT personalizado (ChatGPT) — paso a paso</h2>
+<blockquote>ℹ️ <strong>Nota:</strong> crear GPTs suele requerir una cuenta <strong>de pago (ChatGPT Plus)</strong>. Márcalo como opcional; si no la tienes, usa <strong>Gems</strong> (gratis) o <strong>NotebookLM</strong> (gratis).</blockquote>
+<ol><li>En ChatGPT, ve a <strong>"Explorar GPT" → "Crear"</strong> (o <em>My GPTs → Create</em>).</li><li>En la pestaña <strong>"Configure"</strong>, rellena:<ul><li><strong>Name:</strong> p. ej. <em>"Traductor a lenguaje paciente"</em>.</li><li><strong>Description:</strong> para qué sirve.</li><li><strong>Instructions:</strong> pega tu plantilla (rol, objetivo, cómo actuar, límites).</li><li><strong>Conversation starters:</strong> 3-4 ejemplos de preguntas.</li></ul></li><li><strong>(Opcional) Knowledge:</strong> sube documentos de apoyo (guías anónimas).</li><li>Prueba el GPT en el panel de la derecha e itera las instrucciones.</li><li>Guarda y elige quién puede usarlo (solo tú / con enlace / público).</li></ol>
+<hr>
+<h2>6.3. Crear una Gem en Gemini — paso a paso <em>(gratis)</em></h2>
+<ol><li>En Gemini, abre el <strong>gestor de Gems</strong> ("Gems" / "Explorar Gems" → <strong>"Nueva Gem"</strong>).</li><li>Ponle <strong>nombre</strong> e <strong>instrucciones</strong> (misma plantilla: rol, objetivo, cómo actuar, límites).</li><li><strong>(Opcional)</strong> adjunta archivos de apoyo.</li><li><strong>Vista previa</strong>: prueba y ajusta las instrucciones.</li><li><strong>Guarda.</strong> Ya la tienes disponible en tu lista de Gems para usarla cuando quieras.</li></ol>
+<hr>
+<h2>6.4. Crear un Proyecto en Claude — paso a paso <em>(gratis)</em></h2>
+<p>Un <strong>Proyecto</strong> de Claude es, en la práctica, un agente + un archivador. Es la opción más cómoda cuando el asistente necesita <strong>trabajar siempre con los mismos documentos</strong> (protocolos, guías, plantillas del servicio) durante semanas.</p>
+<ol><li>En Claude, ve a <strong>"Proyectos" → "Nuevo proyecto"</strong> y ponle nombre (p. ej. <em>"Educación para la salud – mi centro"</em>).</li><li>Añade las <strong>instrucciones del proyecto</strong> (mismo esquema: rol, objetivo, cómo actuar y <strong>límites</strong>). Todas las conversaciones dentro del proyecto las heredan.</li><li><strong>Sube los documentos de apoyo</strong> al conocimiento del proyecto: guías, protocolos, plantillas… <strong>nunca datos de pacientes</strong>.</li><li>Abre una conversación dentro del proyecto y trabaja: recordará las instrucciones y podrá citar tus documentos.</li><li>Itera las instrucciones según veas los resultados.</li></ol>
+<blockquote>💡 <strong>¿Gem, GPT, Proyecto o cuaderno?</strong> Para una tarea de redacción repetitiva, cualquiera sirve (elige el gratuito que te resulte cómodo). Si el asistente debe apoyarse en <strong>muchos documentos propios</strong>, elige <strong>Proyecto de Claude</strong> o <strong>NotebookLM</strong>. Si lo que quieres es <strong>compartir con tu equipo</strong> un consultor de protocolos, <strong>NotebookLM</strong> es la vía más sencilla.</blockquote>
+<hr>
+<h2>6.5. Crear un cuaderno de NotebookLM — paso a paso <em>(gratis, ideal para protocolos)</em></h2>
+<p>NotebookLM no es exactamente un "agente con personalidad", sino un <strong>asistente experto en TUS documentos</strong>:</p>
+<ol><li>Crea un <strong>cuaderno nuevo</strong> y <strong>sube tus fuentes</strong> (guías, protocolos del servicio, <strong>sin datos de pacientes</strong>).</li><li>Pregunta en lenguaje natural: responderá <strong>solo con lo que hay en esas fuentes</strong>, citándolas.</li><li><strong>Compártelo</strong> con tu equipo para que todos consulten los mismos protocolos.</li></ol>
+<blockquote>💡 Perfecto para: <em>"un asistente que responde dudas sobre nuestro protocolo de heridas"</em> → menos alucinaciones y respuestas trazables.</blockquote>
+<hr>
+<h2>6.6. Buenas prácticas y límites (imprescindible en sanidad)</h2>
+<p>Al configurar cualquier agente, incluye instrucciones de seguridad como:</p>
+<ul><li><em>"No diagnostiques ni sustituyas el criterio profesional."</em></li><li><em>"No inventes datos ni referencias; si no lo sabes, dilo."</em></li><li><em>"No solicites ni proceses datos identificables de pacientes."</em></li><li><em>"Recuerda al usuario que debe verificar el contenido clínico antes de usarlo."</em></li><li><em>"Responde en lenguaje claro y adaptado a [tu público]."</em></li></ul>
+<p>Y recuerda:</p>
+<ul><li><strong>La responsabilidad es tuya</strong> (Módulo 1): el agente es una herramienta, tú validas.</li><li><strong>Revisa y actualiza</strong> las instrucciones y los documentos cada cierto tiempo.</li><li><strong>Cuidado al compartir:</strong> si el agente es público, no incluyas nada confidencial en sus instrucciones o su conocimiento.</li></ul>
+<h3>🧪 Pon a prueba tus límites (hazlo siempre antes de usar el agente)</h3>
+<p>Un agente serio es el que <strong>aguanta cuando intentas romperlo</strong>. Prueba estas tres cosas:</p>
+<ol><li><strong>Pídele un diagnóstico</strong> → debe negarse y remitirte al criterio profesional.</li><li><strong>Pégale un caso con nombre y apellidos</strong> → debe pedirte que retires los datos identificables.</li><li><strong>Pregúntale algo que no está en sus documentos</strong> → debe decir que no lo sabe, no inventárselo.</li></ol>
+<p>Si supera las tres, tus límites funcionan. Si no, ajusta las instrucciones y vuelve a probar.</p>
+<h3>⚖️ Un apunte legal (agosto de 2026)</h3>
+<p>La <strong>Agencia Española de Protección de Datos (AEPD)</strong> publicó en <strong>febrero de 2026</strong> unas <em>orientaciones sobre inteligencia artificial agéntica</em> desde la perspectiva de protección de datos. Se refieren a sistemas que <strong>actúan de forma autónoma</strong> (no solo responden), y entre sus medidas destacan la <strong>supervisión humana significativa</strong>, la trazabilidad del dato, la evaluación continua del comportamiento del agente y procedimientos estándar para redactar prompts.</p>
+<blockquote>📌 <strong>Qué significa para ti:</strong> los agentes que creas en este curso son sencillos (responden, no ejecutan acciones por su cuenta), pero la dirección normativa es clara: <strong>cuanta más autonomía tenga una IA, más obligatoria es la supervisión humana y el control del dato</strong>. Tu costumbre de poner límites explícitos y verificar el resultado es exactamente lo que pide la norma.</blockquote>
+<hr>
+<h2>6.7. Ejemplos de agentes útiles para enfermería</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Agente</th><th>Qué hace</th><th>Herramienta sugerida</th></tr></thead><tbody><tr><td><strong>Traductor a lenguaje paciente</strong></td><td>Reescribe textos clínicos en lenguaje sencillo</td><td>GPT / Gem / Proyecto de Claude</td></tr><tr><td><strong>Asistente de protocolos</strong></td><td>Responde dudas sobre los protocolos del servicio</td><td>NotebookLM / Proyecto de Claude</td></tr><tr><td><strong>Ayudante de EpS</strong></td><td>Estructura programas de educación para la salud</td><td>GPT / Gem / Proyecto de Claude</td></tr><tr><td><strong>Corrector de estilo científico</strong></td><td>Mejora la redacción de trabajos (sin inventar citas)</td><td>Proyecto de Claude / GPT</td></tr><tr><td><strong>Generador de indicadores</strong></td><td>Propone indicadores y fórmulas para un tema</td><td>GPT / Gem</td></tr></tbody></table>
+<hr>
+<h2>6.8. Resumen del módulo</h2>
+<ul><li>Un <strong>agente</strong> es un prompt convertido en <strong>asistente reutilizable</strong>: rol + objetivo + instrucciones + <strong>límites</strong> (+ documentos opcionales).</li><li>Opciones: <strong>GPT</strong> (ChatGPT, crear suele ser de pago), <strong>Gem</strong> (Gemini, gratis), <strong>Proyecto de Claude</strong> (gratis, ideal con documentos propios) y <strong>NotebookLM</strong> (gratis, experto en tus documentos).</li><li>En sanidad, los <strong>límites</strong> son lo más importante: no diagnosticar, no inventar, <strong>no datos de pacientes</strong>, recordar verificar. <strong>Pruébalos</strong> antes de usar el agente.</li><li>La AEPD exige <strong>supervisión humana significativa</strong> en sistemas que actúan con autonomía.</li><li><strong>Tú eres responsable</strong>; el agente ayuda, tú validas.</li></ul>
+<hr>
+<h2>🎓 Conexión con el PROYECTO FINAL</h2>
+<p>El agente que crees aquí puede ser la pieza central de tu <strong>proyecto final</strong>: elige una tarea real de tu servicio y resuélvela combinando lo aprendido (prompt + búsqueda/verificación + un agente a medida).</p>
+<hr>
+<h2>📝 Cuestionario del Módulo 6</h2>
+<p><em>(10 preguntas. Importa con "Test_Modulo_6_GIFT.txt".)</em></p>
+<h2>📤 Entregable 6</h2>
+<p>Consulta el enunciado en <strong>"Entregable_Modulo_6.md"</strong>: crear un agente funcional para tu servicio.</p>
+<hr>
+<p><em>Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 6 · v2.0 (Claude y AEPD, ago-2026)</em></p>

@@ -3,7 +3,7 @@
 
 > ⏱️ Tiempo estimado: 55–70 min · 🎯 Objetivo: usar la IA sin meterte en un problema legal ni deontológico. **Este es el módulo más importante del curso.**
 
-> ⚠️ **AVISO DE ACTUALIZACIÓN (leer):** la legislación de IA está en pleno desarrollo. El **Reglamento Europeo de IA (AI Act)** se aplica **por fases entre 2025 y 2028** (calendario revisado en 2026 por el llamado **«Digital Omnibus»**), y en EE. UU. el marco cambia con cada administración. Los datos de esta lección están actualizados a **julio de 2026**. *Antes de impartir el curso, verifica si ha habido cambios* (especialmente en la tramitación de la ley española de IA).
+> ⚠️ **AVISO DE ACTUALIZACIÓN (leer):** la legislación de IA está en pleno desarrollo. El **Reglamento Europeo de IA (AI Act)** se aplica **por fases entre 2025 y 2028** (calendario modificado por el **«Digital Omnibus»**, Reglamento (UE) 2026/1744, en vigor desde el 27 de julio de 2026), y en EE. UU. el marco cambia con cada administración. Los datos de esta lección están actualizados a **agosto de 2026**. *Antes de impartir el curso, verifica si ha habido cambios* (especialmente en la tramitación de la ley española de IA, aún en el Congreso).
 
 ---
 
@@ -33,7 +33,7 @@ Cuando usas IA en sanidad en España, te afectan **varias normas a la vez**. Est
 |---|---|---|
 | **RGPD** — Reglamento (UE) 2016/679 | Protección de datos personales en toda la UE | Los datos de salud son "categoría especial" (art. 9) |
 | **LOPDGDD** — Ley Orgánica 3/2018 | Adapta y completa el RGPD en España | Detalla deberes, derechos digitales y régimen sancionador en España |
-| **AI Act** — Reglamento (UE) 2024/1689 | Primer reglamento integral de IA del mundo | Clasifica los usos sanitarios de IA como sensibles/alto riesgo |
+| **AI Act** — Reglamento (UE) 2024/1689, modificado por el Reglamento (UE) 2026/1744 | Primer reglamento integral de IA del mundo | Clasifica los usos sanitarios de IA como sensibles/alto riesgo |
 | **Ley 41/2002** de autonomía del paciente | Historia clínica, confidencialidad y consentimiento informado | Refuerza el deber de secreto y el control sobre la información clínica |
 | **EHDS** — Espacio Europeo de Datos Sanitarios (Reglamento (UE) 2025/327) | Uso primario y secundario de datos de salud en la UE | Marco europeo para compartir y reutilizar datos sanitarios con garantías (aplicable por fases desde 2027) |
 | **MDR** — Reglamento (UE) 2017/745 de productos sanitarios | Software y dispositivos médicos (incluida IA como "producto sanitario") | Una IA que diagnostica o decide puede ser un "producto sanitario" regulado |
@@ -67,23 +67,27 @@ El **Reglamento Europeo de Inteligencia Artificial (AI Act, Reglamento UE 2024/1
 - **Riesgo limitado:** obligación de **transparencia** (avisar de que algo está hecho con IA, p. ej. un chatbot).
 - **Riesgo mínimo:** la mayoría de usos cotidianos (sin obligaciones especiales).
 
-### 📅 Calendario de aplicación por fases (revisado en 2026 por el «Digital Omnibus»)
-| Fecha | Qué empieza a aplicarse | Estado (jul-2026) |
+### 📅 Calendario de aplicación por fases (modificado por el «Digital Omnibus»)
+| Fecha | Qué empieza a aplicarse | Estado (ago-2026) |
 |---|---|---|
 | **Ago 2024** | Entrada en vigor del reglamento | ✅ En vigor |
 | **Feb 2025** | Prohibiciones de IA de "riesgo inaceptable" + obligación de **alfabetización en IA** del personal | ✅ Aplicable |
-| **Ago 2025** | Reglas para modelos de IA de **propósito general** (como los que hay tras ChatGPT/Gemini), gobernanza y sanciones | ✅ Aplicable |
-| **Ago 2026** | Obligaciones de **transparencia** (art. 50): avisar cuando interactúas con una IA y marcar el contenido generado por IA | 🟡 Entra en aplicación el 2-ago-2026 |
-| **Dic 2027** | Sistemas de **alto riesgo** "independientes" (anexo III) | ⏳ Aplazado por el «Digital Omnibus» (antes: ago-2026) |
-| **Ago 2028** | Alto riesgo integrado en **productos regulados** (incluidos los **productos sanitarios** del MDR) | ⏳ Aplazado por el «Digital Omnibus» (antes: ago-2027) |
+| **Ago 2025** | Reglas para modelos de IA de **propósito general** (como los que hay tras ChatGPT, Gemini o Claude), gobernanza y sanciones | ✅ Aplicable |
+| **2 Ago 2026** | Obligaciones de **transparencia** (art. 50): avisar cuando interactúas con una IA y marcar el contenido generado por IA | ✅ **Ya aplicable** |
+| **Dic 2027** | Sistemas de **alto riesgo** "independientes" (anexo III) | ⏳ Aplazado (antes: ago-2026) |
+| **Ago 2028** | Alto riesgo integrado en **productos regulados** (incluidos los **productos sanitarios** del MDR) | ⏳ Aplazado (antes: ago-2027) |
 
-> 🆕 **¿Qué es el «Digital Omnibus»?** Un paquete europeo de simplificación aprobado en **junio de 2026** que **retrasa las obligaciones de alto riesgo** (porque los estándares técnicos no estaban listos) y añade una **nueva prohibición**: sistemas de IA que generen **imágenes íntimas no consentidas** (deepfakes sexuales) o material de abuso infantil — prohibición impulsada por España.
+> 🆕 **¿Qué es el «Digital Omnibus»?** Es el **Reglamento (UE) 2026/1744**, de 8 de julio de 2026, publicado en el Diario Oficial el **24 de julio de 2026** y en vigor desde el **27 de julio de 2026**. Modifica el AI Act para simplificar su aplicación: **retrasa las obligaciones de alto riesgo** (los estándares técnicos no estaban listos) y añade una **nueva prohibición**: los sistemas de IA que generen **imágenes íntimas no consentidas** (deepfakes sexuales) o material de abuso sexual infantil — prohibición impulsada por España.
+
+> ✅ **Lo que ya te obliga hoy (desde el 2 de agosto de 2026):** la **transparencia**. Si un material, un texto o una imagen que difundes está generado con IA, debe poder saberse. En tu día a día: **di que lo has hecho con ayuda de IA** cuando publiques o difundas un material.
 
 ### Y en España, ¿quién vigila esto?
 - **AESIA** — la **Agencia Española de Supervisión de la Inteligencia Artificial** (con sede en A Coruña) es la autoridad encargada de supervisar el cumplimiento del AI Act en España. Fue de las primeras de su tipo en la UE.
-- El **26 de mayo de 2026** el Consejo de Ministros aprobó el **Proyecto de Ley Orgánica para el buen uso y la gobernanza de la IA**, que ya se tramita en el **Congreso**. Reparte la vigilancia: **AESIA** (general), **AEPD** (datos), Banco de España (finanzas) y CGPJ (justicia). *Aún no es ley: comprueba su estado antes de impartir el curso.*
+- La supervisión está **repartida**: **AESIA** (general), **AEPD** (datos personales y biometría), **CGPJ** (justicia) y **Banco de España / CNMV** (sector financiero).
+- **Estado de la ley española (agosto de 2026):** el **Proyecto de Ley Orgánica para el buen uso y la gobernanza de la Inteligencia Artificial** se aprobó en Consejo de Ministros el **26 de mayo de 2026**, se publicó en el Boletín Oficial de las Cortes el **12 de junio de 2026** y el plazo de enmiendas terminó el **30 de junio**. Sigue **en tramitación en el Congreso** (Comisión de Economía, Comercio y Transformación Digital): **todavía no es ley**. *Comprueba su estado actualizado antes de impartir el curso.*
+- 🆕 **La AEPD ya está publicando criterios sobre IA:** en **febrero de 2026** difundió unas *orientaciones sobre inteligencia artificial agéntica* (sistemas que actúan de forma autónoma, no solo responden), insistiendo en la **supervisión humana significativa**, la trazabilidad del dato y el control de las instrucciones. Lo verás aplicado en el **Módulo 6** al crear tus agentes.
 
-> 📌 **Lo que te llevas:** en sanidad, la IA que **apoya decisiones clínicas** se considera sensible y exige **supervisión humana** siempre. Como principio general: **sé transparente** cuando un material esté generado con IA, y recuerda que ya existe la obligación de que el personal tenga **formación básica en IA** (¡como este curso!).
+> 📌 **Lo que te llevas:** en sanidad, la IA que **apoya decisiones clínicas** se considera sensible y exige **supervisión humana** siempre. **Sé transparente** cuando un material esté generado con IA (ya es obligación legal desde agosto de 2026), y recuerda que también existe la obligación de que el personal tenga **formación básica en IA** (¡como este curso!).
 
 ---
 
@@ -164,7 +168,7 @@ Esta es la habilidad estrella del módulo. Antes de pegar cualquier caso en una 
 - En España te afectan **a la vez**: RGPD + LOPDGDD (datos), AI Act (uso de IA) y normas sanitarias (Ley 41/2002, MDR, EHDS).
 - En IA pública: **CERO datos identificables de pacientes**. Asume que lo que escribes puede guardarse.
 - **Anonimiza siempre** antes de usar.
-- El **AI Act** se aplica por fases (2025–2028, calendario revisado por el «Digital Omnibus»), exige **supervisión humana** y transparencia, y en España lo vigila la **AESIA** (con una ley española de IA en tramitación en el Congreso).
+- El **AI Act** se aplica por fases (2025–2028, calendario modificado por el «Digital Omnibus»), exige **supervisión humana** y **transparencia** (esta última **ya aplicable desde el 2 de agosto de 2026**), y en España lo vigilan la **AESIA** y la **AEPD** (con una ley española de IA aún en tramitación en el Congreso).
 - **UE/España = más garantías; EE. UU. = más innovación y fragmentación.** Tu marco es el europeo.
 - Ojo con los **sesgos**. Y recuerda: **la responsabilidad profesional es siempre tuya.**
 
@@ -177,4 +181,4 @@ Esta es la habilidad estrella del módulo. Antes de pegar cualquier caso en una 
 Consulta el enunciado en **"Entregable_Modulo_1.md"**: anonimizar un caso clínico de ejemplo.
 
 ---
-*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 1 · v1.2 (legislación actualizada, jul-2026)*
+*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 1 · v2.0 (legislación actualizada, ago-2026)*

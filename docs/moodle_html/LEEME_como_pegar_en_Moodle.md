@@ -1,6 +1,6 @@
 # Lecciones en HTML para Moodle — cómo pegarlas
 
-En esta carpeta tienes las **8 lecciones** convertidas a HTML, listas para pegar en Moodle **conservando el formato** (títulos, tablas, listas, avisos y bloques de prompt).
+En esta carpeta tienes las **7 lecciones** convertidas a HTML, listas para pegar en Moodle **conservando el formato** (títulos, tablas, listas, avisos y bloques de prompt).
 
 ## Pasos (para cada módulo)
 
@@ -20,11 +20,10 @@ En esta carpeta tienes las **8 lecciones** convertidas a HTML, listas para pegar
 | `Modulo_0_Bienvenida_y_Fundamentos.html` | 0 · Bienvenida y fundamentos |
 | `Modulo_1_Etica_RGPD_Seguridad.html` | 1 · Ética, legislación y seguridad |
 | `Modulo_2_El_Arte_del_Prompt.html` | 2 · El arte del prompt |
-| `Modulo_3_Buscar_y_Verificar.html` | 3 · Buscar y verificar evidencia |
+| `Modulo_3_Investigacion_y_Evidencia.html` | 3 · Investigación y evidencia científica |
 | `Modulo_4_Educacion_para_la_Salud.html` | 4 · Educación para la Salud |
 | `Modulo_5_Datos_Indicadores_Dashboards.html` | 5 · Datos, indicadores y dashboards |
-| `Modulo_6_Investigacion_Rigurosa.html` | 6 · Investigación rigurosa |
-| `Modulo_7_Agentes_a_Medida.html` | 7 · Agentes a medida |
+| `Modulo_6_Agentes_a_Medida.html` | 6 · Agentes a medida |
 
 ## Notas
 - La primera línea de cada archivo es un comentario `<!-- ... -->` con un recordatorio; puedes dejarlo o borrarlo, no se ve en la página.

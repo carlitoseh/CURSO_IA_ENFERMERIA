@@ -1,0 +1,102 @@
+<!-- Fragmento HTML para pegar en Moodle: crea una 'Pagina', pulsa el boton <> (codigo HTML) y pega esto. -->
+<h1>MÓDULO 3 — Investigación y evidencia científica con IA</h1>
+<h3>Lección para el alumnado (lista para pegar en Moodle)</h3>
+<blockquote>⏱️ Tiempo estimado: 90–110 min (+ apéndice avanzado opcional) · 🎯 Objetivo: usar la IA para <strong>buscar, verificar y sintetizar evidencia científica</strong> sin que se invente ni una sola fuente.</blockquote>
+<blockquote>⚠️ <strong>Doble regla del módulo:</strong> (1) la IA <strong>nunca</strong> sustituye tu lectura crítica; (2) <strong>toda cita o dato se verifica en la fuente original</strong>. La IA acelera; <strong>tú garantizas el rigor</strong>.</blockquote>
+<hr>
+<h2>3.0. El problema: la IA que "sabe" pero no enseña sus fuentes</h2>
+<p>En el Módulo 0 vimos las <strong>alucinaciones</strong>: la IA puede inventarse datos, cifras y referencias con total seguridad. Para buscar información clínica, un chat generalista <strong>no basta</strong>, porque normalmente:</p>
+<ul><li>No te dice de dónde sale lo que afirma.</li><li>Puede mezclar información actual con desactualizada.</li><li>Puede inventarse un estudio que no existe (con autores, revista y año perfectos).</li></ul>
+<p>La solución tiene dos patas: <strong>usar herramientas que buscan en fuentes reales y las citan</strong>, y <strong>verificar siempre</strong> esas fuentes.</p>
+<h3>¿Qué significa hacerlo "con rigor"?</h3>
+<p>Rigor = <strong>reproducibilidad + verificación + transparencia</strong>.</p>
+<ul><li><strong>Reproducible:</strong> otra persona, con tu estrategia de búsqueda, llega a los mismos resultados.</li><li><strong>Verificada:</strong> cada afirmación se apoya en una fuente real que <strong>has comprobado</strong> (no en lo que "dijo el chat").</li><li><strong>Transparente:</strong> declaras qué herramientas de IA usaste y para qué.</li></ul>
+<blockquote>📌 Este módulo recorre <strong>el flujo completo</strong>, de la duda clínica a la síntesis final. Sirve tanto para resolver una duda del día a día como para preparar un trabajo de investigación.</blockquote>
+<hr>
+<h2>3.1. Paso 1 — De la duda clínica a la pregunta PICO</h2>
+<p>Una buena búsqueda empieza por una <strong>pregunta bien formulada</strong>. En sanidad usamos el formato <strong>PICO</strong>:</p>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Letra</th><th>Significa</th><th>Ejemplo</th></tr></thead><tbody><tr><td><strong>P</strong></td><td>Paciente / Problema / Población</td><td>Adultos hospitalizados con catéter venoso periférico</td></tr><tr><td><strong>I</strong></td><td>Intervención</td><td>Cura con clorhexidina</td></tr><tr><td><strong>C</strong></td><td>Comparación</td><td>Cura con povidona yodada</td></tr><tr><td><strong>O</strong></td><td>Outcome (resultado)</td><td>Incidencia de flebitis</td></tr></tbody></table>
+<blockquote>Pregunta PICO resultante: <em>"En adultos hospitalizados con catéter venoso periférico (P), ¿la cura con clorhexidina (I) frente a povidona yodada (C) reduce la incidencia de flebitis (O)?"</em></blockquote>
+<p><strong>Prompt para afinar tu PICO:</strong></p>
+<blockquote><em>"Actúa como enfermero/a investigador/a. Ayúdame a transformar esta duda clínica en una pregunta PICO bien estructurada y señálame cada componente (P, I, C, O). Si mi duda es ambigua, hazme las preguntas que necesites antes de responder. Mi duda es: [escribe tu duda]."</em></blockquote>
+<blockquote>💡 No todas las preguntas son PICO. Si tu duda es de tipo "¿cómo viven los pacientes X situación?" (cualitativa), existen variantes como <strong>PICo</strong> o <strong>SPIDER</strong>. Para el curso, PICO es suficiente.</blockquote>
+<hr>
+<h2>3.2. Paso 2 — La estrategia de búsqueda (aquí está el corazón del rigor)</h2>
+<h3>a) Empieza por lo básico: los operadores booleanos</h3>
+<ul><li><strong>AND</strong> → restringe (exige ambos): <code>higiene de manos AND infección</code></li><li><strong>OR</strong> → amplía (sinónimos): <code>anciano OR mayor OR geriátrico</code></li><li><strong>NOT</strong> → excluye: <code>úlcera NOT diabética</code> <em>(úsalo con cuidado: puede eliminar artículos relevantes)</em></li></ul>
+<h3>b) Sube un nivel: el lenguaje controlado (MeSH / DeCS)</h3>
+<p>Los <strong>descriptores</strong> normalizan los conceptos: da igual cómo lo escriba cada autor, el descriptor los agrupa a todos.</p>
+<ul><li><strong>MeSH</strong> es el vocabulario de PubMed (en inglés).</li><li><strong>DeCS</strong> es su equivalente en español/portugués.</li></ul>
+<p><strong>Ejemplo:</strong> buscar <code>"Myocardial Infarction"[Mesh]</code> recupera también los artículos que dicen <em>heart attack</em>, <em>MI</em> o <em>infarto</em>, porque todos están indexados bajo el mismo descriptor.</p>
+<h3>c) Elige la base de datos adecuada</h3>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Base de datos</th><th>Para qué</th></tr></thead><tbody><tr><td><strong>PubMed/MEDLINE</strong></td><td>Biomédica general (la referencia, gratuita)</td></tr><tr><td><strong>CINAHL</strong></td><td>Enfermería y afines</td></tr><tr><td><strong>Cochrane Library</strong></td><td>Revisiones sistemáticas</td></tr><tr><td><strong>Cuiden</strong> y <strong>Scielo</strong></td><td>Enfermería en español / iberoamérica</td></tr></tbody></table>
+<h3>d) Aplica límites</h3>
+<p>Años, idioma, tipo de estudio, edad de la población…</p>
+<p><strong>Prompt para construir la estrategia (la búsqueda la ejecutas TÚ):</strong></p>
+<blockquote><em>"Actúa como documentalista biomédico. A partir de esta pregunta PICO [pega tu PICO], propón una estrategia de búsqueda para PubMed: identifica los términos MeSH de cada concepto, sus sinónimos en texto libre, y combínalos con operadores booleanos (AND/OR). Devuélvemela como una cadena de búsqueda lista para pegar y explica cada parte. Recuérdame que debo ejecutarla y verificar los resultados yo mismo/a."</em></blockquote>
+<p><strong>Ejemplo de cadena resultante (para el PICO de la flebitis):</strong></p>
+<pre style="background:#0d1b2a;color:#e6edf3;padding:12px;border-radius:8px;">("Catheterization, Peripheral"[Mesh] OR "peripheral catheter*"[tiab])
+AND ("Chlorhexidine"[Mesh] OR chlorhexidine[tiab])
+AND ("Phlebitis"[Mesh] OR phlebitis[tiab])</pre>
+<blockquote>⚠️ <strong>Clave de rigor:</strong> la IA <strong>propone</strong> la estrategia; <strong>la ejecutas tú</strong> en PubMed/CINAHL real. <strong>Guarda la cadena exacta, la base de datos y la fecha</strong>: eso es lo que hace tu trabajo reproducible.</blockquote>
+<hr>
+<h2>3.3. Paso 3 — Herramientas de IA que sí citan fuentes</h2>
+<p>Estas herramientas buscan en literatura real y <strong>citan</strong> (lo que igualmente debes comprobar):</p>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Herramienta</th><th>Para qué destaca</th><th>Aviso de verificación</th></tr></thead><tbody><tr><td><strong>Perplexity</strong></td><td>Búsqueda conversacional con <strong>fuentes citadas</strong> y enlaces numerados. Tiene un <strong>modo académico</strong> que prioriza artículos científicos</td><td>Pulsa cada cita: ¿es una sociedad científica, un ministerio, una revista… o un blog cualquiera?</td></tr><tr><td><strong>Consensus</strong></td><td>Responde preguntas tipo <em>"¿funciona X para Y?"</em> resumiendo <strong>qué dice la evidencia</strong>, con los estudios enlazados</td><td>Que un resumen suene contundente no significa que la evidencia sea sólida: mira el tipo de estudio y cuántos lo respaldan</td></tr><tr><td><strong>NotebookLM</strong></td><td>Pregunta <strong>a TUS documentos</strong> (PDFs, guías, protocolos): responde solo con lo que hay en ellos y cita el punto exacto</td><td>Sigue comprobando la cita contra el documento</td></tr><tr><td><strong>Claude</strong></td><td>Analiza en profundidad los <strong>PDFs que le subes</strong>: compara estudios, extrae datos a tablas y detecta contradicciones entre artículos</td><td>Solo trabaja sobre lo que le das; verifica igualmente sus interpretaciones</td></tr><tr><td><strong>Elicit</strong></td><td>Tablas de extracción de datos de artículos</td><td>Revisa los datos extraídos uno a uno</td></tr><tr><td><strong>PubMed</strong></td><td>La fuente primaria: siempre la referencia final</td><td>—</td></tr></tbody></table>
+<h3>🔄 El combo recomendado (apréndetelo así)</h3>
+<blockquote><strong>Consensus / Perplexity</strong> para <em>descubrir</em> → <strong>PubMed</strong> para <em>confirmar</em> → <strong>NotebookLM / Claude</strong> para <em>interrogar y analizar</em> lo confirmado → <strong>Zotero</strong> para <em>guardar y citar</em>.</blockquote>
+<p><strong>Prompt para descubrir evidencia (Consensus / Perplexity):</strong></p>
+<blockquote><em>"¿Qué dice la evidencia científica sobre [tu pregunta]? Resume los hallazgos y dame los estudios concretos con sus enlaces. Indica el tipo de estudio (revisión, ensayo clínico, observacional) y el año de cada uno, priorizando revisiones sistemáticas y estudios de los últimos 5 años. Señala si hay resultados contradictorios entre estudios."</em></blockquote>
+<p><strong>Prompt para interrogar tus documentos (NotebookLM, con tus PDFs cargados):</strong></p>
+<blockquote><em>"Basándote ÚNICAMENTE en los documentos que he subido, resume qué dice cada estudio sobre [tu outcome]. Para cada afirmación, cita el documento y la página. Si algo no aparece en los documentos, dilo explícitamente."</em></blockquote>
+<p><strong>Prompt para analizar y comparar estudios (Claude, con los PDFs adjuntos):</strong></p>
+<blockquote><em>"Te adjunto [nº] artículos que ya he verificado. Compáralos en una tabla con estas columnas: autor y año, diseño, población, resultado principal y limitaciones. Después, en 3 líneas, dime en qué coinciden y en qué se contradicen. No añadas ningún estudio que no esté entre los archivos que te he dado."</em></blockquote>
+<blockquote>💡 <strong>Sobre Claude:</strong> es especialmente bueno trabajando con <strong>documentos largos</strong> (guías completas, varios artículos a la vez) y manteniendo el matiz de lo que dice cada uno. Puedes crear un <strong>Proyecto</strong> en Claude para tu revisión: guardas ahí los PDFs y las instrucciones ("cita siempre el documento de origen; no inventes"), y todas las conversaciones de ese proyecto parten de ese material. Es la forma más cómoda de trabajar una revisión durante varias semanas.</blockquote>
+<blockquote>⚠️ <strong>Datos de pacientes: jamás</strong> (Módulo 1). Sube guías, protocolos y artículos, nunca historias clínicas identificables.</blockquote>
+<hr>
+<h2>3.4. Paso 4 — Verificar: cómo detectar una cita inventada</h2>
+<p>Tengas la herramienta que tengas, <strong>verifica</strong>. Checklist de 5 comprobaciones:</p>
+<ol><li><strong>¿Existe?</strong> Busca el título exacto o el <strong>DOI</strong> en PubMed o Google Scholar.</li><li><strong>¿Coinciden</strong> autores, año y revista con lo que dijo la IA?</li><li><strong>¿Dice lo que afirma?</strong> Abre la fuente y compruébalo (no te quedes con el resumen del chat).</li><li><strong>¿Es fiable?</strong> Prioriza en este orden: organismos oficiales (Ministerio de Sanidad, OMS, AEMPS) &gt; sociedades científicas (GNEAUPP, semFYC, SEEN…) &gt; revistas indexadas (PubMed, Cochrane, Scielo, Cuiden) &gt; divulgación y prensa (solo como pista) &gt; blogs y webs comerciales (desconfía por defecto: ¿quién escribe? ¿qué vende?).</li><li><strong>¿Está vigente?</strong> Una guía de hace 15 años puede estar superada.</li></ol>
+<blockquote>🚩 <strong>Bandera roja:</strong> una referencia "perfecta" para tu tema que <strong>no aparece en ninguna base de datos</strong> tras 2 intentos → trátala como <strong>inventada</strong> y descártala.</blockquote>
+<hr>
+<h2>3.5. Paso 5 — Sintetizar: niveles de evidencia y tabla de evidencia</h2>
+<p>No todos los estudios pesan igual. Jerarquía simplificada (de más a menos peso):</p>
+<blockquote><strong>Revisiones sistemáticas y metaanálisis &gt; Ensayos clínicos aleatorizados &gt; Estudios observacionales</strong> (cohortes &gt; casos-controles &gt; transversales) <strong>&gt; Series de casos &gt; Opinión de expertos</strong></blockquote>
+<p>Organiza lo que has verificado en una <strong>tabla de evidencia</strong>:</p>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"><thead><tr><th>Autor y año</th><th>Diseño</th><th>Población</th><th>Resultado principal</th><th>Limitaciones</th></tr></thead><tbody><tr><td><em>Ejemplo:</em> García et al., 2023</td><td>Ensayo clínico aleatorizado</td><td>240 adultos hospitalizados</td><td>La clorhexidina redujo la flebitis del 12 % al 7 %</td><td>Un solo centro; seguimiento corto</td></tr></tbody></table>
+<p><strong>Prompt de síntesis (sobre material que YA has verificado):</strong></p>
+<blockquote><em>"Actúa como enfermero/a investigador/a. A partir de estos 5 resúmenes de estudios que YA he verificado [pégalos], crea una tabla de evidencia con columnas: Autor y año | Diseño del estudio | Población | Resultado principal | Limitaciones. No añadas estudios que no te haya dado yo."</em></blockquote>
+<hr>
+<h2>3.6. Paso 6 — Gestión bibliográfica con Zotero (gratis)</h2>
+<p><strong>Zotero</strong> es un gestor de referencias gratuito y de código abierto. Te permite:</p>
+<ul><li>Guardar referencias con un clic desde el navegador.</li><li>Organizar por carpetas y etiquetas.</li><li><strong>Insertar citas y bibliografía automáticamente</strong> en Word/Google Docs (APA, Vancouver, etc.).</li></ul>
+<p><strong>Flujo básico:</strong></p>
+<ol><li>Instala Zotero + el conector del navegador.</li><li>Al encontrar un artículo verificado, guárdalo en Zotero (un clic).</li><li>En tu documento, usa el complemento de Zotero para citar y generar la bibliografía.</li></ol>
+<blockquote>💡 Esto resuelve el 90 % de la gestión bibliográfica sin tocar nada técnico. Lo siguiente (apéndice) es <strong>opcional y avanzado</strong>.</blockquote>
+<hr>
+<h2>3.7. Redacción asistida con integridad</h2>
+<p>La IA puede ayudarte a redactar la introducción, mejorar el estilo o estructurar el texto. Reglas de integridad:</p>
+<ul><li><strong>No plagies:</strong> la IA redacta borradores; las ideas y su validación son tuyas.</li><li><strong>No inventes citas:</strong> cada referencia, verificada (3.4).</li><li><strong>Declara el uso de IA:</strong> muchas revistas y normas de integridad lo exigen. Frase modelo para el apartado de métodos: <em>"Se utilizó [herramienta] como apoyo para [la construcción de la estrategia de búsqueda / la síntesis inicial]. Todas las referencias y afirmaciones fueron verificadas en las fuentes originales por los autores."</em></li><li><strong>Tú eres responsable</strong> del texto final (Módulo 1).</li></ul>
+<hr>
+<h2>3.8. 🔌 APÉNDICE AVANZADO (OPCIONAL) — Conectar la IA con tus fuentes: MCP y Skills</h2>
+<blockquote>⚠️ <strong>Solo para alumnado con soltura técnica.</strong> Esta parte <strong>no es necesaria</strong> para aprobar el curso. Requiere instalar programas y manejar archivos de configuración. <strong>Verifica siempre la documentación oficial actualizada</strong>, porque estas tecnologías cambian rápido (datos a agosto de 2026).</blockquote>
+<h3>¿Qué es el MCP (Model Context Protocol)?</h3>
+<p>Es un <strong>estándar abierto</strong> —creado por Anthropic, la empresa de <strong>Claude</strong>, y hoy adoptado por otras plataformas— que permite conectar asistentes de IA con <strong>herramientas y fuentes de datos externas</strong>: tu gestor bibliográfico, bases de datos, tus documentos. En la práctica: instalas un pequeño programa llamado <strong>"servidor MCP"</strong> y la IA puede usarlo como una herramienta más.</p>
+<ul><li>En <strong>Claude</strong> (aplicación de escritorio) los MCP se añaden como <strong>conectores</strong>.</li><li>Esto permite que la IA, por ejemplo, <strong>busque dentro de tu biblioteca de Zotero</strong> o consulte <strong>PubMed</strong> directamente.</li></ul>
+<h3>¿Qué son las "Skills"?</h3>
+<p>Una <strong>Skill</strong> es una carpeta con instrucciones que la IA <strong>carga solo cuando la tarea lo necesita</strong>. Sirve para enseñarle un procedimiento repetible —por ejemplo, <em>"cómo hacer una revisión bibliográfica con nuestro método y nuestro estilo de citas"</em>— sin explicárselo cada vez.</p>
+<h3>Conectar Claude con Zotero (vía servidor MCP)</h3>
+<ol><li><strong>En Zotero:</strong> consigue tu <strong>clave de API</strong> y tu <strong>ID de usuario</strong> (web de Zotero → <em>Settings → Security → API keys</em>).</li><li><strong>Instala un servidor MCP de Zotero</strong> (hay conectores de la comunidad, p. ej. proyectos tipo <em>"zotero-mcp"</em>). Suele requerir Python o Node.</li><li><strong>Conéctalo a Claude</strong> añadiéndolo como conector/servidor MCP con tu clave de API.</li><li>Reinicia la aplicación. Ahora podrás pedirle: <em>"busca en mi biblioteca de Zotero los artículos sobre úlceras por presión y haz una tabla de evidencia"</em>, y trabajará <strong>sobre tus propias referencias</strong>.</li></ol>
+<blockquote>🔎 <strong>Igual para PubMed:</strong> existen servidores MCP que conectan la IA directamente con PubMed para buscar y recuperar metadatos de artículos reales.</blockquote>
+<h3>Avisos imprescindibles de esta ruta</h3>
+<ul><li>⚠️ <strong>Sigue verificando.</strong> Aunque la IA acceda a tu Zotero o a PubMed, comprueba que las citas y los datos son correctos. La conexión reduce alucinaciones, no las elimina.</li><li>🔒 <strong>Datos de pacientes: jamás.</strong> Trabaja con referencias y textos científicos.</li><li>🧩 <strong>Es frágil y cambiante:</strong> si algo no funciona, vuelve al <strong>flujo básico</strong> (Consensus/Perplexity/NotebookLM/Claude + Zotero manual): da resultados excelentes sin complicaciones.</li><li>📚 <strong>Transparencia:</strong> si usaste estas herramientas, decláralo en métodos.</li></ul>
+<hr>
+<h2>3.9. Resumen del módulo</h2>
+<ul><li>Rigor = <strong>reproducibilidad + verificación + transparencia</strong>.</li><li>Empieza por una <strong>pregunta PICO</strong> y construye una <strong>estrategia de búsqueda</strong> (booleanos + MeSH/DeCS) que <strong>ejecutas tú</strong> en PubMed, guardando cadena, base y fecha.</li><li>Usa herramientas que <strong>citan fuentes</strong>: <strong>Perplexity</strong> (búsqueda), <strong>Consensus</strong> (evidencia), <strong>NotebookLM</strong> (tus documentos), <strong>Claude</strong> (análisis y comparación de PDFs), <strong>Elicit</strong> (extracción).</li><li><strong>Verifica todas las citas</strong> con la checklist de 5 puntos; si no aparece en 2 intentos, es falsa.</li><li><strong>Sintetiza</strong> con niveles de evidencia y tabla de evidencia; <strong>gestiona</strong> con <strong>Zotero</strong>.</li><li>Redacta con <strong>integridad</strong>: sin plagio, sin citas inventadas y <strong>declarando el uso de IA</strong>.</li><li>Datos de pacientes: <strong>nunca</strong>.</li></ul>
+<hr>
+<h2>📝 Cuestionario del Módulo 3</h2>
+<p><em>(14 preguntas. Se realiza en Moodle. Importa con el archivo "Test_Modulo_3_GIFT.txt".)</em></p>
+<h2>📤 Entregable 3</h2>
+<p>Consulta el enunciado en <strong>"Entregable_Modulo_3.md"</strong>: mini-revisión con estrategia de búsqueda, fuentes verificadas y tabla de evidencia.</p>
+<hr>
+<p><em>Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 3 · v2.0 (módulo unificado de investigación, ago-2026)</em></p>

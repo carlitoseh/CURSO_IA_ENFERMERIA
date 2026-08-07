@@ -47,11 +47,10 @@ Vamos a crear una sección por cada módulo del curso.
    - **Módulo 0 — Bienvenida y fundamentos**
    - **Módulo 1 — Ética, RGPD y seguridad**
    - **Módulo 2 — El arte del prompt**
-   - **Módulo 3 — Buscar y verificar evidencia**
+   - **Módulo 3 — Investigación y evidencia científica**
    - **Módulo 4 — Programa de Educación para la Salud**
    - **Módulo 5 — Datos, indicadores y dashboards**
-   - **Módulo 6 — Investigación asistida por IA**
-   - **Módulo 7 — Agentes a medida**
+   - **Módulo 6 — Agentes a medida**
    - **Proyecto final**
 
 4. **(Recomendado)** En *Configuración del curso → Formato de curso*, elige **"Formato de pestañas"** o **"Formato por temas"** y activa la opción de mostrar **"una sección por página"**: así el alumno ve un módulo cada vez y no se agobia.
@@ -140,11 +139,11 @@ al que pertenece cada uno:
 
 | Vídeo | Flujo | Sección de Moodle |
 |---|---|---|
+| 🎬 Investigación | PICO → búsqueda → verificación → Zotero | Módulo 3 |
 | 🎬 EpS completo | Educación para la Salud | Módulo 4 |
 | 🎬 Presentaciones con IA | Canva + NotebookLM + OCR | Módulo 4 |
 | 🎬 Dashboard | Indicadores en Excel/Sheets | Módulo 5 |
-| 🎬 Investigación | PICO → verificación → Zotero | Módulo 6 |
-| 🎬 Agentes | GPTs, Gems y NotebookLM | Módulo 7 |
+| 🎬 Agentes | GPTs, Gems, Proyectos de Claude y NotebookLM | Módulo 6 |
 
 **Opción A — Vídeo alojado fuera (YouTube oculto, Vimeo, Drive):** *(recomendada: no gasta espacio de Moodle)*
 1. Sube el vídeo a la plataforma (en YouTube, visibilidad **"Oculto"**: solo lo ve quien tenga el enlace).
@@ -178,7 +177,7 @@ Antes de dar de alta a los alumnos, comprueba:
 - [ ] Cada módulo tiene: Lección (Página) + Test (Cuestionario) + Entregable (Tarea) cuando corresponda.
 - [ ] Las preguntas GIFT están importadas y asignadas a su cuestionario.
 - [ ] En los entregables **no** aparece la solución/rúbrica para el alumno.
-- [ ] Los 5 vídeos de los flujos subidos/enlazados en su módulo (4, 5, 6 y 7).
+- [ ] Los 5 vídeos de los flujos subidos/enlazados en su módulo (3, 4, 5 y 6).
 - [ ] Rastreo de finalización activado.
 - [ ] Has hecho una **vista previa como estudiante** (menú del curso → "Cambiar rol a… Estudiante") para ver cómo lo verán ellos.
 
@@ -199,5 +198,5 @@ Antes de dar de alta a los alumnos, comprueba:
 ```
 
 ---
-*Guía de montaje en Moodle · Curso de IA para Enfermería y Sanidad · v1.0*
+*Guía de montaje en Moodle · Curso de IA para Enfermería y Sanidad · v2.0 (7 módulos, ago-2026)*
 *Cuando tengas acceso, avísame y lo montamos juntos siguiendo esta guía.*

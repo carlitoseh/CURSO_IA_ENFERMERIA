@@ -1,74 +1,74 @@
 // =========================================================
-// TEST MÓDULO 6 — Investigación rigurosa asistida por IA
-// Formato GIFT para importar en Moodle.
+// TEST MÓDULO 6 — Agentes a medida (GPTs, Gems, Proyectos de Claude y NotebookLM)
+// Formato GIFT para importar en Moodle. 10 preguntas.
 // =========================================================
 
-::M6-P1:: ¿Qué tres elementos definen una investigación "rigurosa" con IA? {
-=Reproducibilidad, verificación y transparencia # Correcto.
-~Rapidez, cantidad y confianza ciega # No.
-~Que lo diga la IA, que sea largo y que tenga muchas citas # No.
-~Usar muchas herramientas a la vez # No.
-}
-
-::M6-P2:: En el formato PICO, ¿qué representa la "I"? {
-=La intervención que se estudia # Correcto.
-~La introducción del artículo # No.
-~El índice de impacto # No.
-~La investigación previa # No.
-}
-
-::M6-P3:: ¿Quién debe EJECUTAR finalmente la estrategia de búsqueda en la base de datos? {
-=El profesional, en PubMed/CINAHL real, para que sea reproducible # Correcto.
-~La IA, y nos fiamos del resultado # No: la IA propone, tú ejecutas y verificas.
-~Nadie, basta con la respuesta del chat # No.
-~El paciente # No.
-}
-
-::M6-P4:: ¿Qué son los términos MeSH/DeCS? {
-=Lenguaje controlado (descriptores) que normaliza los conceptos de búsqueda # Correcto.
-~Marcas comerciales de medicamentos # No.
-~Operadores matemáticos # No.
-~Nombres de revistas # No.
-}
-
-::M6-P5:: El operador booleano AND en una búsqueda sirve para... {
-=Restringir: exige que aparezcan ambos términos # Correcto.
-~Ampliar con sinónimos # Eso es OR.
-~Excluir un término # Eso es NOT.
-~Ordenar alfabéticamente # No.
-}
-
-::M6-P6:: ¿Qué herramienta destaca por responder SOLO con el contenido de tus propios documentos? {
-=NotebookLM # Correcto, lo que reduce las alucinaciones.
+::M6-P1:: ¿Qué es, en esencia, un agente personalizado (GPT/Gem/Proyecto)? {
+=Un prompt convertido en un asistente reutilizable, con rol e instrucciones fijas # Correcto.
+~Un robot físico # No.
+~Un antivirus # No.
 ~Una hoja de cálculo # No.
-~Un corrector ortográfico # No.
-~Un reproductor de vídeo # No.
 }
 
-::M6-P7:: La IA te da una referencia con autores y revista. ¿Qué haces? {
-=La verifico en PubMed/Scholar; si no existe en 2 intentos, la descarto # Correcto.
-~La cito directamente porque suena fiable # Peligroso: puede ser inventada.
-~La cambio de orden y la uso # No.
-~Le pido a la IA que jure que es real # No: hay que comprobarla en la fuente.
+::M6-P2:: ¿Cuándo merece la pena crear un agente en lugar de escribir un prompt suelto? {
+=Cuando repites la misma tarea con frecuencia # Correcto.
+~Solo para tareas de una única vez # No, para eso basta un prompt.
+~Nunca, siempre es mejor el prompt suelto # No.
+~Solo si tienes conocimientos de programación # No.
 }
 
-::M6-P8:: ¿Para qué sirve Zotero? {
-=Gestionar referencias y generar citas/bibliografía automáticamente # Correcto.
-~Diagnosticar pacientes # No.
-~Editar vídeos # No.
-~Hacer la nómina # No.
+::M6-P3:: ¿Qué es lo MÁS importante al configurar un agente en sanidad? {
+=Definir bien sus límites (qué no debe hacer) # Correcto.
+~Ponerle un nombre bonito # No.
+~Que responda muy rápido # No.
+~Que use muchos emojis # No.
 }
 
-::M6-P9:: En la ruta avanzada, ¿qué permite el MCP (Model Context Protocol)? {
-=Conectar la IA (p. ej. Claude) con herramientas/fuentes externas como Zotero o PubMed # Correcto.
-~Acelerar el wifi # No.
-~Sustituir la verificación humana # No: hay que seguir verificando.
-~Encriptar el ordenador # No.
+::M6-P4:: ¿Qué herramienta es un asistente experto en TUS documentos y suele ser gratuita? {
+=NotebookLM # Correcto.
+~Un GPT personalizado de pago # No es esa la respuesta pedida.
+~Photoshop # No.
+~Excel # No.
 }
 
-::M6-P10:: ¿Qué exige la integridad al redactar con ayuda de IA? {
-=No plagiar, no inventar citas y declarar el uso de IA # Correcto.
-~Ocultar siempre que se usó IA # Lo contrario de lo correcto.
-~Copiar literalmente lo que diga la IA # No.
-~Añadir citas aunque no se hayan leído # No.
+::M6-P5:: Quieres un asistente que trabaje siempre con los protocolos de tu servicio y mantenga tus instrucciones durante semanas. ¿Qué opción gratuita encaja mejor? {
+=Un Proyecto de Claude o un cuaderno de NotebookLM, con los documentos cargados # Correcto.
+~Un chat nuevo cada vez, repitiendo el contexto a mano # Funciona, pero es justo lo que evita un agente.
+~Una carpeta de correo # No.
+~Un documento de Word # No.
+}
+
+::M6-P6:: Crear un GPT personalizado en ChatGPT normalmente requiere... {
+=Una cuenta de pago (ChatGPT Plus) # Correcto; como alternativa gratis, Gems, Proyectos de Claude o NotebookLM.
+~Saber programar en Python # No.
+~Un permiso del hospital # No.
+~Un servidor propio # No.
+}
+
+::M6-P7:: ¿Cuál de estas instrucciones de seguridad debería llevar un agente sanitario? {
+=No solicitar ni procesar datos identificables de pacientes # Correcto.
+~Inventar referencias si no las encuentra # No, justo lo contrario.
+~Diagnosticar en lugar del profesional # No.
+~Ocultar que es una IA # No.
+}
+
+::M6-P8:: Has creado tu agente. ¿Cómo compruebas que sus límites funcionan de verdad? {
+=Intentando "romperlo": pidiéndole un diagnóstico, pegándole datos identificables y preguntándole algo que no sabe # Correcto: si los rechaza, los límites funcionan.
+~Confiando en que las instrucciones bastan # No: hay que probarlas.
+~Preguntándole si respeta sus límites # Su respuesta no es una prueba.
+~No hace falta comprobarlo # Incorrecto.
+}
+
+::M6-P9:: Según las orientaciones de la AEPD sobre IA agéntica, ¿qué es imprescindible cuanta más autonomía tiene un sistema de IA? {
+=Una supervisión humana significativa y el control del dato # Correcto.
+~Dejar que actúe sin intervención para no frenarlo # Lo contrario.
+~Ocultar su funcionamiento # No.
+~Eliminar la trazabilidad # No: la trazabilidad es una de las medidas recomendadas.
+}
+
+::M6-P10:: ¿Quién es responsable del contenido que produce un agente que has creado? {
+=El profesional que lo usa y valida # Correcto.
+~La empresa de la IA # No.
+~Nadie # No.
+~El propio agente # No.
 }

@@ -15,8 +15,8 @@
 | **Modalidad** | 100 % online, a tu ritmo: contenido autoguiado en **Moodle** + **web de prácticas** + **vídeo explicativo de cada flujo de trabajo** |
 | **Metodología** | Microaprendizaje diario + *learning by doing*: cada lección termina en un **entregable** que el docente corrige |
 | **Evaluación** | Cuestionarios tipo test (Moodle) + entregables prácticos corregidos + proyecto final integrador |
-| **Herramientas** | Gratuitas (ChatGPT, Claude, Gemini, NotebookLM, Perplexity, Consensus, Copilot, Canva, Zotero, Excel/Sheets). Funciones de pago siempre marcadas como *opcionales* |
-| **Duración orientativa** | 8 módulos + proyecto final ≈ 5–6 semanas a ritmo de ~20–30 min/día |
+| **Herramientas** | Gratuitas (ChatGPT, **Claude**, Gemini, NotebookLM, Perplexity, Consensus, Copilot, Canva, Zotero, Excel/Sheets). Funciones de pago siempre marcadas como *opcionales* |
+| **Duración orientativa** | 7 módulos + proyecto final ≈ 5–6 semanas a ritmo de ~20–30 min/día |
 | **Eje transversal** | Ética, RGPD, seguridad del dato y responsabilidad profesional en **todos** los módulos |
 
 ---
@@ -47,13 +47,12 @@ Al finalizar el curso, el alumnado será capaz de:
 
 1. **Comprender** qué es (y qué no es) la IA generativa y los grandes modelos de lenguaje, sin tecnicismos.
 2. **Aplicar** principios éticos y legales (RGPD, AI Act europeo, secreto profesional) al uso de IA en sanidad.
-3. **Redactar prompts eficaces** y reproducibles para obtener resultados de calidad.
-4. **Buscar y verificar evidencia científica** con Perplexity, Consensus, NotebookLM y bases de datos validadas.
+3. **Redactar prompts eficaces** y reproducibles para obtener resultados de calidad, en cualquier herramienta (ChatGPT, Claude, Gemini…).
+4. **Investigar con rigor**: formular preguntas PICO, construir estrategias de búsqueda reproducibles, verificar fuentes, sintetizar la evidencia y gestionarla con Zotero, apoyándose en Perplexity, Consensus, NotebookLM y Claude.
 5. **Diseñar un programa de Educación para la Salud** completo asistido por IA.
 6. **Construir dashboards e indicadores** en Excel/Sheets con ayuda de IA.
-7. **Apoyar procesos de investigación**: estrategias de búsqueda, revisión de literatura y redacción.
-8. **Crear agentes personalizados** (GPTs, Gemini Gems, cuadernos de NotebookLM) adaptados a su servicio.
-9. **Evaluar críticamente** los resultados de la IA y reconocer sus límites y sesgos.
+7. **Crear agentes personalizados** (GPTs, Gemini Gems, Proyectos de Claude, cuadernos de NotebookLM) adaptados a su servicio, con límites de seguridad.
+8. **Evaluar críticamente** los resultados de la IA y reconocer sus límites y sesgos.
 
 ---
 
@@ -82,8 +81,9 @@ MÓDULO 1 ─ Ética, legislación y seguridad ⚖️  [eje transversal, pero ba
 MÓDULO 2 ─ El arte del prompt (hablar con la IA)
      │
      ▼
-MÓDULO 3 ─ Buscar y verificar evidencia
-     │      (Perplexity · Consensus · NotebookLM · PubMed/PICO)
+MÓDULO 3 ─ FLUJO: Investigación y evidencia científica
+     │      (PICO · MeSH/booleanos · Perplexity · Consensus ·
+     │       NotebookLM · Claude · verificación · Zotero)
      ▼
 MÓDULO 4 ─ FLUJO: Programa de Educación para la Salud
      │
@@ -91,11 +91,8 @@ MÓDULO 4 ─ FLUJO: Programa de Educación para la Salud
 MÓDULO 5 ─ FLUJO: Datos, indicadores y dashboards en Excel/Sheets
      │
      ▼
-MÓDULO 6 ─ FLUJO: Investigación asistida por IA
-     │
-     ▼
-MÓDULO 7 ─ Agentes a medida (GPTs · Gemini Gems · NotebookLM)
-     │
+MÓDULO 6 ─ FLUJO: Agentes a medida
+     │      (GPTs · Gems · Proyectos de Claude · NotebookLM)
      ▼
 PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 ```
@@ -120,7 +117,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 **Objetivo:** usar la IA sin meterte en un problema legal ni deontológico.
 - 1.1. Datos personales y datos de salud: por qué son "categoría especial".
 - 1.2. El marco normativo completo en España: RGPD, LOPDGDD, Ley 41/2002, EHDS, MDR y deontología.
-- 1.3. El AI Act europeo: niveles de riesgo, calendario de aplicación por fases (2025–2028, revisado por el «Digital Omnibus») y la AESIA.
+- 1.3. El AI Act europeo: niveles de riesgo, calendario por fases (2025–2028, modificado por el «Digital Omnibus»), la transparencia ya exigible y el reparto de supervisión en España (AESIA, AEPD, CGPJ, Banco de España/CNMV).
 - 1.4. Comparativa rápida UE/España vs EE. UU. (HIPAA, FDA, NIST).
 - 1.5. Anonimización y seudonimización práctica (cómo preparar un caso antes de usar IA).
 - 1.6. Sesgos, equidad y responsabilidad profesional.
@@ -128,7 +125,7 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - ✅ **Entregable 1:** anonimizar un caso clínico de ejemplo y justificar qué quitaste.
 - 📝 **Test 1:** 12 preguntas (RGPD, AI Act/AESIA, comparativa EEUU, buenas prácticas).
 
-> ℹ️ Legislación **actualizada a julio de 2026**: incluye el «Digital Omnibus» europeo (retrasa el alto riesgo a dic-2027/ago-2028) y el Proyecto de Ley española de gobernanza de la IA (en el Congreso desde mayo de 2026). Revisar de nuevo antes de cada edición del curso.
+> ℹ️ Legislación **actualizada a agosto de 2026**: «Digital Omnibus» (**Reglamento (UE) 2026/1744**, en vigor desde el 27-jul-2026, que retrasa el alto riesgo a dic-2027/ago-2028), **transparencia del art. 50 ya aplicable** (2-ago-2026), Proyecto de Ley española de gobernanza de la IA (en tramitación en el Congreso) y **orientaciones de la AEPD sobre IA agéntica** (feb-2026). Revisar de nuevo antes de cada edición del curso.
 
 ### MÓDULO 2 — El arte del prompt *(3–4 días)*
 **Objetivo:** conseguir buenos resultados de forma reproducible.
@@ -139,15 +136,20 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - ✅ **Entregable 2:** resolver 3 tareas reales con prompts propios + explicar tu razonamiento.
 - 📝 **Test 2:** 8 preguntas + identificar el prompt mejor construido.
 
-### MÓDULO 3 — Buscar y verificar evidencia *(4–5 días)*
-**Objetivo:** que la IA te ayude SIN inventarse las fuentes.
-- 3.1. Perplexity: búsqueda con fuentes citadas.
-- 3.2. Consensus: evidencia científica resumida.
-- 3.3. NotebookLM: "pregúntale a tus propios documentos" (PDFs, guías, protocolos).
-- 3.4. Estrategia de búsqueda validada: pregunta **PICO**, operadores booleanos, PubMed.
-- 3.5. **Comprobar las fuentes:** cómo detectar una cita falsa o un dato inventado.
-- ✅ **Entregable 3:** estrategia de búsqueda + 5 fuentes verificadas sobre un tema clínico.
-- 📝 **Test 3:** 10 preguntas (PICO, verificación, herramientas).
+### MÓDULO 3 — FLUJO: Investigación y evidencia científica *(6–7 días)*
+**Objetivo:** buscar, verificar y sintetizar evidencia **sin que la IA se invente ni una sola fuente**. Módulo troncal del curso: recorre el flujo completo, de la duda clínica a la síntesis.
+- 3.0. El problema de las fuentes y qué significa **rigor**: reproducibilidad, verificación y transparencia.
+- 3.1. De la duda clínica a la pregunta **PICO**.
+- 3.2. Estrategia de búsqueda: operadores booleanos → descriptores **MeSH/DeCS**, bases de datos (PubMed, CINAHL, Cochrane, Cuiden, Scielo) y límites. **La ejecuta el alumno** y anota cadena, base y fecha.
+- 3.3. Herramientas que citan fuentes: **Perplexity**, **Consensus**, **NotebookLM**, **Claude** (análisis y comparación de PDFs) y Elicit. El combo recomendado: descubrir → confirmar en PubMed → interrogar → gestionar.
+- 3.4. **Verificación anti-alucinación:** checklist de 5 comprobaciones y jerarquía de fiabilidad de fuentes.
+- 3.5. Síntesis: **niveles de evidencia** y **tabla de evidencia**.
+- 3.6. Gestión bibliográfica con **Zotero**.
+- 3.7. Redacción con **integridad**: sin plagio, sin citas inventadas, declarando el uso de IA.
+- 3.8. *(Apéndice avanzado opcional)* Conectar la IA con tus fuentes: **MCP** y Skills (Claude + Zotero/PubMed).
+- 🎬 **Vídeo del módulo:** flujo de investigación completo con los prompts de la web.
+- ✅ **Entregable 3:** mini-revisión con PICO, estrategia reproducible, 5 fuentes verificadas y tabla de evidencia.
+- 📝 **Test 3:** 14 preguntas (rigor, PICO, MeSH, herramientas, verificación, niveles de evidencia, integridad).
 
 ### MÓDULO 4 — FLUJO: Programa de Educación para la Salud *(4–5 días)*
 **Objetivo:** crear un programa de EpS completo de principio a fin, en cualquiera de sus tres niveles.
@@ -173,28 +175,17 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 - ✅ **Entregable 5:** anonimización de registros + dashboard de indicadores con datos ficticios.
 - 📝 **Test 5:** 8 preguntas (indicadores, anonimización, visualización).
 
-### MÓDULO 6 — FLUJO: Investigación asistida por IA *(4–5 días)*
-**Objetivo:** acelerar el trabajo de investigación sin perder rigor.
-- 6.1. De la pregunta de investigación a la estrategia de búsqueda reproducible (PICO, MeSH/DeCS, booleanos).
-- 6.2. Revisión de literatura asistida (Consensus, NotebookLM, Perplexity, Elicit) y verificación de fuentes.
-- 6.3. Organizar y sintetizar hallazgos (tablas de evidencia, niveles de evidencia).
-- 6.4. Gestión bibliográfica con **Zotero** (+ ruta avanzada opcional: conectar la IA con Zotero/PubMed vía **MCP** y Skills).
-- 6.5. Redacción asistida: introducción, justificación, ayuda con el estilo (sin plagiar ni inventar citas).
-- 6.6. Ética de la investigación con IA: transparencia, declaración de uso, integridad.
-- 🎬 **Vídeo del módulo:** flujo de investigación completo (PICO → búsqueda → verificación → tabla de evidencia) con los prompts de la web.
-- ✅ **Entregable 6:** mini-revisión sobre un tema con estrategia, fuentes verificadas y síntesis.
-- 📝 **Test 6:** 10 preguntas (búsqueda, síntesis, integridad).
-
-### MÓDULO 7 — Agentes a medida *(4–5 días)*
-**Objetivo:** crear tus propios asistentes especializados.
-- 7.1. ¿Qué es un agente/GPT/Gem? Cuándo merece la pena crear uno.
-- 7.2. Crear un **GPT personalizado** (ChatGPT) paso a paso.
-- 7.3. Crear una **Gem** en Gemini paso a paso.
-- 7.4. Crear y compartir un **cuaderno de NotebookLM** con tus protocolos.
-- 7.5. Buenas prácticas: instrucciones, límites, qué nunca debe hacer el agente.
+### MÓDULO 6 — FLUJO: Agentes a medida *(4–5 días)*
+**Objetivo:** crear tus propios asistentes especializados, con límites de seguridad.
+- 6.1. ¿Qué es un agente/GPT/Gem/Proyecto? Cuándo merece la pena crear uno.
+- 6.2. Crear un **GPT personalizado** (ChatGPT) paso a paso.
+- 6.3. Crear una **Gem** en Gemini paso a paso *(gratis)*.
+- 6.4. Crear un **Proyecto en Claude** con instrucciones y documentos propios *(gratis)*.
+- 6.5. Crear y compartir un **cuaderno de NotebookLM** con tus protocolos.
+- 6.6. Buenas prácticas y límites; **pruebas de seguridad** del agente; orientaciones de la **AEPD** sobre IA agéntica (supervisión humana significativa).
 - 🎬 **Vídeo del módulo:** creación de un agente de principio a fin (instrucciones, límites y pruebas) con la plantilla de la web.
-- ✅ **Entregable 7:** un agente funcional para una tarea de tu servicio + instrucciones documentadas.
-- 📝 **Test 7:** 8 preguntas sobre agentes y configuración.
+- ✅ **Entregable 6:** un agente funcional para una tarea de tu servicio + instrucciones documentadas.
+- 📝 **Test 6:** 10 preguntas sobre agentes, configuración, pruebas de límites y marco legal.
 
 ### PROYECTO FINAL — Integración *(1 semana)*
 **Objetivo:** demostrar que sabes aplicar todo a un caso real.
@@ -208,13 +199,13 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 
 **Cada flujo de trabajo de la web tiene su vídeo explicativo**: el docente realiza el flujo completo de principio a fin, en pantalla, usando **los mismos recursos y prompts que están publicados en la web**. Así el alumno primero lo ve hecho y después lo repite a su ritmo con la guía escrita.
 
-| Vídeo | Flujo (página de la web) | Qué se muestra |
-|---|---|---|
-| 🎬 1 | Programa de Educación para la Salud | De la necesidad detectada al programa completo con objetivos SMART, materiales y evaluación |
-| 🎬 2 | Presentaciones con IA (Canva + NotebookLM) | Guion fundamentado en NotebookLM → diapositivas en Canva → reutilizar material con OCR |
-| 🎬 3 | Dashboard de indicadores en Excel | Del dato anónimo al panel: fórmulas, tablas dinámicas, gráficos y conclusiones |
-| 🎬 4 | Investigación rigurosa | PICO → estrategia de búsqueda → verificación anti-alucinaciones → tabla de evidencia → Zotero |
-| 🎬 5 | Agentes a medida | Crear un GPT/Gem/cuaderno con instrucciones, límites de seguridad y pruebas |
+| Vídeo | Flujo (página de la web) | Módulo | Qué se muestra |
+|---|---|---|---|
+| 🎬 1 | Investigación rigurosa | 3 | PICO → estrategia de búsqueda → verificación anti-alucinaciones → análisis con Claude → tabla de evidencia → Zotero |
+| 🎬 2 | Programa de Educación para la Salud | 4 | De la necesidad detectada al programa completo con objetivos SMART, materiales y evaluación |
+| 🎬 3 | Presentaciones con IA (Canva + NotebookLM) | 4 | Guion fundamentado en NotebookLM → diapositivas en Canva → reutilizar material con OCR |
+| 🎬 4 | Dashboard de indicadores en Excel | 5 | Del dato anónimo al panel: fórmulas, tablas dinámicas, gráficos y conclusiones |
+| 🎬 5 | Agentes a medida | 6 | Crear un Gem/Proyecto de Claude/cuaderno con instrucciones, límites de seguridad y pruebas |
 
 > Los vídeos se publican en **Moodle** (y se enlazan desde la web). Las dudas se resuelven en el **foro de dudas** del curso, que el docente revisa de forma continua.
 
@@ -248,13 +239,14 @@ PROYECTO FINAL ─ Integra todo en un caso real de tu servicio
 
 1. ✅ **Documento del curso** (este archivo).
 2. ✅ **Web publicada** con actualización automática (GitHub + Netlify): https://carlitosiacursoenfermeria.netlify.app
-3. ✅ **Los 8 módulos completos**: lección + test GIFT + entregable con rúbrica (`docs/modulos/` y `docs/moodle/`).
-4. ✅ **5 flujos de trabajo** publicados en la web: EpS, presentaciones (Canva+NotebookLM), dashboard, investigación y agentes.
+3. ✅ **Los 7 módulos completos**: lección + test GIFT + entregable con rúbrica (`docs/modulos/` y `docs/moodle/`).
+4. ✅ **5 flujos de trabajo** publicados en la web: investigación, EpS, presentaciones (Canva+NotebookLM), dashboard y agentes.
 5. ✅ **Lecciones en HTML** listas para pegar en Moodle (`docs/moodle_html/`).
-6. ✅ **Legislación del Módulo 1 actualizada a julio de 2026** (Digital Omnibus del AI Act, ley española de IA en el Congreso, EHDS).
-7. ⏭️ **Grabar los vídeos explicativos de los 5 flujos de trabajo** (uno por flujo, siguiendo los recursos y prompts de la web).
-8. ⏭️ **Montaje en Moodle** cuando se habilite el acceso (guía: `docs/03_Guia_Montaje_Moodle.md`).
+6. ✅ **Legislación del Módulo 1 actualizada a agosto de 2026** (Reglamento (UE) 2026/1744, transparencia aplicable, ley española en tramitación, AEPD sobre IA agéntica, EHDS).
+7. ✅ **Formación en Claude integrada** en todos los módulos (documentos, análisis, Proyectos y MCP).
+8. ⏭️ **Grabar los vídeos explicativos de los 5 flujos de trabajo** (uno por flujo, siguiendo los recursos y prompts de la web).
+9. ⏭️ **Montaje en Moodle** cuando se habilite el acceso (guía: `docs/03_Guia_Montaje_Moodle.md`).
 
 ---
 
-*Documento vivo — versión 1.2 (julio 2026). Se irá actualizando a medida que avance el curso.*
+*Documento vivo — versión 2.0 (agosto 2026): investigación unificada en un solo módulo, formación en Claude y legislación al día. Se irá actualizando a medida que avance el curso.*

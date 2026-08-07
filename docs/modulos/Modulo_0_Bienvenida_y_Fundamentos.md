@@ -19,7 +19,7 @@ Nuestro objetivo no es convertirte en informático/a, sino en un/a **profesional
 
 ## 0.1. ¿Qué es la IA generativa? (sin tecnicismos)
 
-Cuando hablamos de IA en este curso nos referimos sobre todo a herramientas como **ChatGPT, Gemini o Copilot**. Son lo que se llama **IA generativa**: programas que **generan** (crean) texto, imágenes o tablas a partir de lo que tú les pides escribiendo con palabras normales.
+Cuando hablamos de IA en este curso nos referimos sobre todo a herramientas como **ChatGPT, Claude, Gemini o Copilot**. Son lo que se llama **IA generativa**: programas que **generan** (crean) texto, imágenes o tablas a partir de lo que tú les pides escribiendo con palabras normales.
 
 La mejor forma de entenderlo es con una analogía:
 
@@ -36,7 +36,7 @@ Esa es la clave de todo el curso: **la IA propone, el profesional decide y verif
 ## 0.2. Tres conceptos que debes conocer
 
 **1. LLM (modelo de lenguaje).**
-Es el "motor" que hay detrás de ChatGPT o Gemini. No "entiende" como un humano: en realidad es un sistema que **predice qué palabra es más probable que vaya después de otra**, basándose en todo lo que ha leído. Por eso escribe tan bien... y por eso a veces se equivoca con seguridad.
+Es el "motor" que hay detrás de ChatGPT, Claude o Gemini. No "entiende" como un humano: en realidad es un sistema que **predice qué palabra es más probable que vaya después de otra**, basándose en todo lo que ha leído. Por eso escribe tan bien... y por eso a veces se equivoca con seguridad.
 
 **2. Alucinación. ⚠️ (el concepto MÁS importante del módulo)**
 Se llama "alucinación" a cuando la IA **se inventa un dato, una cita, un estudio o una referencia** que suena muy creíble pero **es falso**. Por ejemplo, puede citarte un artículo científico que no existe.
@@ -54,11 +54,14 @@ No necesitas dominarlas todas. Cada una brilla en algo:
 | Herramienta | ¿Para qué destaca? | Versión gratuita |
 |---|---|---|
 | **ChatGPT** (OpenAI) | Redactar, resumir, organizar ideas, crear materiales | ✅ Sí |
+| **Claude** (Anthropic) | Textos largos y documentos: analizar varios PDF a la vez, redacción cuidada y **Proyectos** con tus documentos | ✅ Sí |
 | **Gemini** (Google) | Similar a ChatGPT, integrado con Google | ✅ Sí |
 | **Copilot** (Microsoft) | Lo mismo + integrado con Word/Excel | ✅ Sí |
 | **Perplexity** | Buscar información **con fuentes citadas** | ✅ Sí |
 | **Consensus** | Buscar **evidencia científica** resumida | ✅ Sí (limitada) |
 | **NotebookLM** (Google) | Preguntar **a tus propios documentos** (PDFs, protocolos) | ✅ Sí |
+
+> 💡 **¿Y cuál uso?** Para las tareas del curso, **ChatGPT, Claude y Gemini son intercambiables**: usa la que te resulte cómoda. Como orientación: **Claude** suele ir muy bien cuando trabajas con **documentos largos o varios archivos a la vez** (guías, artículos), y **Copilot** brilla si tu centro tiene Microsoft 365 y quieres trabajar dentro de Word o Excel.
 
 > 💡 No te abrumes. En este módulo solo vas a **crear las cuentas y saludar** a un par de ellas. Iremos usándolas poco a poco.
 
@@ -69,12 +72,13 @@ No necesitas dominarlas todas. Cada una brilla en algo:
 Vamos a dejar todo listo. Dedica 10 minutos:
 
 1. **Crea una cuenta de ChatGPT:** entra en **https://chatgpt.com** y regístrate (puedes usar tu cuenta de Google).
-2. **Crea una cuenta de Gemini:** entra en **https://gemini.google.com** (si tienes Gmail, ya casi está).
-3. **Saluda a la IA:** escríbele esto en cualquiera de las dos y mira qué responde:
+2. **Crea una cuenta de Claude:** entra en **https://claude.ai** y regístrate (también vale tu cuenta de Google). La usaremos sobre todo a partir del Módulo 3, con documentos.
+3. **Crea una cuenta de Gemini:** entra en **https://gemini.google.com** (si tienes Gmail, ya casi está).
+4. **Saluda a la IA:** escríbele esto en cualquiera de ellas y mira qué responde:
 
    > *Hola, soy enfermero/a y estoy empezando a aprender a usar la IA. Explícame en 3 frases sencillas para qué me puedes ser útil en mi trabajo.*
 
-4. **Pon a prueba lo aprendido (verás una "alucinación"):** pídele algo como:
+5. **Pon a prueba lo aprendido (verás una "alucinación"):** pídele algo como:
 
    > *Dame la referencia bibliográfica exacta (autores, año y revista) de un estudio sobre cuidados de enfermería en heridas crónicas.*
 
@@ -99,4 +103,4 @@ Vamos a dejar todo listo. Dedica 10 minutos:
 Consulta el enunciado en el documento **"Entregable_Modulo_0.md"**.
 
 ---
-*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 0 · v1.0*
+*Curso de IA aplicada a la Enfermería y la Sanidad · Módulo 0 · v2.0 (incluye Claude, ago-2026)*

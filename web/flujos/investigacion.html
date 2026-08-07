@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -107,11 +107,19 @@
       <div class="paso">
         <div class="paso-num">5</div>
         <div class="paso-cuerpo">
-          <h3>Interroga tus documentos con NotebookLM</h3>
+          <h3>Interroga y analiza tus documentos (NotebookLM o Claude)</h3>
           <p>Descarga los PDFs verificados y súbelos a NotebookLM: responderá solo con lo que hay en ellos (menos alucinaciones).</p>
           <div class="prompt-caja">
             <span class="prompt-etiqueta">Prompt · NotebookLM (con tus PDFs cargados)</span>
             <div class="prompt-texto">Basándote ÚNICAMENTE en los documentos que he subido, resume qué dice cada estudio sobre [tu outcome]. Para cada afirmación, cita el documento y la página. Si algo no aparece en los documentos, dilo explícitamente.</div>
+          </div>
+          <p>Si lo que necesitas es <strong>comparar varios estudios entre sí</strong> y detectar dónde se contradicen, adjunta los PDF a <strong>Claude</strong>:</p>
+          <div class="prompt-caja">
+            <span class="prompt-etiqueta">Prompt · Claude (con los PDF adjuntos)</span>
+            <div class="prompt-texto">Te adjunto [nº] artículos que ya he verificado. Compáralos en una tabla con estas columnas: autor y año, diseño, población, resultado principal y limitaciones. Después, en 3 líneas, dime en qué coinciden y en qué se contradicen. No añadas ningún estudio que no esté entre los archivos que te he dado.</div>
+          </div>
+          <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
+            <strong>Truco:</strong> si vas a trabajar esta revisión durante varias semanas, crea un <strong>Proyecto</strong> en Claude, guarda ahí los PDF y escribe una vez las instrucciones ("cita siempre el documento de origen; no inventes"). Todas las conversaciones del proyecto partirán de ese material.
           </div>
         </div>
       </div>
@@ -136,13 +144,13 @@
           <h3>Gestiona la bibliografía con Zotero</h3>
           <p>Guarda cada referencia verificada en Zotero (gratis) y genera las citas y la bibliografía automáticamente en Word/Docs (APA, Vancouver…).</p>
           <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
-            <strong>Ruta avanzada (opcional):</strong> puedes conectar Claude con tu biblioteca de Zotero o con PubMed mediante un <strong>servidor MCP</strong>, para que la IA trabaje sobre tus propias referencias. Es técnico y cambiante: consulta la guía del Módulo 6 y la documentación oficial. Aunque lo conectes, <strong>sigue verificando</strong> y nunca uses datos de pacientes.
+            <strong>Ruta avanzada (opcional):</strong> puedes conectar Claude con tu biblioteca de Zotero o con PubMed mediante un <strong>servidor MCP</strong>, para que la IA trabaje sobre tus propias referencias. Es técnico y cambiante: consulta el apéndice del Módulo 3 y la documentación oficial. Aunque lo conectes, <strong>sigue verificando</strong> y nunca uses datos de pacientes.
           </div>
         </div>
       </div>
 
       <div class="aviso" style="border-left-color: var(--menta); background:#e9f8f5;">
-        <strong>Tu entregable (Módulo 6):</strong> pregunta PICO + cadena de búsqueda (con base de datos y fecha) +
+        <strong>Tu entregable (Módulo 3):</strong> pregunta PICO + cadena de búsqueda (con base de datos y fecha) +
         5 fuentes verificadas con DOI/enlace + tabla de evidencia + reflexión sobre verificación y uso transparente de IA.
       </div>
 
@@ -152,7 +160,7 @@
   <footer class="pie">
     <div class="contenedor">
       <p>Curso de IA aplicada a la Enfermería y la Sanidad · Material docente</p>
-      <p class="pie-nota">Hecho con fines educativos. Versión 1.2</p>
+      <p class="pie-nota">Hecho con fines educativos. Versión 2.0</p>
     </div>
   </footer>
 
